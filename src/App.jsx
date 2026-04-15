@@ -138,7 +138,7 @@ const App = () => {
   const showBack =
     (screen === "quiz" || isWorkoutScreen || isSceneScreen) &&
     !noBackScenes.includes(screen);
-  const useLogo2 = screen === "quiz" || isWorkoutScreen || isSceneScreen;
+  const useLogo2 = screen !== "intro";
 
   const SCENE_PROGRESS_MAX = 31;
   const SCENE_PROGRESS_START = 15;
@@ -227,7 +227,10 @@ const App = () => {
       <div className="flex items-center w-full h-[11vmin] bg-white drop-shadow px-[3vmin]">
         <div className="w-1/3 flex justify-start">
           {showBack && (
-            <button className="arrowBtn w-[7vmin]" onClick={handleBack}>
+            <button
+              className="arrowBtn cursor-pointer w-[7vmin]"
+              onClick={handleBack}
+            >
               <img src={backarrow} className="w-full" />
             </button>
           )}
@@ -433,7 +436,11 @@ const App = () => {
             <Scene35 onNext={() => setScreen("scene36")} />
           )}
           {screen === "scene36" && (
-            <Scene36 userName={userName} goal={goal} onNext={() => setScreen("endcard")} />
+            <Scene36
+              userName={userName}
+              goal={goal}
+              onNext={() => setScreen("endcard")}
+            />
           )}
         </div>
       </div>

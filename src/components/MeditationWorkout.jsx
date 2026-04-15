@@ -78,7 +78,7 @@ const MeditationWorkout = ({ setScreen, setStage, gender }) => {
         transition={{ type: "spring", stiffness: 120, damping: 14 }}
       >
         <button
-          className="gotitBtn mx-auto block animate-pulsing"
+          className="gotitBtn mx-auto block animate-pulsing cursor-pointer "
           onClick={handleGotIt}
         >
           <img src={continueBtn} />

@@ -275,13 +275,13 @@ const Quiz = ({
         transition={{ type: "spring", stiffness: 120, damping: 14 }}
       >
         {isMultiple && selectedIds.length > 0 ? (
-          <button onClick={handleContinue}>
+          <button onClick={handleContinue} className="cursor-pointer ">
             <img src={continueBtn} className="w-full animate-pulsing" />
           </button>
         ) : (
           <button
             type="button"
-            className="animate-pulsing"
+            className="animate-pulsing cursor-pointer "
             onClick={(e) => {
               e.preventDefault();
               e.stopPropagation();
