@@ -10,11 +10,13 @@ const List1 = ({
   className = {},
 }) => {
   return (
-    <div className={`flex w-full ${className.wrapper || ""}`}>
+    <div
+      className={`flex mx-auto h-full my-0 ${className.wrapper || "w-full"}`}
+    >
       <div
         className={`btnContainer flex flex-col items-center ${
-          modelImage ? "w-[50%]" : "w-full mt-20"
-        } ${className.btnContainer || "gap-20"}`}
+          modelImage ? "w-[50%]" : "w-full"
+        } ${className.btnContainer || "gap-20 mt-0"}`}
       >
         <AnimatePresence mode="wait">
           {choices.map((choice, index) => {
@@ -27,9 +29,7 @@ const List1 = ({
                 key={choice.id}
                 onClick={() => handleSelect(choice.id)}
                 className={`btn w-11/12 flex justify-between items-center cursor-pointer overflow-hidden ${
-                  active
-                    ? "border-10 border-[#4DB8C4] bg-[#DAE7EE]"
-                    : "bg-white"
+                  active ? "border-7 border-[#4DB8C4] bg-[#DAE7EE]" : "bg-white"
                 } ${className.btn || "h-[280px] pl-[50px]"}`}
                 initial={{ y: 100, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
@@ -41,11 +41,11 @@ const List1 = ({
                 }}
               >
                 <div
-                  className={`flex items-center w-full gap-4 text-left ${
+                  className={`fontSemiBold text-[#252525] flex items-center w-full gap-4 text-left ${
                     className.textContainer || "justify-between"
                   }`}
                 >
-                  <p>{choice.text}</p>
+                  <p className="whitespace-pre-line">{choice.text}</p>
                   <div>
                     {choice.img && (
                       <img
@@ -81,7 +81,11 @@ const List1 = ({
           animate={{ x: 0, opacity: 1 }}
           transition={{ type: "spring", stiffness: 120, damping: 14 }}
         >
-          <img src={modelImage} alt="" className="w-full" />
+          <img
+            src={modelImage}
+            alt=""
+            className={`${className.modelImage || "w-full "} mx-auto my-0`}
+          />
         </motion.div>
       )}
     </div>

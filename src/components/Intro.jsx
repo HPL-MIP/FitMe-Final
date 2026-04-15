@@ -52,10 +52,10 @@ const Intro = ({ onSelectGender, setShowModal, setModalType }) => {
   };
 
   return (
-    <div className="flex flex-col justify-evenly items-center h-full">
+    <div className="flex flex-col justify-start items-center h-full">
       {/* TOP TEXT */}
       <motion.div
-        className="introTxtContainer w-11/12 mx-auto my-0"
+        className="introTxtContainer w-8/12 mx-auto my-20"
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ type: "spring", stiffness: 120, damping: 14 }}
@@ -65,7 +65,7 @@ const Intro = ({ onSelectGender, setShowModal, setModalType }) => {
       </motion.div>
 
       {/* CONTENT */}
-      <div className="flex">
+      <div className="flex w-11/12">
         <motion.div
           className="w-[50%]"
           initial={{ x: -100, opacity: 0 }}
@@ -106,12 +106,12 @@ const Intro = ({ onSelectGender, setShowModal, setModalType }) => {
 
       {/* TERMS TEXT */}
       <motion.div
-        className="text-center px-4 mb-2"
+        className="text-center px-4 my-20 w-8/12"
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ type: "spring", stiffness: 120, damping: 14 }}
       >
-        <p className="text-[45px] text-[#575757] fontSemiBold">
+        <p className="text-[35px] text-[#575757] fontSemiBold">
           By continuing, you agree to: <br />
           <button
             onClick={() => {
@@ -133,13 +133,13 @@ const Intro = ({ onSelectGender, setShowModal, setModalType }) => {
             Privacy Policy
           </button>
           <br />
-          2026 © All rights reserved
+          2026 © All rights reserved.
         </p>
       </motion.div>
 
       {/* CTA */}
       <motion.div
-        className="w-10/12 mx-auto mt-0 mb-30 landscape:mb-55"
+        className="w-10/12 mx-auto absolute top-[80%]"
         initial={{ y: 100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ type: "spring", stiffness: 120, damping: 14, delay: 0.3 }}

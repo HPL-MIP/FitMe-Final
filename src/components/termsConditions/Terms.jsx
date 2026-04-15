@@ -1,3402 +1,1623 @@
 const Terms = () => {
   const html = `
-    <div
-      className="mat-dialog-content mat-typography ng-star-inserted"
-      style=""
-    >
-      <p className="p1" style="text-align: center;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            IL MAKIAGE® - Terms and Conditions
-            <br />
-          </strong>
-          Last Revised: January 1
-          <span className="s1">
-            <sup>st</sup>
-          </span>
-          , 2026
-        </span>
-      </p>
-      <p className="p1" style="text-align: center;"></p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>IMPORTANT NOTICE: </strong>THESE TERMS AND CONDITIONS
-          <strong> </strong>ARE SUBJECT TO A BINDING ARBITRATION AND className
-          ACTION/JURY WAIVER, AS DETAILED&nbsp;IN SECTION VII. BELOW. YOU AGREE
-          THAT ANY CLAIM OR DISPUTE AT LAW OR EQUITY THAT HAS ARISEN OR MAY
-          ARISE PURSUANT TO THESE TERMS AND CONDITIONS<strong> </strong>OR THE
-          ACCESS OR USE OF THE SERVICES, AS DEFINED BELOW, WILL BE RESOLVED IN
-          ACCORDANCE WITH SECTION VII. BELOW.&nbsp;THIS SIGNIFICANTLY AFFECTS
-          YOUR LEGAL RIGHTS - PLEASE READ THIS SECTION CAREFULLY.
-        </span>
-      </p>
-      <p className="p2"></p>
-      <p className="p1">
-        <span style="text-decoration: underline; font-family: arial, helvetica, sans-serif;">
-          <span className="s1">
-            <strong>Introduction</strong>
-          </span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          These Terms and Conditions ("<strong>Terms and Conditions</strong>")
-          constitute a binding legal agreement between Oddity Global Ltd., doing
-          business as "IL MAKIAGE " or "IM PRO", including its affiliates, which
-          shall mean subsidiaries, parent companies, joint ventures and other
-          corporate entities under common ownership (collectively, “
-          <strong>IL MAKIAGE</strong>®”, “<strong>we</strong>”, “
-          <strong>us</strong>”, or “<strong>our</strong>”) and you (“
-          <strong>you</strong>” or “<strong>your</strong>”, “
-          <strong>Customer</strong>”).
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          If you use the Services (as defined below) on behalf of a company or
-          other entity then “you”, “Customer” includes you and that entity, and
-          you represent and warrant that (a) you are an authorized
-          representative of the entity with the authority to bind the entity to
-          these Terms and Conditions, and (b) you agree to these Terms and
-          Conditions on such entity's behalf.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          These Terms and Conditions govern your use of our products, samples,
-          tools, subscription programs and any related features we operate ("
-          <strong>Offering(s)</strong>") which are made available through the
-          following platforms:
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <ul className="ul1">
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            The website located at{" "}
-            <a href="http://www.ilmakiage.com">www.ilmakiage.com</a>, and any
-            other iterations or subdomains of the website;
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            Mobile applications; and
-            <span className="Apple-converted-space">&nbsp;</span>
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            Social media accounts operated by us to provide the Offerings (the "
-            <strong>Sites</strong>" and together with the Offerings, the “
-            <strong>Services</strong>”).
-          </span>
-        </li>
-      </ul>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          These Terms and Conditions apply to Customers visiting the Services
-          from all locations without dedicated IL MAKIAGE® terms and conditions
-          and websites (the "<strong>Territory</strong>"). Dedicated IL MAKIAGE®
-          websites are not governed by these Terms and Conditions and are
-          instead governed by the terms and conditions located on such dedicated
-          websites as may be established from time to time. Dedicated terms and
-          conditions include, but are not limited to:
-        </span>
-      </p>
-      <ul className="ul1">
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            The IL MAKIAGE® Israel dedicated terms and conditions (on
-            ilmakiage.co.il);
-            <span className="Apple-converted-space">&nbsp;</span>
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            The IL MAKIAGE® EU and UK dedicated terms and conditions (on EU
-            websites, including, without limitation, www.ilmakiage.com/uk),
-            except for the special territories within the EU with dedicated
-            terms and conditions:
-          </span>
-        </li>
-        <ul className="ul1">
-          <li className="li1">
-            <span style="font-family: arial, helvetica, sans-serif;">
-              The IL MAKIAGE® Germany and Austria dedicated terms and conditions
-              (on{" "}
-              <a href="http://www.ilmakiage.com/de">
-                <span className="s2">www.ilmakiage.com/de</span>
-              </a>
-              );
-            </span>
-          </li>
-          <li className="li1">
-            <span style="font-family: arial, helvetica, sans-serif;">
-              The IL MAKIAGE® France dedicated terms and conditions (on{" "}
-              <a href="http://www.ilmakiage.com/fr">
-                <span className="s2">www.ilmakiage.com/fr</span>
-              </a>
-              );
-            </span>
-          </li>
-          <li className="li1">
-            <span style="font-family: arial, helvetica, sans-serif;">
-              The IL MAKIAGE® Italy dedicated terms and conditions (on{" "}
-              <span className="s2">www</span>
-              <span className="s3">.</span>
-              <span className="s4">ilmakiage.com/it</span>);
-            </span>
-          </li>
-          <li className="li1">
-            <span style="font-family: arial, helvetica, sans-serif;">
-              The IL MAKIAGE® Spain dedicated terms and conditions (on{" "}
-              <a href="http://www.ilmakiage.com/es">
-                <span className="s2">www.ilmakiage.com/es</span>
-              </a>
-              );
-            </span>
-          </li>
-          <li className="li1">
-            <span style="font-family: arial, helvetica, sans-serif;">
-              The IL MAKIAGE® Europe (Netherlands, Ireland &amp; Finland)
-              dedicated terms and conditions (on{" "}
-              <a href="http://www.ilmakiage.com/eu">
-                <span className="s2">www.ilmakiage.com/eu</span>
-              </a>
-              );
-            </span>
-          </li>
-          <li className="li1">
-            <span style="font-family: arial, helvetica, sans-serif;">
-              The IL MAKIAGE® Sweden dedicated website (on{" "}
-              <a href="http://www.ilmakiage.com/se">
-                <span className="s2">www.ilmakiage.com/se</span>
-              </a>
-              ); and
-            </span>
-          </li>
-          <li className="li1">
-            <span style="font-family: arial, helvetica, sans-serif;">
-              The IL MAKIAGE® Denmark dedicated website (on{" "}
-              <a href="http://www.ilmakiage.com/DK">
-                <span className="s2">www.ilmakiage.com/DK</span>
-              </a>
-              ).
-            </span>
+   <article class="sc-iAvgwm blFyEU" style="text-align: left">
+  <h1 class="sc-cTQhss bwkbEa"><b>TERMS OF USE</b></h1>
+     <br />
+  <h4 class="sc-bBXxYQ iReGWM"><b>Effective Date: 15 February 2026</b></h4>
+     <br />
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">INTRODUCTION</h2>
+       <br />
+    <p class="sc-cOFTSb cRFSXz">
+      These Terms of Use (the “<strong>Terms</strong>”) apply to your access and
+      use of our mobile application “<strong
+        >FitMe - Lazy Workout at Home</strong
+      >” (the “<strong>App</strong>”), our websites (including but not limited
+      to <a href="https://fitme.expert/">https://fitme.expert/</a>), our blog,
+      and all related services, features, materials, and content available for
+      your use (collectively the “<strong>Service</strong>”) provided by
+      <strong>Extramile Limited</strong>, a company incorporated in Cyprus,
+      company number ΗΕ 445953, whose registered office is located at Prodromou,
+      75, Oneworld Parkview House, Floor 4, 2063, Nicosia, Cyprus
+      (“<strong>we</strong>”, “<strong>us</strong>”, “<strong>our</strong>” or
+      the “<strong>Company</strong>”).
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      If you have any questions about the Terms or our Service, please contact
+      us at
+      <a
+        href="https://account.fitme.health/contact-form?source=terms_of_use&amp;uuid="
+        >https://account.fitme.health/contact-form</a
+      >
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      Depending on your location, payment method, or other relevant factors,
+      your access to the Service, including through sales or payment processing,
+      may be facilitated by <strong>Extramile Limited</strong> or its authorized
+      partner, <strong>Fulfilling Inc.</strong>, a Delaware corporation with its
+      registered address at 1007 N Orange St. 4th Floor Site 1382, Wilmington,
+      New Castle, 19801. This partner
+      <strong>does not provide the Service</strong>, manage subscriptions, or
+      assume any obligations related to the operation, support, or performance
+      of the Service. Your contractual relationship is solely with Extramile
+      Limited. Your rights and obligations under these Terms remain the same,
+      regardless of the designated partner, and neither Extramile Limited nor
+      its partner shall be jointly liable for each other’s obligations unless
+      expressly stated in these Terms.
+    </p>
+  </section>
+     <br />
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">
+      IMPORTANT NOTICE REGARDING AUTOMATIC RENEWALS
+    </h2>
+       <br />
+    <p class="sc-cOFTSb cRFSXz">
+      THIS SERVICE INCLUDES AUTO-RENEWING SUBSCRIPTIONS. BY STARTING A TRIAL OR
+      COMPLETING A PURCHASE, YOU AGREE THAT YOUR SUBSCRIPTION WILL RENEW
+      AUTOMATICALLY AT THE END OF EACH BILLING CYCLE UNLESS CANCELLED AT LEAST
+      TWENTY-FOUR (24) HOURS BEFORE RENEWAL.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      IF YOU DO NOT CANCEL IN TIME, THE APPLICABLE FEE WILL BE CHARGED TO YOUR
+      CHOSEN PAYMENT METHOD. DELETING THE APP OR YOUR ACCOUNT DOES NOT CANCEL
+      YOUR SUBSCRIPTION. TO STOP RENEWAL, YOU MUST CANCEL SUBSCRIPTION THROUGH
+      YOUR ACCOUNT SETTINGS ON THE APP STORE, GOOGLE PLAY, OR WEBSITE, DEPENDING
+      ON WHERE YOU SUBSCRIBED.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      FOR MORE DETAILS, SEE
+      <strong>SECTION 6 – SUBSCRIPTION TERMS AND RENEWALS</strong>.
+    </p>
+  </section>
+     <br />
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">
+      BINDING ARBITRATION AND DISPUTE RESOLUTION NOTICE
+    </h2>
+       <br />
+    <p class="sc-cOFTSb cRFSXz">
+      These Terms include a Binding Arbitration Provision in Section 18 that
+      significantly impacts your legal rights. The arbitration provision
+      mandates that any disputes or claims arising from or related to these
+      Terms or our Service will be resolved exclusively through arbitration on
+      an individual basis.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">Additional Key Provisions:</p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>CLASS ACTION WAIVER</strong>: Section 18 includes a waiver of your
+      right to participate in class actions or other collective proceedings.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>DISCLAIMERS OF WARRANTIES</strong>: Section 10 contains
+      disclaimers regarding warranties related to our Service.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>LIMITATION OF LIABILITY</strong>: Section 11 outlines the
+      limitations on our liability for damages or losses.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      It is essential that you carefully review all sections of these Terms to
+      fully understand your rights and obligations. By accessing, downloading,
+      installing, or using any part of our Service, you confirm that you have
+      read, understood, and agreed to be bound by these Terms.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong
+        >IF YOU DO NOT AGREE TO THESE TERMS (INCLUDING BUT NOT LIMITED TO
+        BINDING ARBITRATION PROVISION), YOU MUST NOT ACCESS OR USE OUR SERVICE.
+        CONTINUED USE OF THE SERVICE CONSTITUTES YOUR ONGOING AGREEMENT TO THESE
+        TERMS.</strong
+      >
+    </p>
+  </section>
+     <br />
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">CHANGES TO THESE TERMS</h2>
+       <br />
+    <p class="sc-cOFTSb cRFSXz">
+      We may change, modify, or remove portions of these Terms at our sole
+      discretion. If we make changes to these Terms, we may post the updated
+      version within our Service and revise the "Effective Date" accordingly. At
+      our discretion, we may also notify you of significant changes.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      If you do not agree with any updated Terms, you must stop using the
+      Service, delete your account, or cancel your subscription before the
+      Effective Date. Your continued use after changes is implemented
+      constitutes your acceptance of the updated Terms. We encourage you to
+      regularly review these Terms for updates.
+    </p>
+  </section>
+     <br />
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">IMPORTANT DISCLAIMERS</h2>
+       <br />
+    <p class="sc-cOFTSb cRFSXz">
+      Our App provides tools and resources to support your overall wellness,
+      fitness, and health journey. By using our Service, you acknowledge and
+      agree to the following disclaimers.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>For Informational Purposes Only.</strong> Our Service, including
+      all content, recommendations, evaluations, and plans, are provided “as is”
+      for educational and general information purposes only. We are not licensed
+      healthcare providers or medical professionals, and we do not claim
+      expertise in diagnosing, treating, or preventing any medical conditions.
+      Our App is not regulated by the U.S. Food and Drug Administration (FDA),
+      the European Medicines Agency (EMA), or any other health regulatory
+      authority. Any features, insights, or assessments provided through the
+      Service are for wellness and informational purposes only and should not be
+      used as a substitute for professional medical advice or treatment.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Personalized Recommendations and Results.</strong> While we strive
+      to deliver personalized recommendations based on onboarding information,
+      these suggestions are not exhaustive, and results may vary based on
+      individual circumstances. Your success with any wellness, fitness, or
+      health program depends on numerous factors, including your unique health
+      profile, commitment, and lifestyle choices. We make no guarantees
+      regarding your results or success. Any testimonials, case studies, or
+      examples provided are illustrative only and should not be interpreted as a
+      promise or guarantee of similar results. Past performance or results
+      achieved by others do not constitute an assurance of future outcomes.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Accuracy.</strong> We do not guarantee the accuracy, completeness,
+      or reliability of any information or features accessed through our
+      Service. You should always verify the accuracy of any information obtained
+      through our Service and consult with a qualified professional before
+      making wellness, fitness, health, or product-related decisions. Any
+      tracking tools, assessments or generated insights within the App are not
+      medical-grade devices or diagnostic tools. While they may assist in
+      monitoring general wellness, they do not provide clinically accurate
+      measurements and should not be used as a basis for medical
+      decision-making. If you experience chest pain, dizziness, shortness of
+      breath, or any concerning symptoms while using our App, stop immediately
+      and seek medical attention.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>No Professional Medical or Healthcare Advice.</strong> Our App is
+      not a medical device and does not provide medical advice, diagnosis, or
+      treatment. The Service is designed to assist you in achieving your
+      wellness goals, but they are not a substitute for professional medical or
+      healthcare advice. Always consult a licensed physician, healthcare
+      provider, or qualified expert before starting any new fitness, wellness,
+      or health program, especially if you have a medical condition, are
+      pregnant, or have other specific concerns.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>No Physician-Patient Relationship.</strong> You acknowledge that
+      no physician-patient relationship is established through the use of our
+      Service, and the Service may not be appropriate for everyone.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Contact a Healthcare Professional.</strong> Never disregard
+      professional medical advice or delay seeking it due to something you have
+      read or accessed through our Service. Always consult a licensed medical
+      professional for any health-related concerns, decisions, or conditions.
+      Our Service is not intended for individuals with medical conditions
+      requiring professional supervision. If you have pre-existing health
+      concerns, including but not limited to cardiovascular disease, respiratory
+      issues, orthopedic conditions, pregnancy, or any chronic illness - consult
+      a medical professional before using our App. We are not liable for any
+      injuries, adverse effects, or complications resulting from your
+      participation in any fitness or wellness programs provided through the
+      Service.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Your responsibility.</strong> By using our Service, you
+      acknowledge that participation in any physical activity, exercise program,
+      or wellness routine carries inherent risks, including but not limited to
+      injury, strain, exhaustion, or exacerbation of pre-existing conditions.
+      You assume full responsibility for any risks associated with using the
+      Service and agree that we shall not be held liable for any harm, injuries,
+      or losses arising from its use. You acknowledge and agree that we are not
+      liable to you or any third party for any claims, losses, liabilities,
+      injuries, health issues, or damages, whether actual or alleged, arising
+      directly or indirectly from your use, application, or interpretation of
+      any information, Content, or User-Generated Content provided through the
+      Service. By choosing to use or rely on any such information, Content, or
+      User-Generated Content, you do so voluntarily and assume full
+      responsibility and risk.
+    </p>
+  </section>
+     <br />
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">REGISTRATION AND ELIGIBILITY</h2>
+       <br />
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Age Restrictions</strong>. Our Service is intended for individuals
+      aged 18 or older, or the minimum age required by applicable law. We do not
+      knowingly allow children to register for or use our Service. If you become
+      aware that a child is using our Service in violation of these Terms,
+      please contact us at
+      <a
+        href="https://account.fitme.health/contact-form?source=terms_of_use&amp;uuid="
+        >https://account.fitme.health/contact-form</a
+      >, and we will take necessary actions to address the issue.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Access to the Service</strong>. To use and fully access our
+      Service, you may be required to create an account
+      (“<strong>Account</strong>”). By doing so, you agree to provide accurate,
+      current, and complete information and to promptly update any changes to
+      your information. You are responsible for ensuring that all activities
+      performed through your Account represent your own authentic use of the
+      Service.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      You accept full responsibility for any actions or activities conducted
+      under your Account, whether through your computer, mobile device, or other
+      means. Your login credentials, including your username and password, are
+      strictly for personal use and must be kept secure and confidential.
+      Sharing your login credentials with others is expressly prohibited, and
+      any breach of this obligation may result in suspension or termination of
+      your Account.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      If you suspect unauthorized access to your Account or any security breach,
+      you must notify us immediately at
+      <a
+        href="https://account.fitme.health/contact-form?source=terms_of_use&amp;uuid="
+        >https://account.fitme.health/contact-form</a
+      >.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      If you create an Account or use our Service on behalf of another person or
+      entity, you confirm that you have the authority to accept these Terms on
+      their behalf.
+    </p>
+  </section>
+     <br />
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">SUBSCRIPTIONS</h2>
+       <br />
+    <h3 class="sc-dPyBCJ kNoyfg">General Information</h3>
+    <p class="sc-cOFTSb cRFSXz">
+      Certain features of the App are accessible exclusively through a
+      subscription. We offer various subscription options that may include but
+      are not limited to weekly, monthly, and annual subscription options.
+      Subscriptions can be purchased via the App Store, Google Play, or directly
+      from our website using a credit/debit card or PayPal. We may also provide
+      different offers and challenges at a discounted rate.
+    </p>
+    <h3 class="sc-dPyBCJ kNoyfg">Trial Subscriptions</h3>
+    <p class="sc-cOFTSb cRFSXz">
+      We may provide trial subscriptions, which can be either free or paid,
+      allowing temporary access to our App. If a trial is available, this will
+      be explicitly stated during the checkout process. If no such notice is
+      provided, your subscription purchase will proceed without any trial
+      period. We reserve the right to restrict your ability to participate in
+      multiple trial offers.
+    </p>
+       <br />
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>AUTOMATIC CONVERSION TO PAID SUBSCRIPTION:</strong><br />UNLESS
+      YOU CANCEL YOUR TRIAL AT LEAST TWENTY-FOUR (24) HOURS BEFORE THE END OF
+      THE TRIAL PERIOD, YOUR SELECTED PAYMENT METHOD WILL AUTOMATICALLY BE
+      CHARGED THE APPLICABLE SUBSCRIPTION FEE DISPLAYED AT THE TIME OF PURCHASE.
+      THE PAID SUBSCRIPTION WILL BEGIN IMMEDIATELY UPON THE TRIAL’S EXPIRATION
+      AND WILL CONTINUE ON A RECURRING BASIS UNLESS CANCELLED IN ACCORDANCE WITH
+      THESE TERMS.
+    </p>
+    <h3 class="sc-dPyBCJ kNoyfg">Subscription Terms and Renewals</h3>
+    <p class="sc-cOFTSb cRFSXz">
+      When you subscribe, your plan will renew automatically at the end of each
+      billing cycle (weekly, monthly, annually, or as selected).
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Renewal Charges</strong>. Charges for renewal will be processed
+      within 24 hours before the subscription term ends. Cancellations made less
+      than 24 hours before renewal will take effect only after the subsequent
+      term.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Pricing Changes</strong>. We reserve the right to modify
+      subscription fees at any time, to the fullest extent allowed by applicable
+      laws. Advance notice of subscription fees changes may be sent to you, and
+      the updated subscription fee will apply to the next billing cycle. Updated
+      subscription fees will take effect at the start of the next subscription
+      term after the change is implemented. By continuing to use the
+      subscription after the updated pricing takes effect, you agree to the new
+      subscription fees. If you do not accept the subscription fees change, you
+      can cancel your subscription at least 24 hours before the end of the
+      current subscription term to avoid further charges.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Promotions</strong>. We may offer promotional discounts. These
+      discounts apply only to the initial payment and do not affect future
+      renewal fees.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>No Future Commitments</strong>. By subscribing, you agree that
+      your purchase is not contingent on any future features, updates, or
+      functionality, nor on any representations made by us.
+    </p>
+    <h3 class="sc-dPyBCJ kNoyfg">Billing</h3>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Payment Authorization</strong>. By completing a purchase or
+      activating a subscription through the Service, you authorize us or our
+      partners acting as merchant of record, if applicable, to charge the
+      payment method you provide at checkout or at the conclusion of any
+      applicable trial period. Accepted payment methods include credit and debit
+      cards, PayPal, Apple Pay, Google Pay, and other methods that may be made
+      available from time to time. If you subscribe or make a purchase through
+      the Apple App Store or Google Play Store, payment will be processed
+      directly by the respective platform, and the charge will appear under your
+      App Store or Google Play account upon purchase confirmation. For
+      subscriptions or purchases made directly via our website(s), payment will
+      be processed through our authorized payment processor(s) or Merchant of
+      Record Partners, using the method you selected during checkout. You
+      represent and warrant that you are authorized to use the selected payment
+      method and agree to keep your billing information accurate and up to date.
+      If your payment method is declined or expires, we may suspend or terminate
+      access to your subscription or purchased content until valid billing
+      details are provided.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Non-Refundable Transactions</strong>. Except where applicable law
+      provides otherwise or as outlined in these Terms, all payments are final,
+      non-refundable, and non-transferable.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Validation Fee</strong>. A small temporary validation charge may
+      be applied to verify the validity of your payment method. This charge will
+      be refunded immediately.
+    </p>
+    <h3 class="sc-dPyBCJ kNoyfg">Refunds</h3>
+    <p class="sc-cOFTSb cRFSXz">
+      Refund eligibility depends on the platform used for the purchase and is
+      subject to specific conditions, as outlined below. Refunds are not
+      guaranteed and are assessed on a case-by-case basis in accordance with
+      applicable laws and these Terms.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Website Purchases</strong>: Refunds for subscriptions purchased
+      directly through our websites are limited and may only be granted in
+      specific cases, such as where required by law (e.g., statutory cooling-off
+      periods in certain jurisdictions) or confirmed technical bugs.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Confirmed Technical Bugs</strong>: In cases where a verifiable and
+      confirmed technical bug prevents the proper use of the Service, a refund
+      request may be considered. To determine whether an issue qualifies as a
+      bug, you must provide us with all necessary technical details. Only after
+      we review the information and confirm that the issue is a bug that
+      materially affects the functionality of the Service may a refund be
+      considered.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>App Store or Google Play Purchases</strong>: If you purchased your
+      subscription through the Apple App Store or Google Play, refund requests
+      must be directed to the respective platform, as they manage all billing
+      and refund decisions independently.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>U.S. Purchases</strong>: Residents of California or Connecticut
+      may cancel a subscription up until midnight of the third business day
+      following the date of purchase and receive a full refund, provided there
+      is no breach of these Terms.
+    </p>
+    <h3 class="sc-dPyBCJ kNoyfg">Chargebacks and Payment Disputes</h3>
+    <p class="sc-cOFTSb cRFSXz">
+      If you wish to request a refund for a payment made using a reimbursable
+      method, such as a credit or debit card, we strongly encourage you to
+      contact us first at
+      <a
+        href="https://account.fitme.health/contact-form?source=terms_of_use&amp;uuid="
+        >https://account.fitme.health/contact-form</a
+      >
+      before initiating a chargeback with your payment provider. This allows us
+      the opportunity to review your request and attempt to resolve the issue
+      directly.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Refund Processing</strong>. Refunds are not immediate. Once we
+      confirm that your refund has been approved, please allow at least 15
+      calendar days for the money to appear in your account. This may take
+      longer depending on your bank or payment provider.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Single Refund Policy.</strong> You may only receive one refund per
+      transaction. If you ask us for a refund, you must not request a refund or
+      file a chargeback with your bank or payment provider at the same time. You
+      may only contact your bank or payment provider if we have refused your
+      request. If you receive more than one refund for the same transaction, we
+      have the right to work with your payment provider to take back the extra
+      amount.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Payment Disputes.</strong> If you file a chargeback or ask your
+      bank or payment provider to reverse a payment, we will treat this as a
+      sign that you no longer wish to use our Service. As a result, we may
+      immediately suspend or close your Account. If the chargeback is later
+      decided in our favour and you wish to use the Service again, you may
+      contact us at
+      <a
+        href="https://account.fitme.health/contact-form?source=terms_of_use&amp;uuid="
+        >https://account.fitme.health/contact-form</a
+      >
+      to discuss reopening your Account. If we believe a chargeback is false,
+      dishonest, or made in bad faith, we may permanently ban you from using the
+      Service and may take legal action against you.
+    </p>
+    <h3 class="sc-dPyBCJ kNoyfg">Cancellation Policy</h3>
+    <p class="sc-cOFTSb cRFSXz">
+      TO PREVENT AUTO-RENEWAL AND AVOID THE BILLING OF THE SUBSCRIPTION FEES FOR
+      THE NEXT SUBSCRIPTION TERM, YOU MUST CANCEL YOUR SUBSCRIPTION BEFORE THE
+      CURRENT SUBSCRIPTION TERM ENDS.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>IMPORTANT NOTE</strong>: UNINSTALLING THE APP OR DELETING YOUR
+      ACCOUNT DOES NOT AUTOMATICALLY CANCEL YOUR SUBSCRIPTION. TO STOP RECURRING
+      CHARGES, YOU MUST ACTIVELY CANCEL THE AUTO-RENEWAL THROUGH YOUR ACCOUNT
+      SETTINGS.
+    </p>
+    <h3 class="sc-dPyBCJ kNoyfg">For Website Purchases:</h3>
+    <p class="sc-cOFTSb cRFSXz">
+      a) cancel your subscription purchased on our website in your account:
+    </p>
+    <ul class="sc-efBctP gcivou">
+      <li>
+        Open the “<a href="https://account.fitme.health/login">Web Profile</a>”;
+      </li>
+      <li>Log into your Account;</li>
+      <li>Navigate to the Subscriptions tab;</li>
+      <li>Tap “Turn off auto-renewal”.</li>
+    </ul>
+    <p class="sc-cOFTSb cRFSXz">
+      b) cancel your subscription purchased on our website by sending a
+      cancellation request via
+      <a
+        href="https://account.fitme.health/contact-form?source=terms_of_use&amp;uuid="
+        >https://account.fitme.health/contact-form</a
+      >
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>For App Store Purchases</strong>: If you subscribed or started a
+      trial through the App Store, manage your subscription settings within your
+      Apple Account. Ensure cancellation is completed at least 24 hours before
+      the trial or current subscription term ends. For more information, visit
+      <a href="https://support.apple.com/en-ca/118428"
+        >Apple’s support page on managing subscriptions</a
+      >.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>For Google Play Purchases</strong>: If you subscribed or started a
+      trial through Google Play, manage your subscription settings within your
+      Google Account. Cancellation must be done at least 24 hours before the
+      trial or current subscription term ends. Learn more about managing
+      subscriptions on
+      <a
+        href="https://support.google.com/googleplay/answer/7018481?co=GENIE.Platform%3DAndroid&amp;hl=en"
+        >Google’s support page</a
+      >.
+    </p>
+    <h3 class="sc-dPyBCJ kNoyfg">Challenges</h3>
+    <p class="sc-cOFTSb cRFSXz">
+      From time to time, we may offer various challenges. If you purchased a
+      subscription through our websites (including but not limited to
+      <a href="https://fitme.expert/">https://fitme.expert/</a>), in conjunction
+      with a promotional offer such as “Complete Your 30-Day Program and Get a
+      Full Refund”) (hereinafter referred to as the
+      <strong>“Promotional Offer”</strong>) you may be qualified for a refund by
+      fulfilling all the conditions described below. For the purposes of these
+      Terms, the term <strong>“Challenge”</strong> refers to the specific set of
+      daily goals defined within the applicable Promotional Offer.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Eligibility and Completion Requirements</strong>. You must
+      complete your Challenge within sixty (60) calendar days from the date of
+      subscription purchase. To successfully complete the Challenge, you are
+      required to fulfill all daily goals for 28 consecutive days without
+      interruption.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">Here are a few illustrative cases:</p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong><i>Eligible</i></strong
+      >: Subscription purchased on December 15; Challenge started on December
+      26; completed for 30 consecutive days. Refund applicable.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong><i>Ineligible</i></strong
+      >: Subscription purchased on December 15; Challenge started on December
+      26; completed 15 days consecutively, missed one day, then completed 15
+      more days. Refund is not applicable due to non-continuous completion.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong><i>Ineligible</i></strong
+      >: Subscription purchased on December 15; Challenge started on February
+      20; completed for 30 consecutive days. Refund is not applicable due to
+      exceeding the 60-day period from purchase of the subscription.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong><i>Ineligible</i></strong
+      >: Subscription purchased without a Promotional Offer. Refund is not
+      applicable as no Promotional Offer was provided.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Submission of Refund Request</strong>. After completing the
+      Challenge, you must:
+    </p>
+    <ul class="sc-efBctP gcivou">
+      <li>
+        Contact us within thirty (30) calendar days of Challenge completion
+        through the designated form at
+        <a
+          href="https://account.fitme.health/contact-form?source=terms_of_use&amp;uuid="
+          >https://account.fitme.health/contact-form</a
+        >.
+      </li>
+      <li>Provide the email used for subscription purchase.</li>
+      <li>Describe briefly the reason for the refund request.</li>
+      <li>
+        Attach screenshots from the App, showing daily goal progress using the
+        following way:
+        <ul class="sc-efBctP bmqnr">
+          <li>open the My Program tab;</li>
+          <li>scroll to the top if needed; and</li>
+          <li>
+            take a screenshot with the overall program progress (30/30) and 30
+            days streak visible on the screen.
           </li>
         </ul>
-      </ul>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          We engage certain affiliated entities inside our group, including, but
-          not limited to, IM Pro Makeup NY LP, a US-based entity, which acts as
-          an authorized payment agent solely on behalf of Oddity Global Ltd.,
-          for the purpose of processing payments and related billing operations.
-          By using the Services, you consent to charges of the Payment Method
-          (defined below) you submit or maintain on file being processed by this
-          entity. The descriptor on your statement may reference these entities
-          or our brand, as indicated at checkout.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          If you are under eighteen (18) years of age (or the legal age of
-          majority in your jurisdiction, if greater than eighteen (18)), you may
-          not, under any circumstances, procure any Offering or enter into the
-          Sites or Services, or provide personal information to us for any
-          purpose, except through your legal guardian under applicable law once
-          your legal guardian has reviewed and agreed to these Terms and
-          Conditions in their entirety. The Services are not directed to
-          children under thirteen (13) years of age.{" "}
-          <strong>
-            IF YOU ARE UNDER 13, YOU MAY NOT ACCESS AND/OR USE THE AND/OR THE
-            OFFERINGS.{" "}
-          </strong>
-          By accessing or using the Services, you represent and warrant that you
-          meet all of these requirements and the ones listed below.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Your access to the Services is also subject to our{" "}
-          <a href="https://www.ilmakiage.com/privacy_policy">
-            <span className="s2">Privacy Policy</span>
-          </a>{" "}
-          and other terms and policies which you may find throughout our Sites,
-          all of which are deemed a part of and included within these Terms and
-          Conditions.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          By accessing or using the Services, you acknowledge that you have
-          read, understand, and agree, without limitation or qualification, to
-          be bound by the Terms and Conditions.{" "}
-          <strong>
-            IF YOU DO NOT AGREE TO THE TERMS AND CONDITIONS IN THEIR ENTIRETY,
-            YOU MAY NOT ACCESS OR USE THE SERVICES
-          </strong>
-          .
-        </span>
-      </p>
-      <p className="p1"></p>
-      <p>
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 15px; line-height: 24px;">
-                <span style="font-size: 14px; line-height: 24px;">
-                  TABLE OF CONTENTS
-                </span>
-              </span>
-            </span>
-          </strong>
-        </span>
-      </p>
-      <p className="p1"></p>
-      <p>
-        <span style="font-family: arial, helvetica, sans-serif; font-size: 15px; line-height: 24px;">
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 14px; line-height: 24px;">
-              <strong>
-                <a href="#general">
-                  <span style="font-size: 15px; line-height: 24px;">
-                    I. General
-                  </span>
-                </a>
-              </strong>
-            </span>
-            <span style="font-size: 14px; line-height: 24px;">
-              <br />
-            </span>
-            <span style="font-size: 14px; line-height: 24px;">
-              <strong>
-                <a href="#purchases">II. Purchases</a>
-              </strong>
-              <br />
-            </span>
-            <span style="font-size: 14px; line-height: 24px;">
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              <a href="#prices_and_payment">A. Prices and Payment</a>
-              <br />
-            </span>
-            <span style="font-size: 14px; line-height: 24px;">
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              <a href="#general_a">(i) General</a>
-              <br />
-            </span>
-            <span style="font-size: 14px; line-height: 24px;">
-              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-              <a href="#discounts">(ii) Discounts</a>
-            </span>
-          </span>
-        </span>
-        <br />
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#freeshipping">(iii) Free Shipping</a>
-                <br />
-              </span>
-              <span style="font-size: 14px; line-height: 24px;"></span>
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#changes_pricing">
-                  (iv) Changes and Pricing
-                  <br />
-                </a>
-              </span>
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#use_restrictions">B. Use Restrictions</a>
-              </span>
-            </span>
-          </span>
-        </span>
-        <br />
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                <span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
-                <a href="#billing">C. Billing</a>
-              </span>
-            </span>
-          </span>
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                <a href="#billing">
-                  <span style="font-size: 15px; line-height: 24px;">
-                    <br />
-                  </span>
-                </a>
-              </span>
-            </span>
-          </span>
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#general_c">
-                  (i) General
-                  <br />
-                </a>
-              </span>
-            </span>
-          </span>
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#auto_replenishment">
-                  (ii) Auto-Replenishment
-                  <br />
-                </a>
-              </span>
-            </span>
-          </span>
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#try_before_you_buy">(iii) Try Before You Buy</a>
-                <br />
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#prepaid_annual_plan">(iv) Prepaid Annual Plan</a>
-                <br />
-              </span>
-            </span>
-          </span>
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#order_acceptance_shipping">
-                  D. Order Acceptance; Shipping
-                  <br />
-                </a>
-              </span>
-            </span>
-          </span>
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#returns">
-                  E. Returns
-                  <br />
-                </a>
-              </span>
-            </span>
-          </span>
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <strong>
-                <span style="font-size: 14px; line-height: 24px;">
-                  <a href="#intellectual_property">
-                    III. Intellectual Property
-                    <br />
-                  </a>
-                </span>
-              </strong>
-            </span>
-          </span>
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#ownership">
-                  A. Ownership
-                  <br />
-                </a>
-              </span>
-            </span>
-          </span>
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#ownership_of_feedback">
-                  B. Ownership of Feedback
-                  <br />
-                </a>
-              </span>
-            </span>
-          </span>
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#limited_license_and_use_restrictions">
-                  C. Limited License; Use Restrictions
-                  <br />
-                </a>
-              </span>
-            </span>
-          </span>
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <strong>
-                <span style="font-size: 14px; line-height: 24px;">
-                  <a href="#account_creation_and_user_content">
-                    IV. Account Creation and User Content
-                    <br />
-                  </a>
-                </span>
-              </strong>
-            </span>
-          </span>
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#your_account">
-                  A. Your Account
-                  <br />
-                </a>
-              </span>
-            </span>
-          </span>
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#user_content">
-                  B. User Content
-                  <br />
-                </a>
-              </span>
-            </span>
-          </span>
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#deletion_of_user_content">
-                  C. Deletion of User Content
-                  <br />
-                </a>
-                <span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
-                <a href="#deletion_of_user_content">D. Photo Data</a>
-                <br />
-              </span>
-            </span>
-          </span>
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 15px; line-height: 24px;">
-                <a href="#third_party_information">
-                  <strong>V. Third-Party Information</strong>
-                  <br />
-                </a>
-              </span>
-            </span>
-          </span>
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 15px; line-height: 24px;">
-                <span style="font-size: 14px; line-height: 24px;">
-                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                  <a href="#third_party_links">
-                    A. Third-Party Links
-                    <br />
-                  </a>
-                </span>
-              </span>
-            </span>
-          </span>
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 15px; line-height: 24px;">
-                <span style="font-size: 14px; line-height: 24px;">
-                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                  <a href="#copyright_infringement_notices">
-                    B. Copyright Infringement Notices
-                  </a>
-                </span>
-              </span>
-            </span>
-          </span>
-        </span>
-        <br />
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 15px; line-height: 24px;">
-                <span style="font-size: 14px; line-height: 24px;">
-                  <a href="#copyright_infringement_notices"></a>
-                </span>
-              </span>
-            </span>
-          </span>
-        </span>
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 15px; line-height: 24px;">
-                <span style="font-size: 14px; line-height: 24px;">
-                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                  <a href="#disclaimer_of_warranties">
-                    C. Disclaimer of Warranties
-                  </a>
-                </span>
-              </span>
-            </span>
-          </span>
-        </span>
-        <br />
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 15px; line-height: 24px;">
-                <span style="font-size: 14px; line-height: 24px;">
-                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                  <a href="#accuracy_of_information">
-                    D. Accuracy of Information
-                    <br />
-                  </a>
-                </span>
-              </span>
-            </span>
-          </span>
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 15px; line-height: 24px;">
-                <span style="font-size: 14px; line-height: 24px;">
-                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                  <a href="#limitations_of_liability">
-                    E. Limitations of Liability
-                    <br />
-                  </a>
-                </span>
-              </span>
-            </span>
-          </span>
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 15px; line-height: 24px;">
-                <span style="font-size: 14px; line-height: 24px;">
-                  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                  <a href="#indemnification">F. Indemnification</a>
-                </span>
-              </span>
-            </span>
-          </span>
-        </span>
-        <br />
-        <span style="font-family: arial, helvetica, sans-serif; font-size: 15px; line-height: 24px;">
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <strong>
-                <span style="font-size: 14px; line-height: 24px;">
-                  <a href="#arbitration_and_className_action_waiver">
-                    VII. Arbitration and className Action/Jury Waiver
-                  </a>
-                  <br />
-                </span>
-              </strong>
-            </span>
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#initial_informal_process">
-                  A. Mandatory individual Arbitration
-                </a>
-                <br />
-              </span>
-            </span>
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#arbitration_and_className_action_waiver_b">
-                  B. className Action / Jury Trial Waiver
-                </a>
-              </span>
-            </span>
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                <br />
-              </span>
-            </span>
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#opt_out">
-                  C. Arbitration Opt-Out&nbsp;Procedures
-                  <br />
-                </a>
-                <span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>
-                <span>&nbsp;</span>
-                <a href="#opt_out">D. Rules and Governing Law of Arbitration</a>
-                <br />
-                <span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>
-                <span>&nbsp;</span>
-                <a href="#opt_out">
-                  E.&nbsp;Severability &amp; Survival
-                  <br />
-                </a>
-                <span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>
-                <span>&nbsp;</span>
-                <a href="#opt_out">
-                  F. Non-Arbitral Disputes Governing Law &amp; Mandatory Forum
-                  Selection
-                  <br />
-                </a>
-                <span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>
-                <span>&nbsp;</span>
-                <a href="#opt_out">
-                  G. Provisions for Canadian Residents
-                  <br />
-                </a>
-                <span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>
-                <span>&nbsp;</span>
-                <a href="#opt_out">
-                  H. Provisions for Australian Residents
-                  <br />
-                </a>
-              </span>
-            </span>
-          </span>
-        </span>
-        <span style="font-family: arial, helvetica, sans-serif; font-size: 15px; line-height: 24px;">
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                <strong>
-                  <a href="#other_provisions">VIII. Other Provisions</a>
-                  <br />
-                </strong>
-              </span>
-            </span>
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#sms_messaging_calls">
-                  A. SMS Messaging and Phone Calls
-                </a>
-                <br />
-              </span>
-            </span>
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#consent_to_receive_notices">
-                  B. Consent to Receive Notices Electronically by Posting on the
-                  Services and Via Email
-                </a>
-                <br />
-              </span>
-            </span>
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#special_features_functionality_and_events">
-                  C. Special Features, Functionality and Events
-                </a>
-                <br />
-              </span>
-            </span>
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#updating_terms_and_conditions">
-                  D. Updating These Terms and Conditions
-                </a>
-                <br />
-              </span>
-            </span>
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#termination_of_license_and_your_account">
-                  E. Termination of License and Your Account
-                </a>
-                <br />
-              </span>
-            </span>
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#injunctive_relief">F. Injunctive Relief</a>
-                <br />
-              </span>
-            </span>
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#california_residents">G. California Residents</a>
-                <br />
-              </span>
-            </span>
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#export_laws">
-                  H. Export Laws
-                  <br />
-                </a>
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#miscellaneous">I. Governing Law and Jurisdiction</a>
-              </span>
-            </span>
-          </span>
-        </span>
-        <br />
-        <span style="font-family: arial, helvetica, sans-serif; font-size: 15px; line-height: 24px;">
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                <a href="#miscellaneous"></a>
-              </span>
-            </span>
-          </span>
-        </span>
-        <span style="font-size: 14px; font-family: arial, helvetica, sans-serif;">
-          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        </span>
-        <a
-          href="#miscellaneous"
-          style="font-size: 14px; font-family: arial, helvetica, sans-serif;"
-        >
-          J. Miscellaneous
-        </a>
-        <br />
-        <span style="font-family: arial, helvetica, sans-serif; font-size: 15px; line-height: 24px;">
-          <span style="font-size: 15px; line-height: 24px;">
-            <span style="font-size: 15px; line-height: 24px;">
-              <span style="font-size: 14px; line-height: 24px;">
-                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-                <a href="#how_to_contact">K.&nbsp;How to Contact Us</a>
-              </span>
-            </span>
-          </span>
-        </span>
-      </p>
-      <p id="general"></p>
-      <p style="margin-bottom: 8px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <span style="font-size: 15px; line-height: 24px;">I. General</span>
-          <span style="font-size: 15px; line-height: 24px;">
-            <br />
-          </span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          You acknowledge and agree that the Terms and Conditions constitute a
-          complete and exclusive agreement between you and us, concerning your
-          access or use of the Services and supersede and govern all prior
-          proposals, agreements or other communications. We reserve the right,
-          in our sole discretion, to change these Terms and Conditions at any
-          time by posting the changes on the Services or providing notice of
-          such changes. Any changes to these Terms and Conditions are effective
-          immediately upon posting to the Services. Your{" "}
-          <strong>continued use of the Services</strong>{" "}
-          <strong>
-            thereafter constitutes your agreement to all such changed Terms and
-            Conditions and if you do not agree with any of the changes or
-            modifications, you must immediately cease using the Services
-          </strong>
-          .<span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          By accessing or using the Services, you agree that you will comply
-          with the Terms and Conditions and any warnings or instructions on the
-          Services. You agree that when accessing or using the Services, you
-          will act in accordance with all applicable laws, customs and in good
-          faith. You may not make any change or alteration to the Services and
-          may not impair in any way the integrity or operation of the Services.
-          Without limiting the generality of any other provision of the Terms
-          and Conditions, if you default negligently or willfully in any of the
-          obligations set forth in the Terms and Conditions, you shall be liable
-          for all the losses and damages that this may cause to us, our parents,
-          subsidiaries, affiliates, partners or licensors.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          We comply with all applicable United States federal and state laws
-          governing automatic renewal, recurring billing and negative-option
-          programs. Before you complete enrolment in any subscription-based
-          program, including Auto-Replenishment or Prepaid Annual Plan (as
-          defined below), you will be clearly shown: (a) the recurring nature of
-          the charges; (b) the amount and frequency of payments; (c) how to
-          cancel; and (d) that charges will continue until you cancel. By
-          enrolling, you acknowledge that the recurring charge amount, billing
-          frequency, next billing date, and cancellation method were clearly
-          presented to you immediately before checkout, and that you provided
-          express consent to recurring charges.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p id="prices_and_payment" style="margin-bottom: 8px;">
-        <span style="font-family: arial, helvetica, sans-serif; font-size: 15px; line-height: 24px;">
-          <strong>II. Purchases</strong>
-        </span>
-      </p>
-      <p>
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="text-decoration: underline;">
-              <span style="font-size: 14px; line-height: 24px;">
-                A. Prices and Payment
-                <br />
-              </span>
-            </span>
-          </strong>
-          <span id="discounts" style="font-size: 14px; line-height: 24px;">
-            (i) General
-          </span>
-        </span>
-      </p>
-      <p>
-        <span style="font-family: arial, helvetica, sans-serif;">
-          You can purchase our Offerings via the Sites by completing the
-          applicable purchase form and providing the requisite billing
-          information. You acknowledge and agree that all such billing
-          information that you provide is accurate, current and complete. By
-          purchasing any Offerings via the Services, you confirm you understand
-          the function of such product and/or service as set forth on the
-          Services and intend to use it only for such purpose.
-        </span>
-        <span
-          className="Apple-converted-space"
-          style="font-family: arial, helvetica, sans-serif;"
-        >
-          &nbsp;
-        </span>
-      </p>
-      <p>
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Please note that the availability of certain Offerings may vary
-          depending on your Territory and is subject to applicable local
-          requirements.
-        </span>
-      </p>
-      <p>
-        <span style="font-family: arial, helvetica, sans-serif;"></span>
-        <span style="font-family: arial, helvetica, sans-serif;">
-          When you purchase Offerings, you authorize your credit card, debit
-          card and/or any other payment option provided by you, as permitted by
-          IL MAKIAGE® in its sole discretion (collectively, “
-          <strong>Payment Method</strong>”) on the form or updated at a later
-          date to be charged the applicable amount during the stated timeframe.
-          You represent and warrant that you have the legal right to use the
-          Payment Method you provide to us or our payment processor. Prices do
-          not include applicable taxes and are listed in USD, except as required
-          by law. If you reside in Australia, prices include 10% GST and are
-          listed in AUD.<span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          We reserve the right, with or without prior notice and in our sole and
-          complete discretion, to (a) discontinue, modify, or limit the
-          available quantity of any Offerings, and (b) refuse to allow any user
-          to purchase any Offerings or deliver such Offerings to a user or a
-          user-designated address. When you purchase Offerings, you (a) agree to
-          pay the price for such Offerings as set forth on the Services, and all
-          shipping and handling charges and all applicable taxes in connection
-          with your purchase and authorize us to charge the provided Payment
-          Method for the full purchase amount. OTHER THAN AS EXPRESSLY SET FORTH
-          HEREIN TO THE CONTRARY, ALL SALES OF OFFERINGS ARE FINAL AND
-          NON-REFUNDABLE.
-        </span>
-      </p>
-      <p>
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <span style="font-size: 14px; line-height: 24px;">
-            (ii) Discounts
-            <br />
-          </span>
-          <span style="font-size: 14px; line-height: 24px;"></span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          IL MAKIAGE® may offer, in our sole discretion, reduced and/or sale
-          pricing, e-gift codes, free products, discounts for Auto-Replenishment
-          (as defined below), first-time or other types of orders, and/or other
-          promotions from time-to-time (“<strong>Promotions</strong>”). We
-          reserve the right to terminate any Promotion at any time. Unless
-          superseded by a Promotion’s explicit terms, Promotions (a) apply to
-          online orders only, (b) cannot be combined with other Promotions, and
-          (c)&nbsp;do not apply to sale items, promotional kits, Try Before You
-          Buy orders (as applicable in certain Territories), products
-          recommended through our quizzes, shipping charges and taxes. Discounts
-          that are restricted to your first-time orders are limited to the first
-          order from a unique account using a unique payment method with
-          delivery to a unique address and cannot be reused if you return your
-          first purchase.
-        </span>
-      </p>
-      <p>
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <span style="font-size: 14px; line-height: 24px;">
-            (iii) Free Shipping
-          </span>
-        </span>
-      </p>
-      <p>
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <span style="font-size: 14px; line-height: 24px;"></span>
-        </span>
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Auto-Replenishment orders (as defined below) and any order for which
-          you make a USD $50 (for Australia residents – AUD $85) or greater
-          payment, excluding Promotions, shipped to addresses within the fifty
-          states of the United States and Australia, as applicable, qualify for
-          free standard shipping.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p>
-        <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; line-height: 24px;">
-          (iv) Changes and Pricing
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          We may, at any time, revise or change the pricing, availability,
-          specifications, content, descriptions or features of any Offerings
-          displayed on the Sites. While we attempt to be as accurate as we can
-          in our descriptions for the Offerings, we do not warrant that the
-          Offering descriptions are accurate, complete, reliable, current, or
-          error-free. If an Offering itself is not as described on the Sites,
-          your sole remedy is to return it (for physical products, in unused
-          condition).<span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          The inclusion of any Offerings for purchase through the Sites at a
-          particular time does not imply or warrant that the Offerings will be
-          available at any other time. We reserve the right to change prices for
-          Offerings displayed on the Sites at any time, and to correct pricing
-          errors that may inadvertently occur (and to cancel any orders in our
-          sole discretion that were purchased with pricing errors). All such
-          changes shall be effective immediately upon posting of such new
-          Offering prices to the Sites and/or upon making the customer aware of
-          the pricing error.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p2">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          If we change the price of your subscription products (including the
-          Auto-Replenishment plan and Pre-Paid Annual plan) or the billing
-          interval, we will notify you in advance of the next billing cycle. If
-          you do not wish to continue at the new price, you may cancel before
-          that the next billing without penalty. We may suspend, modify or
-          cancel your subscription at any time for product availability, payment
-          failure, pricing errors, suspected fraud or other lawful reasons. If
-          we cancel before shipment, you will not be charged, and any prepaid
-          amounts will be refunded.
-        </span>
-      </p>
-      <p id="use_restrictions">
-        <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; line-height: 24px;">
-          <strong style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px;">
-            <span style="font-size: 14px; line-height: 24px;">
-              B. Use Restrictions
-            </span>
-          </strong>
-          <br />
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          The Offerings are only for your personal use and/or use in providing
-          professional services. You may not commercially sell or resell any of
-          the Offerings that you purchase or otherwise receive from us. We
-          reserve the right, with or without notice, to cancel or reduce the
-          quantity of any order to be filled or Offerings to be provided to you
-          that we believe, in our sole discretion, may result in violation of
-          our Terms and Conditions. We may impose quantity limits per order, per
-          account, per payment method, or otherwise as we deem appropriate.
-        </span>
-      </p>
-      <p style="margin-bottom: 8px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <span style="font-size: 15px; line-height: 24px;">
-            II. Billing
-            <br />
-          </span>
-          <span style="font-size: 14px; line-height: 24px;">
-            <em>(i) General</em>
-          </span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Failure to use the Offerings does not constitute a basis for refusing
-          to pay any of the associated charges. Subject to these Terms and
-          Conditions, you agree to be bound by the billing provisions of IL
-          MAKIAGE® in effect at any given time. Upon reasonable prior written
-          notice to you (with e-mail sufficing), IL MAKIAGE® reserves the right
-          to change its billing provisions whenever necessary, in its sole
-          discretion or as permitted by applicable law. Continued use of the
-          Services and/or purchase of Offerings after receipt of such notice
-          shall constitute consent to any and all such changes; provided,
-          however<em>,</em> that any amendment or modification to the billing
-          provisions shall not apply to any charges incurred prior to the
-          applicable amendment or modification.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p3">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          IL MAKIAGE®’s authorization to provide and bill for the Offerings is
-          obtained by way of your electronic signature or, where applicable, via
-          physical signature and/or voice affirmation. Once an electronic
-          signature is submitted, this electronic order constitutes an
-          electronic letter of agency. IL MAKIAGE®’s reliance upon your
-          electronic signature was specifically sanctioned and written into law
-          when the Uniform Electronic Transactions Act and the Electronic
-          Signatures in Global and National Transactions Act were enacted in
-          1999 and 2000, respectively, and to the extent applicable in your
-          Territory. Both laws specifically preempt all state laws that
-          recognize only paper and handwritten signatures.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          The risk of loss and title for the Offerings purchased by you passes
-          to you upon delivery of the products to our designated carrier, but we
-          reserve the right to remedy user issues and concerns with our
-          designated carriers on a case-by-case basis.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p style="margin-bottom: 8px;">
-        <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; line-height: 24px;">
-          <em>(ii) Auto-Replenishment</em>
-          <br />
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          You may purchase certain Offerings from selected countries within the
-          Territory using our “<strong>Auto-Replenishment</strong>” subscription
-          option as made available by and through the Services. In connection
-          with an Auto-Replenishment subscription, you may select the quantity
-          and frequency of the ordered products, subject to the options made
-          available by IL MAKIAGE®. Your selection of an Auto-Replenishment
-          subscription, while it remains active, serves as your authorization
-          for IL MAKIAGE® to make recurring charges based on the quantity and
-          price of the Offerings you select for Auto-Replenishment, plus tax and
-          any applicable shipping charges, to your selected Payment Method for
-          each shipment. Your selection of an Auto-Replenishment subscription
-          serves as your authorization for IL MAKIAGE® to create, with the
-          information that you provide during enrollment and may have provided
-          earlier, an account on your behalf from where you can manage your
-          subscription. The condition of enrollment in the Auto-Replenishment
-          subscription program is to keep a valid credit card on file in your
-          account. The actual cost of each shipment may vary depending upon
-          applicable taxes, your chosen product quantity, and your chosen
-          frequency and method of delivery. These recurring fees will be charged
-          upon shipment of the subject Offering order. You acknowledge and agree
-          that IL MAKIAGE® does not need to obtain any additional authorization
-          from you for the recurring charges. On any date your
-          Auto-Replenishment subscription is expected to be on the next ship, IL
-          MAKIAGE® is authorized to charge your Payment Method and to have the
-          fees applied to the same. We reserve the right to cancel an
-          Auto-Replenishment subscription at any time, in our sole discretion.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          You can modify or cancel any Auto-Replenishment order up to 24 hours
-          before that order ships. We will send a reminder email prior to each
-          Auto-Replenishment shipment. The email will include the scheduled
-          shipment date and a link to cancel or modify your subscription.{" "}
-          <strong>
-            If you cancel or modify within 24 hours of shipment or afterwards,
-            that order will not be cancelled or modified.{" "}
-          </strong>
-          To (a)&nbsp;modify or cancel an order, (b) update your shipping
-          address, billing information, Payment Method, etc. associated with
-          your account, and/or (c) cancel the Auto-Replenishment subscription,
-          please go to{" "}
-          <a href="http://www.ilmakiage.com">
-            <span className="s1">www.ilmakiage.com</span>
-          </a>
-          , log into your account by clicking the “LOGIN” button at the upper
-          right corner, and from within “MY ACCOUNT” select the “MY
-          AUTO-REPLENISHMENTS” tab. You can also cancel your Auto-Replenishment
-          subscription by following the link at each notification email we send
-          to you prior to shipment of your next order. Cancellation will take
-          effect immediately. Your Auto-Replenishment orders may be shipped
-          slightly earlier or later than the originally selected cadence,
-          depending on the day of the week and product availability. If you have
-          any issues with your Auto-Replenishment subscription or order, please
-          contact our customer support team at:{" "}
-          <a href="mailto:proteam@ilmakiage.com">
-            <span className="s2">proteam@ilmakiage.com</span>
-          </a>
-          ; for users located in Australia: please contact us at{" "}
-          <a href="mailto:AUproteam@ilmakiage.com">
-            <span className="s1">AUproteam@ilmakiage.com</span>
-          </a>
-          .<span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p id="try_before_you_buy" style="margin-bottom: 8px;">
-        <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; line-height: 24px;">
-          (iii) Try Before You Buy
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Depending on your Territory, you may purchase certain products using
-          our “Try Before You Buy” option as made available by and through the
-          Services. By placing a Try Before You Buy order, you authorize us to
-          charge your Payment Method immediately for a nonrefundable original
-          shipping fee and to charge the full price of any or all products for
-          which you do not initiate a return or exchange from our returns portal
-          located{" "}
-          <a href="https://www.ilmakiage.com/shipping_returns">
-            <span className="s1">here</span>
-          </a>{" "}
-          during the fourteen (14) days after the date of delivery provided by
-          the carrier, or during any alternative period as communicated to you
-          in writing (such time period, the “<strong>Trial Period</strong>”).
-          You acknowledge and agree that IL MAKIAGE® may keep your credit card
-          on file for the Trial Period and does not need to obtain any
-          additional authorization from you to charge for products not returned
-          during the Trial Period. Products charged after the Trial Period are
-          not eligible for a refund. Your Payment Method may be subject to
-          preauthorization, a temporary hold, for the full purchase price of
-          your Try Before You Buy order, which may reduce the available balance
-          or credit limit of your Payment Method for the duration of the
-          temporary hold. An Auto-Replenishment subscription selected with a Try
-          Before You Buy product that is returned during the Trial Period will
-          be automatically canceled.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Subject to product availability, a Try Before You Buy order (a) may
-          only contain up to three (3) products (i) offered upon completion of a
-          qualifying quiz or (ii) from a single “Look,” i.e., the collection of
-          products featured in a qualifying tutorial on the Services; (b) is
-          only available for your first purchase of an applicable product; (c)
-          eligible for only up to two returns and/or exchanges; (d) must be
-          placed separately from other methods of purchase; and (e) are only
-          available for deliveries to and returns from the U.S., Canada and
-          Australia.
-        </span>
-      </p>
-      <p style="margin-bottom: 8px;">
-        <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; line-height: 24px;">
-          (iv) Prepaid Annual Plan
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          You may purchase certain offerings from selected countries within the
-          Territory using our Prepaid Annual Plan subscription option (the “
-          <strong>Prepaid Annual Plan</strong>”), as made available by and
-          through the Services. Your selection of the Prepaid Annual Plan allows
-          you to prepay for one (1) year supply of Auto-Replenishment products
-          at a discounted price (as indicated on the Services on the applicable
-          date). Once you elect to sign up for the Prepaid Annual Plan, you will
-          be charged for the total Prepaid Annual Plan price, which is
-          calculated based on the quantity of prepaid products and their prices,
-          including taxes and the applicable Prepaid Annual Plan discount. You
-          may choose to sign up for the Prepaid Annual Plan for several
-          different products at the same time. The quantity of prepaid products
-          is calculated by dividing twelve (12) months by your selected
-          auto-replenishment frequency for each product (e.g., if your selected
-          Auto-Replenishment is every three (3) months, your Prepaid Annual Plan
-          will comprise four (4) prepaid items).
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          When the prepaid auto-replenishment product ships, you will not be
-          charged again for any prepaid products previously paid for as part of
-          the Prepaid Annual Plan. However, if an auto-replenishment order
-          contains both prepaid and non-prepaid products, you will be charged
-          for the non-prepaid products.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Your selection of a “Prepaid Annual Plan” serves as your authorization
-          for IL MAKIAGE® to create, with the information that you provide
-          during enrollment or may have provided earlier, an account on your
-          behalf from where you can manage your subscription and
-          <strong> </strong>renewal preferences at any time. A condition of
-          enrollment in the “<strong>Prepaid Annual Plan</strong>” is keeping a
-          valid credit card on file in your account. You acknowledge and agree
-          that IL MAKIAGE® does not need to obtain any additional authorization
-          from you for recurring renewal charges under the “Prepaid Annual
-          Plan”. On any date your ”Prepaid Annual Plan” auto-renews, IL MAKIAGE®
-          is authorized to charge your Payment Method and to have the fees
-          applied to the same. We reserve the right to cancel a “Prepaid Annual
-          Plan" at any time, in our sole discretion.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          You acknowledge and agree that your Prepaid Annual Plan for all
-          selected Auto-Replenishment products will automatically renew on an
-          annual basis fifteen (15) days after you receive your last shipment of
-          prepaid products. You will receive a reminder email prior to the
-          shipment and auto-renewal of your Prepaid Annual Plan.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p2">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          You may cancel your Prepaid Annual Plan prior to auto-renewal by using
-          the link provided at the bottom of the auto-renewal reminder email or
-          at the bottom of each notification email we send to you and/or from
-          within “MY ACCOUNT” by selecting the “MY AUTO-REPLENISHMENTS” tab. Any
-          cancellation request after shipment of the initial prepaid product(s)
-          shall not be eligible for a refund for that Prepaid Annual Plan
-          period. If you have any issues with your subscription or order, please
-          contact our customer support team at:&nbsp;
-          <a href="mailto:proteam@ilmakiage.com">
-            <span className="s1">proteam@ilmakiage.com</span>
-          </a>{" "}
-          or at AUproteam@ilmakiage.com (for users located in Australia).
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Unless you cancel the auto-renewal of the Prepaid Annual Plan, you
-          will be charged the total Prepaid Annual Plan renewal price fifteen
-          (15) days after you receive your last shipment of prepaid products and
-          following the annual renewal charge reminder email.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Should you cancel auto-renewal of the Prepaid Annual Plan, you will
-          still receive any outstanding prepaid products that have not yet
-          shipped to you. If you have cancelled the auto-renewal of the “Prepaid
-          Annual Plan”, upon the shipment of your final prepaid products, you
-          will be downgraded to the regular Auto-Replenishment subscription
-          without the applicable discount and extra benefits of the Prepaid
-          Annual Plan.<span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            You can cancel your regular Auto-Replenishment subscription or your
-            Prepaid Annual Plan at any time, in accordance with the guidelines
-            set forth herein.{" "}
-          </strong>
-          For clarity, you may cancel your Auto-Replenishment subscription
-          <strong> </strong>Prepaid Annual Plan at any time, but any amount you
-          prepaid for such a plan is non-refundable.
-        </span>
-      </p>
-      <p>
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="text-decoration: underline;">
-              <span style="font-size: 14px; line-height: 24px;">
-                D. Order Acceptance; Shipping
-              </span>
-            </span>
-          </strong>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Once we receive your order for an Offering, we will provide you with
-          an order confirmation. Your receipt of an order confirmation, however,
-          does not signify our acceptance of your order, nor does it constitute
-          confirmation of our offer to sell; we are simply confirming that we
-          received your order.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p2">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          We reserve the right at any time after receiving your order to accept
-          or decline your order for any reason and at our sole discretion. If we
-          cancel an order after you have already been billed, then we will
-          refund the billed amount. We are unable to cancel or edit orders at
-          your request once placed. Title and risk of loss for any purchases of
-          physical products pass to you upon our delivery to our carrier. We
-          reserve the right to ship partial orders (at no additional cost to
-          you), and the portion of any order that is partially shipped may be
-          charged at the time of shipment. All orders are shipped using one of
-          our third-party couriers. Online tracking may be available on our
-          courier’s website (for example, FedEx), though we make no warranties
-          regarding its availability because it is not under our control. While
-          deliveries may be scheduled for a specified arrival, we cannot
-          guarantee delivery by any specific date or time. Your
-          Auto-Replenishment orders may be shipped slightly earlier or later
-          than the originally selected cadence, depending on the day of the week
-          and product availability. Shipments that are lost or arrive damaged
-          are the liability of our designated carrier. We may, at our sole
-          discretion, assist you in making a claim for a refund, but we are
-          under no obligation to do so. If your shipment is lost or arrives
-          damaged, please keep the box, packing materials and the item(s) inside
-          and&nbsp;
-          <a href="https://www.ilmakiage.com/contact-us">
-            <span className="s1">contact us</span>
-          </a>
-          &nbsp;with a picture, as applicable. Lost packages that are documented
-          as delivered by our designated carrier are only eligible for
-          replacement. We are not responsible for shipments that are undelivered
-          due to incorrect shipping information.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p2">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Depending on your territory, in furtherance of our policy of not
-          collecting personal information from persons under the age of 13, and
-          from persons under the age of 18 (or age of majority) without the
-          required parental or guardian consent, you are not allowed to give us
-          the personal information of any such persons for delivery or shipping
-          purposes or any other reason.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p>
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="text-decoration: underline;">
-              <span style="font-size: 14px; line-height: 24px;">
-                E. Returns
-              </span>
-            </span>
-          </strong>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Original shipping costs are always non-refundable. Try Before You Buy
-          Offerings are subject to the Trial Period returns policy found in
-          Section II.C(iii) above. All orders within the Territory (but outside
-          the United States, Canada and Australia) are final sale. All other
-          Offerings purchased at checkout, including Auto-Replenishment orders,
-          must be returned or exchanged within thirty (30) (sixty (60) if you
-          reside in Australia) calendar days from the purchase date to qualify
-          for a refund or exchange, unless otherwise stated on the Services.
-          Discounted merchandise and/or orders placed using an e-gift code are
-          not eligible for exchange. Qualifying returns for such products will
-          only be refunded the discounted amount paid, excluding any applied
-          e-gift code and any original shipping costs, both of which are always
-          non-refundable. All free orders are not eligible for returns or
-          exchanges. We do not offer price adjustments on previously purchased
-          items.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          To make returns, visit&nbsp;
-          <a href="https://www.ilmakiage.com/return">
-            <span className="s1">ilmakiage.com/return</span>
-          </a>{" "}
-          (or{" "}
-          <a href="https://www.ilmakiage.com/return">ilmakiage.com/au/return</a>{" "}
-          for users located in Australia), enter the order number and email
-          address associated with the order, select the item(s) you would like
-          to exchange or return, and print a prepaid return label. Only one
-          return label can be downloaded per order. Returns must (i) be
-          carefully packed in the original packing with the original packing
-          slip inside the box, (ii) have the prepaid return label properly
-          affixed to the outside of the package, and (iii) be properly dropped
-          off at the courier specified on your return label. Free return
-          shipping is only available for customers who use our prepaid return
-          label and follow our returns process. Any other return shipping
-          process will be at your own expense and not eligible for any
-          reimbursement. We are not responsible for returns lost in transit or
-          not received due to any error in following our returns process. It can
-          take up to two (2) weeks to process returns and credit your account or
-          issue online store credit. Your financial institution may take longer
-          to reflect the transaction.
-        </span>
-      </p>
-      <p id="ownership" style="margin-bottom: 8px;">
-        <span style="font-family: arial, helvetica, sans-serif; font-size: 15px; line-height: 24px;">
-          <strong>
-            II<strong>I</strong>. Intellectual Property
-          </strong>
-        </span>
-      </p>
-      <p>
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="text-decoration: underline;">
-              <span style="font-size: 14px; line-height: 24px;">
-                A. Ownership
-              </span>
-            </span>
-          </strong>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          All information and content available on the Services and its look and
-          feel, including, but not limited to, trademarks, copyrights, trade
-          names, logos, service marks, features, functions, text, graphics,
-          video, logos, button icons, images, audio clips, data compilations and
-          software, any information and content regarding the Services, and the
-          compilation and organization thereof and other intellectual and
-          proprietary rights throughout the world (collectively, the “
-          <strong>Content</strong>”) is the property of IL MAKIAGE® or our
-          parents, subsidiaries, affiliates, partners or licensors, and is
-          protected by United States and international rights and laws,
-          including laws governing copyrights and trademarks and applicable
-          intellectual property. You agree that we and/or our licensors own all
-          right, title and interest in and to the Services and Content
-          (including any and all intellectual property rights therein) and you
-          agree not to take any action(s) inconsistent with such ownership
-          interests. We and our licensors reserve all rights in connection with
-          the Services other than User Content (as defined below), including,
-          without limitation, the exclusive right to create derivative works.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p2">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Except as set forth in <span className="s1">Section III.C.</span>{" "}
-          below or as required under applicable law, the Services may not be
-          used, reproduced, published, distributed, displayed, used to create
-          derivative works, duplicated, copied, sold, resold, accessed,
-          modified, or otherwise exploited, in whole or in part, for any purpose
-          without our express, prior written consent.
-        </span>
-      </p>
-      <p>
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="text-decoration: underline;">
-              <span style="font-size: 14px; line-height: 24px;">
-                B. Ownership of Feedback
-              </span>
-            </span>
-          </strong>
-        </span>
-        <br />
-        <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; line-height: 24px;"></span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          We welcome feedback, comments and suggestions for improvements to the
-          Services (“<strong>Feedback</strong>”). You acknowledge and expressly
-          agree that any contribution of Feedback does not and will not give or
-          grant you any right, title or interest in the Sites or the Offerings
-          or in any such Feedback. All Feedback becomes our sole and exclusive
-          property, and we may use and disclose Feedback in any manner and for
-          any purpose whatsoever without further notice or compensation to you
-          and without retention by you of any proprietary or other right or
-          claim. You hereby assign to us any and all right, title and interest
-          (including, but not limited to, any patent, copyright, trade secret,
-          trademark, show-how, know-how, moral rights and any and all other
-          intellectual property rights) that you may have in and to any and all
-          Feedback.
-          <span className="s1">
-            <span className="Apple-converted-space">&nbsp;</span>
-          </span>
-        </span>
-      </p>
-      <p style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          By submitting content through the reviews ("
-          <strong>Review Content</strong>"), you grant us a worldwide,
-          royalty-free, transferable, and sublicensable license to use, store,
-          display, publish, adapt, and distribute your review, feedback, and any
-          related materials (including your name and image or photo) for
-          promoting and marketing our Services across any media or format,
-          including on our Sites and on third-party platforms, without notice to
-          you. You consent to our use of your name, username, likeness, and any
-          statements you post alongside the Review Content for marketing and
-          promotional purposes, without payment or further approval, as
-          permitted by law. You confirm that you own the Review Content
-          (including any photos), have all necessary permissions for its use
-          (including for any individuals appearing in it), and that it does not
-          violate any rights or laws. You waive any moral rights in the Review
-          Content to the extent permitted by law. We may edit or remove Review
-          Content at our discretion and have no obligation to use it. You may
-          withdraw your consent for future promotional uses by contacting us as
-          described in the Privacy Policy, without affecting any prior lawful
-          uses.
-        </span>
-      </p>
-      <p style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif;"></span>
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <span style="text-decoration: underline;">
-            <span style="margin-bottom: 32px;">
-              <strong>
-                <span>
-                  <span style="font-size: 14px; line-height: 24px;">
-                    C. Limited License: Use Restrictions
-                  </span>
-                </span>
-              </strong>
-            </span>
-          </span>
-        </span>
-      </p>
-      <p style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <span style="text-decoration: underline;">
-            <span style="margin-bottom: 32px;">
-              <strong>
-                <span>
-                  <span style="font-size: 14px; line-height: 24px;"></span>
-                </span>
-              </strong>
-            </span>
-          </span>
-        </span>
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Subject to your compliance with these Terms and Conditions, we grant
-          you a personal, limited, revocable, non-transferable, non-assignable,
-          non-sublicensable and non-exclusive license to access and make use of
-          the Services, solely for your personal, non-commercial use. It is
-          hereby granted that users are not provided any rights whatsoever in
-          our intellectual property or the Content, which shall vest solely with
-          us; You understand and agree that you will not do or attempt to do or
-          cause any third party to do or attempt to do any of the following in
-          connection with your use of the Services:&nbsp;
-        </span>
-      </p>
-      <ul>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            frame or utilize framing techniques to enclose the Services or any
-            portion thereof;
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            use any meta tags, meta elements, "hidden text", robots, spiders,
-            crawlers, or other tools, whether manual or automated, to collect,
-            scrape, index, mine, republish, redistribute, transmit, sell,
-            license the Sites, Offerings, Content (except caching or as
-            necessary to view the Services), or the personal information of
-            others without our prior written permission or authorization;
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            make any use of Services or any Content other than for personal use;
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            modify, reverse engineer or create any derivative works based upon
-            the Services or any Content;
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            impersonate any person or entity, or falsely state or otherwise
-            misrepresent your affiliation with any person or entity;
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            use any automated means (such as robots, spiders, scripts, or other
-            devices or programs) to access the Services, or collect any Content;
-          </span>
-        </li>
-        <li className="li3">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            <span className="Apple-tab-span"> </span>(vii)
-            <span className="s1">
-              engage in any “screen scraping,” “database scraping,” or similar
-              activities to obtain any Content;
-            </span>
-          </span>
-        </li>
-        <li className="li3">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            <span className="Apple-tab-span"> </span>(viii)
-            <span className="s1">
-              accumulate or index, directly or indirectly, any Content or
-              portion of theServices for any commercial purpose whatsoever;
-            </span>
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            "stalk" or otherwise harass including advocating harassment of
-            another, entrap or harm any third party including harming minors in
-            any way;
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            intentionally violate any applicable local, state, national or
-            international law;
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            transmit, upload, post, e-mail, share, distribute, reproduce, or
-            otherwise make available any software viruses, malware, program,
-            code, file, or other material intended to interrupt, disrupt, alter,
-            destroy, or limit any part of the Services; and/or
-          </span>
-        </li>
-        <li className="li3">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            <span className="Apple-tab-span"> </span>(xii)
-            <span className="s1">
-              engage or make any unsolicited or unauthorized advertising,
-              solicitation or promotional material, including chain letters,
-              mass mailings, or any form of "spam."
-            </span>
-          </span>
-        </li>
-      </ul>
-      <p style="margin-bottom: 32px;"></p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Any unauthorized use by you of the Services and/or any Content
-          automatically terminates the limited licenses set forth in this
-          Section without prejudice to any other remedy provided by applicable
-          law or the Terms and Conditions.
-        </span>
-      </p>
-      <p style="margin-bottom: 8px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <span style="font-size: 15px; line-height: 24px;">
-            <strong>
-              IV. Account Creation and User Content
-              <br />
-            </strong>
-          </span>
-          <span style="font-size: 14px; line-height: 24px;">
-            <strong>
-              <span style="text-decoration: underline;">A. Your Account</span>
-            </strong>
-            <br />
-          </span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Subject to the age restrictions outlined above and under our{" "}
-          <a href="https://www.ilmakiage.com/privacy_policy">
-            <span className="s1">Privacy Policy</span>
-          </a>
-          , you may view and use many features of the Services without
-          registering, but in order to purchase Offerings and/or access and use
-          certain parts of the Services, you may need to register an account
-          with us.<span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          You are solely responsible for any activity on our account and for
-          maintaining the confidentiality of your account, username and password
-          (to the extent you register utilizing a username and password) and for
-          restricting access to your computer. If there has been an unauthorized
-          use of your password or account, please notify us immediately. You
-          agree to provide us with and maintain current, complete, accurate and
-          truthful information by and through your account. You are responsible
-          for all activities that occur with your permission or authorization
-          under your account, username and/or password, or because you fail to
-          maintain sufficient security over your account, username and/or
-          password. You may cancel your online account with us at any time by
-          emailing us at&nbsp;
-          <a href="mailto:customerservice@ilmakiage.com">
-            customerservice@ilmakiage.com
-          </a>
-          , or at{" "}
-          <a href="mailto:customerservice@ilmakiage.com">
-            aucustomerservice@ilmakiage.com
-          </a>{" "}
-          (for users located in Australia). We reserve the right to refuse
-          service and/or terminate accounts without prior notice if the Terms
-          and Conditions are violated or if we decide, in our sole discretion,
-          that it would be in our best interest to do so.
-        </span>
-      </p>
-      <p style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="text-decoration: underline;">
-              <span style="font-size: 14px; line-height: 24px;">
-                B. User Content
-              </span>
-            </span>
-          </strong>
-        </span>
-      </p>
-      <p style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="text-decoration: underline;">
-              <span style="font-size: 14px; line-height: 24px;"></span>
-            </span>
-          </strong>
-        </span>
-        <span style="font-family: arial, helvetica, sans-serif;">
-          When you transmit, upload, post, e-mail, share, distribute, reproduce
-          or otherwise make available product reviews, suggestions, ideas,
-          inquiries, feedback, data, text, software, music, sound, photographs,
-          graphics, images, videos, messages or other materials ("
-          <strong>User Content</strong>") to us, whether through the Services,
-          any third-party websites or otherwise in any manner, you are entirely
-          responsible for such User Content. You hereby grant to us and our
-          parents, subsidiaries, affiliates, partners, and licensors a
-          perpetual, worldwide, irrevocable, transferable, sublicensable,
-          unrestricted, non-exclusive, royalty-free, fully paid up license to
-          use, share, copy, license, sublicense, adapt, distribute, display,
-          publicly perform, reproduce, transmit, modify, edit, and otherwise
-          exploit such User Content throughout the world, in all media now known
-          or hereafter developed, for any purpose whatsoever, including, without
-          limitation, developing, manufacturing, distributing and marketing the
-          Services and other IL MAKIAGE® products and/or services.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          You represent and warrant that you own or otherwise control the rights
-          to your User Content. You agree that User Content will not contain
-          material subject to copyright or other proprietary rights, unless you
-          have the necessary permission or are otherwise legally entitled to
-          post the material and to grant us the license described above. You
-          agree not to engage in or assist or encourage others to engage in
-          transmitting, uploading, posting, e-mailing, sharing, distributing,
-          reproducing, or otherwise making available User Content that: (i) is
-          unlawful, harmful, threatening, abusive, harassing, tortious,
-          defamatory, vulgar, obscene, pornographic, libelous, invasive of
-          another's privacy, hateful, or racially, ethnically or otherwise
-          objectionable; (ii) you do not have a right to make available under
-          any law or under contractual or fiduciary relationships; (iii) is
-          known by you to be false, fraudulent, inaccurate or misleading; (iv)
-          you were compensated for or granted any consideration by any third
-          party; (v) infringes any patent, trademark, trade secret, copyright or
-          other proprietary rights of any party; and (vi) includes, depicts, or
-          otherwise relates to individuals under the age of 13, or to
-          individuals between the ages of 13 and 18 without verified parental or
-          legal guardian consent.
-        </span>
-      </p>
-      <p className="p2"></p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          We are in no way responsible for examining or evaluating User Content,
-          nor do we assume any responsibility or liability for the User Content.
-          We do not endorse or control the User Content transmitted or posted on
-          the Services and therefore, we do not guarantee the accuracy,
-          integrity or quality of User Content. You understand that by using the
-          Services, you may be exposed to User Content that is offensive,
-          indecent or objectionable to you. Under no circumstances will we be
-          liable in any way for any User Content, including, without limitation,
-          for any errors or omissions in any User Content, or for any loss or
-          damage of any kind incurred by you as a result of the use of any User
-          Content transmitted, uploaded, posted, e-mailed or otherwise made
-          available via the Services. You hereby waive all rights to any claims
-          against us for any alleged or actual infringements of any proprietary
-          rights, rights of privacy and publicity, moral rights, and rights of
-          attribution in connection with User Content.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          You acknowledge that we have the right (but not the obligation), in
-          our sole discretion, to refuse to post or remove any User Content and
-          we reserve the right to change, condense, or delete any User Content.
-          Without limiting the generality of the foregoing or any other
-          provision of the Terms and Conditions, we have the right to remove any
-          User Content that violates the Terms and Conditions or is otherwise
-          objectionable and we reserve the right to refuse service and/or
-          terminate accounts without prior notice for any users who violate the
-          Terms and Conditions or infringe the rights of others.
-        </span>
-      </p>
-      <p style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="text-decoration: underline;">
-              <span style="font-size: 14px; line-height: 24px;">
-                C. Deletion of User Content
-              </span>
-            </span>
-          </strong>
-        </span>
-      </p>
-      <p style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          If you wish to delete certain of your public User Content, such as
-          your ratings and reviews posting(s), on the Services, please contact
-          us by email at:&nbsp;
-        </span>
-        <a
-          href="mailto:customerservice@ilmakiage.com"
-          style="font-family: arial, helvetica, sans-serif;"
-        >
-          customerservice@ilmakiage.com
-        </a>
-        <span style="font-family: arial, helvetica, sans-serif;">
-          , or at AU
-        </span>
-        <a
-          href="mailto:customerservice@ilmakiage.com"
-          style="font-family: arial, helvetica, sans-serif;"
-        >
-          customerservice@ilmakiage.com
-        </a>
-        <span style="font-family: arial, helvetica, sans-serif;">
-          {" "}
-          (for users located in Australia), and include the following
-          information in your deletion request: first name, last name, user
-          name/screen name (if applicable), email address associated with our
-          website and/or mobile applications, your reason for deleting the
-          posting, and date(s) of posting(s) you wish to delete (if you have
-          it). We may not be able to process your deletion request if you are
-          unable to provide such information to us. Please allow up to ten (10)
-          business days to process your deletion request.
-        </span>
-      </p>
-      <p style="margin-bottom: 12px;">
-        <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; line-height: 24px;">
-          <strong>
-            <span style="text-decoration: underline;">D. Photo Data</span>
-          </strong>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          If you provide photographs (“<strong>Photographs</strong>”) as part of
-          the Offerings, as made available in certain jurisdictions, you agree
-          that we may apply software and algorithms against the Photographs to
-          detect the general structure of your face (“
-          <strong>Structural Data</strong>,” together with the Photographs, the
-          “<strong>Photo Data</strong>”) in order to provide you with the
-          Services and improve our Offerings. You grant us and our designees all
-          rights, titles, and interests to collect, record, store, analyze, and
-          otherwise process your Photo Data, for the purposes set out in the{" "}
-          <a href="https://www.ilmakiage.com/privacy_policy">Privacy Policy</a>.
-          It is hereby clarified that all right, title, and interest in and to
-          the Photo Data (including, without limitation, any derivatives,
-          enhancements, or outputs therefrom) are and shall be owned exclusively
-          by our affiliate, Oddity Tech Ltd.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          You acknowledge that we may generate data derived from your Photo Data
-          that has been de-identified, anonymized, and/or aggregated as those
-          terms are defined by applicable law (“<strong>Derived Data</strong>”).
-          You understand and agree that we are and shall be the exclusive owner
-          of all right, title and interest, including copyright, in all Derived
-          Data, and we shall have the sole and exclusive right throughout the
-          universe in all languages and in perpetuity to use and exploit all or
-          any part of the Derived Data, in any format or version, by any means
-          and in any media, whether now known or hereafter developed.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          For clarity, Derived Data does not include your Photo Data nor any
-          information that identifies you. We do not intend to sell, lease,
-          trade, share in exchange for anything of value or otherwise profit
-          from the transaction of your Photo Data, nor use it to directly, or
-          combined with any lists, databases or other datasets, identify
-          specific individuals. You may request that your Photo Data be deleted
-          as described in the Privacy Policy. You understand that any revocation
-          or deletion shall not impact our ownership rights or continued
-          processing of Derived Data to the extent permitted by law.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p style="margin-bottom: 8px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <span style="font-size: 15px; line-height: 24px;">
-            <strong>
-              V. Third-Party Information
-              <br />
-            </strong>
-          </span>
-          <span style="text-decoration: underline;">
-            <span style="margin-bottom: 32px;">
-              <strong>
-                <span style="text-decoration: underline;">
-                  <span style="font-size: 14px; line-height: 24px;">
-                    A. Third-Party Links
-                  </span>
-                </span>
-              </strong>
-            </span>
-          </span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Our Services may display, include or make available content, data,
-          information, applications or materials from third parties (“
-          <strong>Third-Party Materials</strong>”) or provide links to certain
-          third-party websites. By using the Services, you acknowledge and agree
-          that we are not responsible for examining or evaluating the content,
-          accuracy, completeness, availability, timeliness, validity, copyright
-          compliance, legality, decency, quality or any other aspect of such
-          Third-Party Materials or websites.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          We are not responsible for the content of any third-party sites, even
-          if they are linked to or from the Services. Third-Party Materials and
-          links appearing on the Services are for convenience only and are not
-          an endorsement by us, our parents, subsidiaries, affiliates or
-          partners of the referenced content, product, service, or supplier.
-          Your use and access of these Third-Party Materials and websites is at
-          your own risk. We are in no way responsible for examining or
-          evaluating, and we do not warrant the offerings of the Third-Party
-          Materials or websites or any other websites linked to or from the
-          Services, nor do we assume any responsibility or liability for the
-          actions, content, products, or services of or associated with such
-          websites, including without limitation, their privacy policies and
-          terms and conditions. You should carefully review the privacy policies
-          and terms and conditions of the third-party websites you visit.
-          <span className="s1">
-            <span className="Apple-converted-space">&nbsp;</span>
-          </span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          YOU AGREE THAT YOUR USE OF ANY THIRD-PARTY SITE IS AT YOUR SOLE RISK
-          AND WITHOUT WARRANTIES OF ANY KIND BY US, EXPRESSED, IMPLIED OR
-          OTHERWISE. UNDER NO CIRCUMSTANCES ARE WE LIABLE FOR DAMAGES ARISING
-          FROM ANY TRANSACTION BETWEEN YOU AND ANY THIRD-PARTY SITE OR FOR ANY
-          INFORMATION APPEARING ON THIRD-PARTY SITES.
-        </span>
-      </p>
-      <p style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="text-decoration: underline;">
-              <span style="font-size: 14px; line-height: 24px;">
-                B. Copyright Infringement Notices
-              </span>
-            </span>
-          </strong>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          We respect the intellectual property of others and require that users
-          of the Services do the same. We also maintain a policy that provides
-          for the termination in appropriate circumstances of the Services’ use
-          privileges of users who are repeat infringers of intellectual property
-          rights. Consistent with the Digital Millennium Copyright Act (“
-          <strong>DMCA</strong>”), if you believe that copyrighted materials
-          have been copied in a way that constitutes copyright infringement,
-          please send an e-mail or written notice to our designated agent
-          (listed below) for notices of infringement and provide the following:
-        </span>
-      </p>
-      <ol className="ol1">
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            A physical or electronic signature of a person authorized to act on
-            behalf of the owner of the copyright interest that you claim is
-            infringed;
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            Identification of the copyrighted work(s) that you claim has been
-            infringed;
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            A description of the material that you claim is infringing and the
-            location of that material on the Site;
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            Your address, telephone number and email address;
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            A statement by you that you have a good faith belief that the use of
-            the material in the manner complained of is not authorized by the
-            copyright owner, its agent, or the law; and
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            A statement by you, made under penalty of perjury, that the above
-            information in your notice is accurate and that you are the
-            copyright owner or authorized to act on the copyright owner's
-            behalf.
-          </span>
-        </li>
-      </ol>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Our designated agent for noticing claims of copyright infringement is:
-        </span>
-      </p>
-      <ol className="ol1">
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            Oddity Global Ltd., Capital Tower 91 Waterloo Road, London, England,
-            SE1 8RT, UK.
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            Email: <a href="mailto:legal@ilmakiage.com">legal@ilmakiage.com</a>.
-            <span className="Apple-converted-space">&nbsp;</span>
-          </span>
-        </li>
-      </ol>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          THIS CONTACT INFORMATION IS PROVIDED EXCLUSIVELY FOR NOTIFYING IL
-          MAKIAGE® THAT COPYRIGHTED MATERIAL MAY HAVE BEEN INFRINGED. ALL OTHER
-          INQUIRIES WILL NOT RECEIVE A RESPONSE THROUGH THIS PROCESS AND SHOULD
-          BE DIRECTED TO OUR CUSTOMER SERVICE GROUP BY EMAIL TO&nbsp;
-          <a href="mailto:customerservice@ilmakiage.com">
-            CUSTOMERSERVICE@ILMAKIAGE.COM
-          </a>
-          <span className="s1"> </span>OR AT AUCUSTOMERSERVICE@ILMAKIAGE.COM
-          (FOR USERS LOCATED IN AUSTRALIA)<span className="s1">.</span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          A user of the Services who has uploaded or posted materials identified
-          as infringing as described above may supply a counter-notification
-          pursuant to sections 512(g)(2) and (3) of the DMCA. When we receive a
-          counter-notification, we may reinstate the posts or material in
-          question, in our sole discretion. To file a counter-notification with
-          us, you must provide a written communication (by fax or regular mail
-          or by email) that sets forth all of the items required by sections
-          512(g)(2) and (3) of the DMCA. Please note that you will be liable for
-          damages if you materially misrepresent that the content or an activity
-          does not infringe the copyrights of others.
-        </span>
-      </p>
-      <p style="margin-bottom: 8px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <span style="margin-bottom: 32px;">
-            <strong>
-              <span style="text-decoration: underline;">
-                <span style="font-size: 14px; line-height: 24px;">
-                  C. Disclaimer of Warranties
-                </span>
-              </span>
-            </strong>
-          </span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          THE SITES, OFFERINGS, CONTENT AND RELATED PRODUCTS AND SERVICESARE
-          PROVIDED ON AN "AS IS" AND “AS AVAILABLE” BASIS. NEITHER WE NOR OUR
-          PARENTS, SUBSIDIARIES, AFFILIATES, PARTNERS, OR LICENSORS MAKE ANY
-          REPRESENTATIONS OR WARRANTIES OF ANY KIND WHATSOEVER, EXPRESS OR
-          IMPLIED, IN CONNECTION WITH THESE TERMS AND CONDITIONS, THE SITES,
-          OFFERINGS, CONTENT OR RELATED PRODUCTSAND SERVICES.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          WITHOUT LIMITING THE FOREGOING, TO THE MAXIMUM EXTENT PERMITTED UNDER
-          APPLICABLE LAW, IL MAKIAGE®, ITS PARENTS, AFFILIATES, RELATED
-          COMPANIES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, REPRESENTATIVES,
-          PARTNERS AND LICENSORS (THE “IL MAKIAGE® ENTITIES”) DISCLAIM ALL
-          WARRANTIES AND CONDITIONS, WHETHER EXPRESS OR IMPLIED, OF
-          MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          TO THE MAXIMUM EXTENT PERMITTED UNDER APPLICABLE LAW, YOU AGREE THAT
-          NONE OF THE IL MAKIAGE® ENTITIES OR THEIR LICENSORS WILL BE
-          RESPONSIBLE OR LIABLE IN CONTRACT, WARRANTY OR IN TORT (INCLUDING
-          NEGLIGENCE) FOR ANY (I) INTERRUPTION OF BUSINESS; (II) ACCESS DELAYS
-          OR ACCESS INTERRUPTIONS TO THE SITES AND/OR OFFERINGS; (III) DATA
-          NON-DELIVERY, MISDELIVERY, CORRUPTION, DESTRUCTION OR OTHER
-          MODIFICATION; (IV) LOSS OR DAMAGES OF ANY SORT INCURRED AS A RESULT OF
-          DEALINGS WITH OR THE PRESENCE OF THIRD-PARTY MATERIALS OR OFF-WEBSITE
-          LINKS ON THE SITES; (V) COMPUTER VIRUSES, SYSTEM FAILURES OR
-          MALFUNCTIONS WHICH MAY OCCUR IN CONNECTION WITH YOUR USE OF THE SITES
-          AND/OR OFFERINGS, INCLUDING DURING HYPERLINK TO OR FROM THIRD-PARTY
-          WEBSITES; (VI) ANY INACCURACIES OR OMISSIONS IN CONTENT; OR (VII)
-          EVENTS BEYOND OUR REASONABLE CONTROL. NO ADVICE OR INFORMATION,
-          WHETHER ORAL OR WRITTEN, OBTAINED FROM THE IL MAKIAGE® ENTITIES OR
-          THROUGH THE SERVICES, WILL CREATE ANY WARRANTY OR REPRESENTATION NOT
-          EXPRESSLY MADE HEREIN.
-        </span>
-      </p>
-      <p style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; line-height: 24px;">
-          <strong>
-            <span style="margin-bottom: 32px;">
-              <strong>
-                <span style="text-decoration: underline;">
-                  <span style="font-size: 14px; line-height: 24px;">
-                    D. Accuracy of Information
-                  </span>
-                </span>
-              </strong>
-            </span>
-          </strong>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          We attempt to be as accurate as possible when describing our Offerings
-          on the Sites and matching you to products through our quizzes;
-          provided, however, that we do not warrant that the product
-          descriptions, colors, information, quiz results/recommendations or
-          other Content available on the Sites are accurate, complete, reliable,
-          current, or error-free, except as otherwise stated herein.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          The Services may contain typographical errors or inaccuracies and may
-          not be complete or current. We therefore reserve the right to correct
-          any errors, inaccuracies and omissions (including after an order has
-          been submitted) and to change and update information at any time
-          without prior notice. Please note that such errors, inaccuracies or
-          omissions may relate to pricing and availability, and we reserve the
-          right to cancel or refuse to accept any order placed based on
-          incorrect pricing or availability information.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p id="accuracy_of_information" style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; line-height: 24px;">
-          <strong>
-            <span style="margin-bottom: 32px;">
-              <strong>
-                <span style="text-decoration: underline;">
-                  <span style="font-size: 14px; line-height: 24px;"></span>
-                </span>
-              </strong>
-            </span>
-          </strong>
-          <strong>
-            <span style="text-decoration: underline;">
-              E. Limitations of Liability
-            </span>
-          </strong>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          TO THE EXTENT NOT PROHIBITED BY LAW, NEITHER WE NOR OUR PARENTS,
-          SUBSIDIARIES, AFFILIATES, PARTNERS, OR LICENSORS WILL BE LIABLE IN
-          CONTRACT, WARRANTY, OR IN TORT (INCLUDING NEGLIGENCE) FOR ANY
-          INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY KIND
-          (INCLUDING LOST PROFITS) RELATED TO THE SERVICES, OR YOUR USE THEREOF,
-          EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND IN
-          NO EVENT SHALL OUR MAXIMUM AGGREGATE LIABILITY FOR SUCH CLAIMS EXCEED
-          FIVE HUNDRED US DOLLARS (USD $500.00).
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          TO THE EXTENT PERMITTED UNDER APPLICABLE LAW, YOU AGREE THAT NO CLAIMS
-          OR ACTIONS IN CONTRACT, WARRANTY, OR IN TORT (INCLUDING NEGLIGENCE)
-          ARISING OUT OF, OR RELATED TO, THE USE OF THE SERVICES AND/OR THESE
-          TERMS AND CONDITIONS MAY BE BROUGHT BY YOU MORE THAN ONE (1) YEAR
-          AFTER THE CAUSE OF ACTION RELATING TO SUCH CLAIM OR ACTION AROSE. IF
-          YOU ARE DISSATISFIED WITH THE SERVICES, TERMINATION OF YOUR USE OF THE
-          SERVICES IS YOUR SOLE REMEDY. WE HAVE NO OTHER OBLIGATION, LIABILITY,
-          OR RESPONSIBILITY TO YOU.
-        </span>
-      </p>
-      <p style="margin-bottom: 32px;">
-        <span style="text-decoration: underline; font-family: arial, helvetica, sans-serif;">
-          <span style="font-size: 14px; line-height: 24px;">
-            <strong>F. Indemnification</strong>
-          </span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          You agree to defend, indemnify and hold us, our parents, subsidiaries,
-          affiliates, partners, licensors, officers, directors, employees, and
-          agents (the “<strong>Indemnified Parties</strong>”) harmless for any
-          loss, damages or costs, including reasonable attorneys' fees,
-          resulting from any third-party claim, action, or demand arising from
-          (i) your use of the Services in violation of any law, rule, regulation
-          or these Terms and Conditions, (ii) your User Content, (c) your
-          negligence or willful misconduct, and (d) your violation of any
-          third-party right You also agree to indemnify the Indemnified Parties
-          for any loss, damages, or costs, including reasonable attorneys' fees,
-          resulting from your use of software robots, spiders, crawlers, or
-          similar data gathering and extraction tools, or any other action you
-          take that imposes an unreasonable burden or load on our
-          infrastructure.
-        </span>
-      </p>
-      <p
-        id="arbitration_and_className_action_waiver"
-        style="margin-bottom: 32px;"
+      </li>
+    </ul>
+    <p class="sc-cOFTSb cRFSXz">
+      Ensure that the screenshot clearly displays the green checkmarks for all
+      30 days.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">Here are a few illustrative cases:</p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong><i>Eligible</i></strong
+      >: Subscription purchased on Dec 15; Challenge started on Dec 25;
+      completed for 30 consecutive days. Contacted us via
+      <a
+        href="https://account.fitme.health/contact-form?source=terms_of_use&amp;uuid="
+        >https://account.fitme.health/contact-form</a
+      >, provided the email used during the subscription purchase, described the
+      refund reason, and attached screenshots showing daily progress on Day 1
+      and Day 30. Refund applicable.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong><i>Ineligible</i></strong
+      >: Subscription purchased on Dec 15; Challenge started on Dec 25;
+      completed for 30 consecutive days. Contacted us via
+      <a
+        href="https://account.fitme.health/contact-form?source=terms_of_use&amp;uuid="
+        >https://account.fitme.health/contact-form</a
+      >, but failed to attach required screenshots or submitted incorrect
+      screenshots. Refund is not applicable as the required visual proof of
+      Challenge completion was not submitted correctly.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong><i>Ineligible</i></strong
+      >: Subscription purchased on Dec 15; Challenge started on Dec 25;
+      completed for 30 consecutive days. Used a method other than
+      <a
+        href="https://account.fitme.health/contact-form?source=terms_of_use&amp;uuid="
+        >https://account.fitme.health/contact-form</a
+      >, to contact us, though provided an email address, refund description,
+      and screenshots. Refund is not applicable due to the use of an incorrect
+      communication method.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong><i>Ineligible</i></strong
+      >: Subscription purchased on Dec 15; Challenge started on Dec 25;
+      completed for 30 consecutive days. Contacted us via
+      <a
+        href="https://account.fitme.health/contact-form?source=terms_of_use&amp;uuid="
+        >https://account.fitme.health/contact-form</a
+      >, but did not provide the email address used for subscription purchase
+      and/or failed to describe the refund reason. Screenshots are attached
+      correctly. Refund is not applicable due to incomplete refund request
+      details.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Refund for 7-Day Subscriptions.</strong> If you purchased a 7-day
+      subscription and renewed it once, you may be eligible for a refund
+      covering both the initial subscription and the first renewal. Refunds will
+      only be processed to the original payment method used at the time of
+      purchase.
+    </p>
+    <h3 class="sc-dPyBCJ kNoyfg">Additional Provisions:</h3>
+    <p class="sc-cOFTSb cRFSXz">
+      Refund amount is capped at USD 35.00. Refunds are processed to the
+      original payment method.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      REFUND APPLIES ONLY TO THE FIRST SUBSCRIPTION PAYMENT. SUBSEQUENT
+      PAYMENTS, INCLUDING RENEWALS OR ADDITIONAL OFFERS, ARE NON-REFUNDABLE.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      AUTO-RENEWAL REMAINS ACTIVE UNLESS EXPLICITLY CANCELED BEFORE THE RENEWAL
+      DATE SPECIFIED IN YOUR CONFIRMATION EMAIL.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      YOU ARE ELIGIBLE FOR THE CHALLENGE ONLY ONCE. RE-PURCHASING A SUBSCRIPTION
+      AFTER RECEIVING A REFUND DISQUALIFIES YOU FROM FURTHER PARTICIPATION.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      VIOLATION OF ANY TERMS OR RULES ASSOCIATED WITH THE PROMOTIONAL OFFER OR
+      THESE TERMS MAY RESULT IN DISQUALIFICATION FROM A REFUND.
+    </p>
+  </section>
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">YOUR USE OF THE SERVICE</h2>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Your Representations and Warranties</strong>. By accessing or
+      using the Service, you represent, warrant and agree that:
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      a) You have the legal capacity to enter into these Terms and agree to
+      comply with them fully.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      b) You are at least 18 years of age or the age of majority in your
+      jurisdiction, if higher.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      c) All information you provide to us in connection with your use of the
+      Service is true, accurate, and complete.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      d) You will not use the Service for any illegal or unauthorized purposes
+      and will ensure your use complies with all applicable laws and
+      regulations, including those of your jurisdiction.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      e) You will not misuse the Service or any Content published by us or third
+      parties.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      f) You are not listed on any U.S. Government list of prohibited or
+      restricted parties, including but not limited to the U.S. Department of
+      the Treasury’s Specially Designated Nationals and Blocked Persons List or
+      the U.S. Department of Commerce Denied Persons List or Entity List.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      g) You are not an individual or associated with any entity designated
+      under the UK’s Terrorist Asset-Freezing etc. Act 2010 (TAFA 2010) or any
+      equivalent legislation.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      h) You agree to comply with all applicable export and re-export control
+      laws and regulations, including those of the United States, the United
+      Kingdom, and any other relevant jurisdictions. This includes restrictions
+      on the transfer of goods, software (including the Service), technology,
+      and services.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      i) The availability and functionality of the App depend on the third-party
+      platform from which you downloaded it (e.g., the Apple App Store or Google
+      Play Store, collectively, "<strong>App Stores</strong>"). You agree to pay
+      any applicable fees required by the App Store and to comply with its
+      terms, conditions, and policies. The App Stores and their subsidiaries are
+      third-party beneficiaries of these Terms and may enforce them to the
+      extent necessary to protect their rights.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Your Permitted Use of the Service</strong>. We allow you to use
+      the Service exclusively for your personal, non-commercial purposes, as
+      intended and defined by us. Any use of the Service for commercial
+      activities, or any purpose not expressly authorized or approved by us, is
+      strictly prohibited.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Your Prohibited Use of Service</strong>. You agree not to use the
+      Service, directly or indirectly, for any unlawful or unauthorized
+      purposes, or in a manner that violates these Terms, including but not
+      limited to:
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      i. developing, operating, or assisting in the development or operation of
+      a product, service, or software that competes with or serves as a
+      substitute for the Service;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      ii. engaging in activities that could damage, disable, overburden, or
+      impair the functionality of the Service or its underlying systems, or
+      interfere with another user’s access to or enjoyment of the Service;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      iii. conducting any fraudulent, deceptive, or harmful activities,
+      including uploading or distributing viruses, worms, trojan horses, or
+      other malicious code designed to disrupt or harm the Service, users, or
+      third parties;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      iv. copying, adapting, altering, modifying, translating, or creating
+      derivative works based on the Service or any part thereof, without prior
+      written permission from us;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      v. engaging in unauthorized framing of or linking to the Service, or
+      embedding it within another service without our permission;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      vi. reverse engineering, decompiling, disassembling, or otherwise
+      attempting to extract source code or underlying ideas from the Service,
+      except as explicitly permitted by applicable law;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      vii. attempting to bypass, disable, or interfere with security features or
+      technological protections of the Service;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      viii. removing, obscuring, or altering any copyright, trademark, or other
+      proprietary notices contained within the Service;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      ix. using the Service for any revenue-generating, commercial, or
+      promotional purpose without our express written approval;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      x. using the Service or any data, Content, User-Generated Content, or
+      features from the Service to diagnose, treat, cure, or mitigate any health
+      conditions or medical issues without our express written approval;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      xi. sharing, sublicensing, assigning, selling, renting, leasing, or
+      otherwise transferring your access to the Service or its Content or
+      User-Generated Content to others without authorization;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      xii. publishing, uploading, or distributing User-Generated Content that is
+      unlawful, harmful, defamatory, obscene, violent, hateful, harassing, or
+      otherwise objectionable, as determined by us in our sole discretion;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      xiii. uploading or transmitting User-Generated Content that infringes upon
+      the intellectual property rights, privacy, or other rights of third
+      parties;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      xiv. uploading User-Generated Content containing malware, corrupted files,
+      or other harmful elements that may damage or disrupt the Service or its
+      users;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      xv. conducting, facilitating, authorizing, or permitting any text or data
+      mining or web scraping activities in connection with our Service. This
+      prohibition includes, but is not limited to, the use of any automated
+      tools, including “robots”, “bots”, “spiders”, “scrapers”, or similar
+      programs, algorithms, or processes to: (i) access, obtain, copy, monitor,
+      or republish any portion of the website, its content, data, or Service; or
+      (ii) analyze text or data in digital form to derive patterns, trends,
+      correlations, or other insights. This clause constitutes an express
+      reservation of our rights concerning text and data mining or web scraping.
+      Where applicable law prevents us from restricting or excluding such
+      activities by contract, this clause shall only apply to the extent
+      permitted by law.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Right to Refuse or Terminate Access</strong>. If any information
+      you provide is found to be untrue, inaccurate, not current, or incomplete,
+      or if you violate these Terms, we reserve the right to immediately suspend
+      or terminate your access to the Service, including any current or future
+      subscriptions, without prior notice or liability.
+    </p>
+  </section>
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">LIMITED LICENSE TO THE SERVICE</h2>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Content</strong>. All text, images, graphics, designs, icons,
+      marks, logos, data, software, and other information displayed on or used
+      to operate the Service (collectively, the<strong>"Content"</strong>),
+      excluding any User-Generated Content, are proprietary to us or third
+      parties. All rights in and to the Content are reserved by us, except where
+      expressly granted to you under these Terms. No additional rights, whether
+      express or implied, are conferred. Except as expressly permitted in these
+      Terms, you may not copy, modify, store, distribute, reproduce, create
+      derivative works based on, reverse engineer, decompile, attempt to
+      discover the source code of any part of the Service or Content, or
+      otherwise exploit the Content or any part of the Service. The provision of
+      the Service does not transfer or assign any rights, title, or interest in
+      the Content to you or any third party. Any use of our software,
+      trademarks, service marks, trade names, logos, domain names, or other
+      proprietary brand features or Content requires our prior written consent.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>License</strong>. We grant you a limited, revocable,
+      non-transferable, non-sublicensable, and non-exclusive license to access
+      and use the Service solely for your personal, non-commercial purposes. If
+      you upload any content to the Service, you grant us a revocable,
+      non-exclusive, transferable license to use such content for the purposes
+      of improving and operating the Service. You can revoke this license at any
+      time by contacting us at
+      <a
+        href="https://account.fitme.health/contact-form?source=terms_of_use&amp;uuid="
+        >https://account.fitme.health/contact-form</a
+      >, after which we will delete your content as requested.
+    </p>
+  </section>
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">LICENSE TO USER-GENERATED CONTENT</h2>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Ownership of User-Generated Content</strong>. You retain all
+      rights, title, and interest in any User-Generated Content you post, share,
+      or log through the Service. User-Generated Content includes, but is not
+      limited to, text, graphics, messages, comments, suggestions, photos,
+      videos, reviews, or other materials you upload, submit, or transmit via
+      the Service. We are not responsible for the accuracy, quality, or legality
+      of User-Generated Content posted by users. Interactions between you and
+      other users are solely your responsibility. We accept no liability for any
+      disputes, damages, or losses arising from these interactions. We may, at
+      our discretion, remove User-Generated Content without notice and are not
+      obligated to retain or restore any removed User-Generated Content, nor are
+      we liable for any loss caused by its removal.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Your Acknowledgement in relation to User-Generated Content</strong
+      >. You acknowledge that your relationship with us is not confidential,
+      fiduciary, or otherwise special, and submitting User-Generated Content
+      does not create any obligations for us beyond those outlined in these
+      Terms, Privacy Policy or your selected privacy settings. User-Generated
+      Content you provide is not subject to any duty of confidentiality on our
+      part, and we are not responsible for any use or disclosure of such
+      User-Generated Content, except as specified in our Terms, Privacy Policy
+      or your privacy preferences.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>License Grant</strong>. By providing User-Generated Content
+      through the Service, you grant us a non-exclusive, worldwide,
+      royalty-free, sublicensable, and transferable license to use, copy,
+      modify, adapt, translate, reformat, display, distribute, create derivative
+      works from, and otherwise exploit your User-Generated Content and your
+      name, username and likeness in connection with the operation, improvement,
+      and promotion of the Service. Personal data, as defined by applicable
+      privacy laws and regulations, is explicitly excluded from the scope of the
+      license granted by you under these Terms.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Revocation of License</strong>. If you wish to revoke the license
+      for specific User-Generated Content, you may contact us at
+      <a
+        href="https://account.fitme.health/contact-form?source=terms_of_use&amp;uuid="
+        >https://account.fitme.health/contact-form</a
+      >. Upon receipt of your request, we will take reasonable steps to remove
+      and cease using the specified User-Generated Content, subject to
+      applicable laws and technical limitations. The Company may retain copies
+      of your User-Generated Content for purposes reasonably necessary to
+      operate the Service, as permitted under these Terms and our Privacy
+      Policy.
+    </p>
+  </section>
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">WARRANTY DISCLAIMER</h2>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>General Disclaimer</strong>. The Service, including the App and
+      all related Content, features, and functionality, is provided on an "as
+      is" and "as available" basis, without any representations, warranties, or
+      guarantees of any kind, express or implied. To the fullest extent
+      permitted by law, we disclaim all warranties, including but not limited
+      to:
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      a) Implied warranties of merchantability, fitness for a particular
+      purpose, and non-infringement;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      b) Warranties arising from course of performance, trade, or usage; and
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      c) Warranties regarding the accuracy, reliability, or availability of the
+      Service.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      We and our directors, employees, agents, representatives, and suppliers,
+      do not guarantee that:
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      i. The Service will be secure, uninterrupted, error-free, or available at
+      any specific time or location;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">ii. Any defects or errors will be corrected;</p>
+    <p class="sc-cOFTSb cRFSXz">
+      iii. The Service or its content will be free of viruses, malware, or other
+      harmful components;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      iv. The results obtained from using the Service will meet your
+      expectations; or
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      v. Content or communications provided by third parties or users through
+      the Service will be accurate, reliable, or complete.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      Your use of the Service is entirely at your own risk.
+    </p>
+    <h3 class="sc-dPyBCJ kNoyfg">Additional Disclaimers.</h3>
+    <p class="sc-cOFTSb cRFSXz">
+      We reserve the right, at our sole discretion, to modify, update, suspend,
+      or discontinue the Service or any part thereof at any time without prior
+      notice. We are not liable for any disruptions or losses resulting from
+      such actions. Furthermore, we are under no obligation to screen or monitor
+      any Content or User-Generated Content, and do not guarantee that any
+      Content or User-Generated Content available on the Service will be
+      suitable for all users or remain available for any specific duration.
+      Certain features, Content or User-Generated Content may not be available
+      in your region and may vary by jurisdiction.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      The Service is not intended to provide financial, medical, legal, or other
+      professional advice. Any information provided through the Service is for
+      informational purposes only and should not be relied upon as a substitute
+      for professional consultation.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      You are solely responsible for your interactions with other users and for
+      any reliance on Content or User-Generated Content accessed through the
+      Service. We disclaim all liability for disputes, damages, or losses
+      arising from such interactions.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      Outputs from our AI Assistant are used at your sole risk. They should not
+      be relied upon as your sole source of accurate information or as a
+      substitute for professional advice.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Consumer Rights</strong>. For consumers in the
+      <strong
+        >European Union, United Kingdom, Liechtenstein, Switzerland, Norway, or
+        Iceland,</strong
       >
-        <span style="text-decoration: underline; font-family: arial, helvetica, sans-serif;">
-          <span style="font-size: 14px; line-height: 24px;">
-            <strong></strong>
-            <strong style="font-family: 'Maison Neue Demi'; font-size: 15px;">
-              VII. Arbitration and className Action/Jury Waiver
-            </strong>
-          </span>
-        </span>
-      </p>
-      <p className="p1">
-        <span className="s1" style="font-family: arial, helvetica, sans-serif;">
-          PLEASE READ THIS SECTION (“<strong>THE ARBITRATION AGREEMENT</strong>
-          ”) CAREFULLY. IT AFFECTS YOUR LEGAL RIGHTS. IT PROVIDES FOR RESOLUTION
-          OF MOST DISPUTES THROUGH INDIVIDUAL ARBITRATION INSTEAD OF COURT
-          TRIALS AND className ACTIONS. THIS SECTION ALSO CONTAINS A JURY TRIAL
-          WAIVER AND A WAIVER OF ANY AND ALL RIGHTS TO PROCEED IN className,
-          COLLECTIVE, PRIVATE ATTORNEY GENERAL, REPRESENTATIVE, OR CONSOLIDATED
-          ACTION IN ARBITRATION OR LITIGATION TO THE FULLEST EXTENT PERMITTED BY
-          APPLICABLE LAW. UNLESS YOU OPT OUT IN ACCORDANCE WITH THE OPT-OUT
-          PROCEDURES DESCRIBED BELOW, YOU WILL BE BOUND BY THIS ARBITRATION
-          AGREEMENT.
-        </span>
-      </p>
-      <p className="p2">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Arbitration provisions for Canadian and Australian residents appear
-          later in this Section.
-        </span>
-      </p>
-      <p style="margin-bottom: 8px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <span style="font-size: 14px; line-height: 24px;">
-            <strong>
-              <span style="text-decoration: underline;">A.&nbsp;</span>
-            </strong>
-          </span>
-          <span style="text-decoration: underline; font-size: small;">
-            <span className="s1">Mandatory Individual Arbitration</span>
-          </span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Any dispute, claim, or controversy between you and the IL MAKIAGE®
-          entities, including but not limited to disputes, claims, or
-          controversies related to or arising from the Services or these Terms
-          and Conditions, including, without limitation, those relating to the
-          formation, breach, termination, enforcement, interpretation, validity,
-          scope, or applicability of the Terms and Conditions and the
-          Arbitration Agreement included therein (“<strong>Disputes</strong>”),
-          whether such Dispute arose before, on, or subsequent to you entering
-          these Terms and Conditions, and if not resolved through the informal
-          dispute resolution procedure set forth in subsection D below, shall be
-          exclusively resolved by individual, binding arbitration in accordance
-          with this Arbitration Agreement. The arbitrator, and not any federal,
-          state, or local court or agency, shall have exclusive authority to
-          resolve any Disputes relating to the interpretation, applicability,
-          enforceability, or formation of this Arbitration Agreement, including
-          any Dispute that all or any part of this Arbitration Agreement is void
-          or voidable, and further, that the arbitrator shall also be
-          responsible for determining all threshold arbitrability issues,
-          including issues relating to whether these Terms and Conditions are
-          unconscionable or illusory, in whole or in part, and any defense to
-          arbitration, including waiver, delay, laches, or estoppel.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          This Arbitration Agreement applies to all Disputes between you and us,
-          whether arising before or after the date on which you first accepted
-          this Arbitration Agreement, except to the extent prohibited by
-          applicable law.To the fullest extent permissible by applicable law,
-          all Disputes must be filed within one year after such Disputes or
-          cause of action arose or it will be forever barred.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Notwithstanding the foregoing and the className Action/Jury Trial
-          Waiver below, you and the IL MAKIAGE® entities each retain the right
-          to seek injunctive or other equitable relief in a court of competent
-          jurisdiction in the State of New York to prevent the actual or
-          threatened infringement, misappropriation or violation of a party’s
-          copyrights, trademarks, trade secrets, patents, or other IP rights.
-          Any legal action by the IL MAKIAGE® entities against a non-consumer or
-          its interactions with governmental and regulatory authorities shall
-          not be subject to arbitration. Either party may also elect to have
-          Disputes heard in small claims court seeking only individualized
-          relief, so long as the action is not removed or appealed to a court of
-          general jurisdiction.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          If any court or arbitrator determines that this Arbitration Agreement
-          is void or unenforceable for any reason as to Disputes arising before
-          the date of posting of this Arbitration Agreement, then you may still
-          be bound to previous versions of this Arbitration Agreement by reason
-          of your separate agreement to those previous versions.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          If you or the IL MAKIAGE® Entities file or cause to be filed in court
-          (other than small claims court) a complaint alleging a Dispute that is
-          subject to arbitration under this Arbitration Agreement, the
-          defendant/respondent will notify the party or the party’s attorney (if
-          an attorney has entered an appearance) of the existence of this
-          Arbitration Agreement, and request that the complaint be withdrawn. If
-          the party does not withdraw the action within 10 calendar days of
-          service of that notice, and the defendant/respondent successfully
-          moves to compel arbitration of the Dispute, the defendant/respondent
-          shall be entitled to its costs and fees (including reasonable
-          attorneys’ fees) incurred in seeking to enforce this Arbitration
-          Agreement.
-        </span>
-      </p>
-      <p style="margin-bottom: 8px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <span style="font-size: 14px; line-height: 24px;">
-            <strong>
-              <span style="text-decoration: underline;">
-                B. className Action / Jury Trial Waiver
-              </span>
-            </strong>
-          </span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          You and the IL MAKIAGE® Entities agree that, to the fullest extent
-          permitted by law, each party is waiving the right to a trial by jury
-          or to participate as a plaintiff, claimant, or className member in any
-          className, collective, private attorney general, representative, or
-          consolidated proceeding (other than the permitted Mass Filing
-          Procedures). This means that you and the IL MAKIAGE® Entities may not
-          bring a Dispute on behalf of a className or group and may not bring a
-          Dispute on behalf of any other person unless doing so as a parent,
-          guardian, or ward of a minor or in another similar capacity for an
-          individual who cannot otherwise bring their own individual Dispute.
-          This also means that you and the IL MAKIAGE® Entities may not
-          participate in any className, collective, private attorney general,
-          representative, or consolidated proceeding brought by any third party,
-          and any arbitration will be conducted only on an individual basis
-          (other than the permitted Mass Filing Procedures). You and the IL
-          MAKIAGE® Entities may participate in a className-wide settlement.
-        </span>
-      </p>
-      <p style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="text-decoration: underline;">
-              <span style="font-size: 14px; line-height: 24px;">
-                C. Arbitration Opt-Out Procedures
-              </span>
-            </span>
-          </strong>
-        </span>
-      </p>
-      <p style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="text-decoration: underline;">
-              <span style="font-size: 14px; line-height: 24px;"></span>
-            </span>
-          </strong>
-        </span>
-        <span style="font-family: arial, helvetica, sans-serif;">
-          You may opt out of this Arbitration Agreement. To do so, you must
-          email{" "}
-          <a href="mailto:customerservice@ilmakiage.com">
-            <span className="s1">customerservice@ilmakiage.com</span>
-          </a>{" "}
-          a notice (“<strong>Opt-Out Notice</strong>”) no later than 30 days
-          after you first agreed to this Arbitration Agreement (“
-          <strong>Opt-Out Period</strong>”). The Opt-Out Notice must contain
-          your full legal name, your complete mailing and email address and
-          phone number, a clear statement that you wish to opt out of this
-          Arbitration Agreement, and your signature. The Opt-Out Notice must be
-          submitted by you personally, in your individual capacity. Opt-Out
-          Notices submitted by any third party on your behalf, including,
-          without limitation, bulk, aggregated, or group submissions on behalf
-          of multiple individuals, will not be accepted. If your Opt-Out Period
-          has passed, you are not eligible to opt out of this Arbitration
-          Agreement, and you will be bound to this Arbitration Agreement.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          If you opt out of this Arbitration Agreement, all other provisions of
-          the Terms and Conditions will continue to apply to you, including the
-          Non-Arbitral Disputes Governing Law and Mandatory Forum Selection set
-          forth below in subsection F. Additionally, if you opt out of this
-          Arbitration Agreement, you may still be bound to previous versions of
-          this Arbitration Agreement or other arbitration agreements by reason
-          of your separate agreement to them, including subsequent agreements to
-          arbitrate. In other words, opting out of this Arbitration Agreement
-          shall have no effect on any other arbitration agreements you entered
-          into with the IL MAKIAGE® Entities.
-        </span>
-      </p>
-      <p className="p3">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          If the IL MAKIAGE® Entities<em> </em>make any future changes to this
-          Arbitration Agreement (other than a change to the Notice Address or
-          other non-material changes), they will provide you with notice (to the
-          extent they have your contact information). You may reject any such
-          change by sending an email to the IL MAKIAGE® Entities at{" "}
-          <a href="mailto:customerservice@ilmakiage.com">
-            <span className="s1">
-              <strong>customerservice@ilmakiage.com</strong>
-            </span>
-          </a>{" "}
-          within 30 days of the posting of the amended arbitration agreement
-          that provides: (i) your full legal name, (ii) your complete mailing
-          address, (iii) your phone number, (iv) the change(s) you are
-          rejecting, (v) and, if applicable, the username or email address
-          associated with any purchase from the IL MAKIAGE® Entities.{" "}
-          <strong>This is not an opt out of arbitration altogether.</strong>{" "}
-          Your continued use of the Services after this 30-day period
-          constitutes acknowledgment of, and agreement to, the changes to the
-          Arbitration Agreement.
-        </span>
-      </p>
-      <p className="p3"></p>
-      <p style="margin-bottom: 8px;">
-        <span style="font-family: arial, helvetica, sans-serif; font-size: 15px; line-height: 24px;">
-          <strong>
-            <strong>
-              <span style="text-decoration: underline;">
-                D.&nbsp;Rules and Governing Law of Arbitration
-              </span>
-            </strong>
-          </strong>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            Mandatory Pre-Arbitration Notice and Informal Dispute Resolution
-            Procedures
-          </strong>
-          : You and we agree that good-faith, informal efforts to resolve
-          disputes often can result in a prompt, cost-effective and mutually
-          beneficial outcome. Therefore, in the event of a Dispute, you and the
-          IL MAKIAGE® Entities each agree to send the other party a written
-          “Notice of Dispute.” A Notice of Dispute from you to the IL MAKIAGE®
-          Entities must be emailed to both{" "}
-          <a href="mailto:customerservice@ilmakiage.com">
-            <span className="s1">customerservice@ilmakiage.com</span>
-          </a>
-          <span className="s2">&nbsp;</span>and{" "}
-          <a href="mailto:legal@ilmakiage.com">
-            <span className="s1">legal@ilmakiage.com</span>
-          </a>
-          . Any Notice of Dispute must include (i) the claimant’s full legal
-          name, complete mailing address, and email address; (ii) a description
-          of the nature and basis of the Dispute; (iii) any relevant facts
-          regarding claimant’s use of the Services, including whether claimant
-          receives any emails associated with the Services, whether claimant has
-          made a purchase from the IL MAKIAGE® Entities, and if so, the date(s)
-          of the purchase(s); and (iv) a personally signed statement from the
-          claimant (and not their counsel) verifying the accuracy of the
-          contents of the Notice. The Notice must be individualized, meaning it
-          can concern only your dispute and no other person’s dispute. The IL
-          MAKIAGE® Entities will send any Notice of Dispute to you at the email
-          address or mailing address it has for you, if any.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          After receipt of a Notice of Dispute, the parties shall engage in a
-          good faith effort to resolve the Dispute for a period of 60 days
-          (which can be extended by agreement). You and we agree that, after
-          receipt of the Notice of Dispute, the recipient may request an
-          individualized telephone or video settlement conference (which can be
-          held after the 60-day period) and both parties will attend (with
-          counsel, if represented). You and we agree that the parties (and
-          counsel, if represented) shall work cooperatively to schedule the
-          conference at the earliest mutually convenient time and to seek to
-          reach a resolution.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Compliance with this Mandatory Pre-Arbitration Notice and Informal
-          Dispute Resolution Procedures subsection is a condition precedent to
-          initiating arbitration. Any applicable limitations period (including
-          statute of limitations) shall be tolled while the parties engage in
-          the informal dispute resolution procedures set forth in this
-          subsection. All of the Mandatory Pre-Arbitration Notice and Informal
-          Dispute Resolution Procedures are essential so that you and the IL
-          MAKIAGE® Entities have a meaningful opportunity to resolve disputes
-          informally. If any aspect of these requirements has not been met, the
-          parties agree that a court of competent jurisdiction may enjoin the
-          filing or stay the prosecution of an arbitration. Nothing in this
-          paragraph limits the right of a party to seek damages for
-          non-compliance with these Procedures in arbitration.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>Mandatory Arbitration Procedures</strong>: If the parties
-          cannot resolve the Dispute through the Informal Dispute Resolution
-          Procedures above, you and the IL MAKIAGE® Entities each agree that all
-          Disputes shall be resolved exclusively through final and binding
-          individual arbitration, rather than in court. The parties may agree to
-          waive hearings and resolve Disputes through the submission of
-          documents. Any arbitration hearing will be conducted remotely by
-          telephone or video conference to the extent possible, but if the
-          arbitrator determines, or the parties agree, that a hearing should be
-          conducted in person, the arbitration hearing shall take place in New
-          York, New York, and shall be before one arbitrator.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          All Disputes shall be submitted to National Arbitration and Mediation
-          (
-          <a href="http://www.namadr.com/">
-            <span className="s1">www.namadr.com</span>
-          </a>
-          <span className="s1">) </span>(“<strong>NAM</strong>”), for
-          arbitration before one arbitrator. The arbitration will be
-          administered by NAM in accordance with{" "}
-          <span className="s3">
-            NAM’s Comprehensive Dispute Resolution Rules and Procedures and, as
-            applicable, Mass Filing Supplemental Dispute Resolution Rules and
-            Procedures, then in effect
-          </span>{" "}
-          (“<strong>NAM Rules</strong>”), except as modified by this Arbitration
-          Agreement. A party who desires to initiate arbitration must provide
-          the other party with a written demand for arbitration as specified in
-          the NAM Rules. You and we agree that the party initiating arbitration
-          must submit a certification that they have complied with and completed
-          the Mandatory Pre-Arbitration Notice and Informal Dispute Resolution
-          Procedures requirements referenced above, and that they are a party to
-          the Arbitration Agreement enclosed with or attached to the demand for
-          arbitration. The demand for arbitration and certification must be
-          personally signed by the party initiating arbitration (and their
-          counsel, if represented). The parties agree that submission of the
-          certification shall be required for the Dispute to be deemed properly
-          filed.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          A form for initiating arbitration proceedings is available on NAM’s
-          website at www.namadr.com/resources/rules-fees-forms/. For additional
-          information on how to commence an arbitration proceeding, you can
-          contact NAM at customerservice@namadr.com.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          If NAM notifies the parties in writing that it is not available to
-          arbitrate any Dispute, or if NAM is otherwise unable to arbitrate any
-          Dispute, that Dispute shall be submitted to ADR Services, Inc. (
-          <a href="http://www.adrservices.com">
-            <span className="s1">www.adrservices.com</span>
-          </a>
-          ) (“<strong>ADR Services</strong>”) for final and binding individual
-          arbitration before one arbitrator. The arbitration will be
-          administered by ADR Services in accordance with the ADR Services rules
-          and procedures then in effect (the “
-          <strong>ADR Services Rules</strong>”), except as modified by this
-          Arbitration Agreement.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Notwithstanding any choice of law or other provision in these Terms
-          and Conditions, the parties agree and acknowledge that this
-          Arbitration Agreement evidences a transaction involving interstate
-          commerce and that the Federal Arbitration Act, 9 U.S.C. § 1 et seq. (“
-          <strong>FAA</strong>”), governs the interpretation and enforcement of
-          this Arbitration Agreement and any proceedings under it. The FAA and
-          the NAM Rules or ADR Services Rules (as applicable) shall preempt all
-          state laws to the fullest extent permitted by law. To the extent
-          neither the FAA nor the NAM Rules or ADR Services Rules (as
-          applicable) govern a particular issue, that issue will be governed by
-          the laws of the State of New York, without regard to choice or
-          conflict of law principles.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          At the conclusion of the arbitration proceeding, the arbitrator shall
-          issue a reasoned written decision sufficient to explain the essential
-          findings and conclusions on which the award is based. An arbitrator’s
-          award that has been fully satisfied shall not be entered in any court.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          As in court, you and the IL MAKIAGE® Entities agree that any counsel
-          representing a party in arbitration certifies when initiating and
-          proceeding in arbitration that they are complying with the
-          requirements of Federal Rule of Civil Procedure 11(b) and any
-          applicable state laws of similar import, including certification that
-          the Dispute or relief sought is neither frivolous nor brought for an
-          improper purpose. The arbitrator is authorized to impose any sanctions
-          under the NAM Rules or ADR Services Rules (as applicable), Federal
-          Rule of Civil Procedure 11, or applicable federal or state law,
-          against all appropriate represented parties and counsel.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Except as expressly provided in the Arbitration Agreement, the
-          arbitrator may grant any remedy, relief, or outcome that the parties
-          could have received in court, including awards of attorneys’ fees and
-          costs, in accordance with applicable law.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>Mass Filing Procedures</strong>: If NAM determines that 25 or
-          more substantially similar arbitration demands presented by or with
-          the assistance, coordination, or cooperation of the same law firm,
-          group of law firms, cooperating law firms, or organization are allowed
-          to be submitted for arbitration, NAM’s mass filing fee structure shall
-          apply and the parties agree that the arbitrations will proceed in
-          accordance with the batching process as follows: (i) NAM shall
-          administer the arbitration demands in batches of at least 25 demands
-          for arbitration of a substantially similar nature, with the discretion
-          to create additional batches if NAM finds that they are necessary to
-          facilitate the efficient resolution of demands; (ii) NAM shall provide
-          for concurrent resolution of each batch as a single consolidated
-          arbitration with one procedural calendar and one hearing (if any) and
-          one final award; and (iii) following such determination of a mass
-          filing, NAM shall apply a single set of admin and panel prep fees per
-          batch in accordance with NAM’s fee schedule. All parties agree that
-          arbitrations are of a “substantially similar nature” for purposes of
-          these Mass Filing Procedures if they arise out of or relate to the
-          same or similar event or factual scenario and raise the same or
-          similar legal issues and seek the same or similar relief.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          If there are 20 or more substantially similar Disputes that are
-          allowed to be submitted for arbitration but cannot be arbitrated by
-          NAM, and are presented to ADR Services by or with the assistance,
-          coordination, or cooperation of the same law firm, group of law firms,
-          cooperating law firms, or organization, ADR Services shall administer
-          those Disputes concurrently in accordance with the ADR Services Rules,
-          except as modified by this Arbitration Agreement, and in accordance
-          with the Mass Filing Procedures set forth above (except that batches
-          may be of at least 20 demands for arbitration). ADR Services shall
-          apply a single initial filing fee and administrative fee per batch for
-          each side with respect to the fees set forth in ADR Services’
-          then-current Mass Consumer Non-Employment Arbitration Fee Schedule.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          The IL MAKIAGE® Entities reserve all rights and defenses as to each
-          and any Dispute, demand for arbitration, and claimant. These Mass
-          Filing Procedures shall in no way be interpreted as authorizing
-          className arbitrations of any kind.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>Arbitration Fees</strong>: If you do not timely pay any
-          required fees to NAM (or ADR Services, as applicable), any refusal by
-          us to pay such fees on your behalf shall not void or otherwise
-          invalidate this Arbitration Agreement, which shall remain in full
-          force and effect. Any disputes over arbitration fees shall be resolved
-          by NAM or ADR Services (as applicable).
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>Confidentiality</strong>: The parties agree that the
-          arbitrator is authorized to issue an order requiring that confidential
-          information of either party disclosed during the arbitration (whether
-          in documents or orally) may not be used or disclosed except in
-          connection with the arbitration or a proceeding to enforce the
-          arbitration award and that any permitted court filing of confidential
-          information must be done under seal to the furthest extent permitted
-          by law.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>Requirement of Individualized Relief</strong>: The parties
-          agree that, to the fullest extent permitted by law, the arbitrator is
-          authorized, upon either party’s request, to award declaratory or
-          injunctive relief only in favor of the individual party seeking relief
-          and only to the extent necessary to provide relief warranted by that
-          party’s individual Dispute.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="text-decoration: underline; font-size: small; font-family: arial, helvetica, sans-serif;">
-          <span className="s1">E. Severability &amp; Survival</span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          If any provision or portion of this Arbitration Agreement is found to
-          be void, invalid, or otherwise unenforceable, then it shall be deemed
-          to be severable and, if possible, superseded by a valid, enforceable
-          provision, or portion thereof, that matches the intent of the original
-          provision, or portion thereof, as closely as possible. The remainder
-          of this Arbitration Agreement shall continue to be enforceable and
-          valid according to the terms contained herein.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          This Arbitration Agreement shall survive termination of these Terms
-          and Conditions. Except as provided in subsections A and C above, this
-          Arbitration Agreement shall supersede and replace any and all previous
-          arbitration and className action/jury waiver agreements you may have
-          entered into with the IL MAKIAGE® Entities.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="text-decoration: underline;">
-          <span
-            className="s1"
-            style="font-family: arial, helvetica, sans-serif; font-size: small;"
-          >
-            F. Non-Arbitral Disputes Governing Law &amp; Mandatory Forum
-            Selection
-          </span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          If (i) you timely provide a valid Opt-Out Notice as provided above,
-          and you are not bound to any previous or other arbitration agreements
-          with us; or (ii) any Dispute is determined not to be subject to
-          arbitration or resolution; or (iii) any court of competent
-          jurisdiction or arbitrator, after exhaustion of all appeals,
-          determines that the className Action/Jury Trial Waiver, as provided
-          above, is void or unenforceable for any reason, or that your Dispute
-          can proceed on a className, collective, representative, or
-          consolidated basis other than the Mass Filing Procedures, as provided
-          above; then you and the IL MAKIAGE® Entities<em> </em>each irrevocably
-          agree that the exclusive jurisdiction and venue with respect to such
-          Dispute shall be the federal or state courts of competent jurisdiction
-          in the State of New York, and any such Dispute and these Terms and
-          Conditions shall be governed by and construed in accordance with the
-          substantive and procedural laws of the State of New York, without
-          regard to choice or conflict of law principles.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="text-decoration: underline; font-family: arial, helvetica, sans-serif;">
-          <span className="s1" style="font-size: small;">
-            G. Provisions for Canadian Residents
-          </span>
-        </span>
-      </p>
-      <p className="p3">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          If you reside in Canada, Sections VII(A) to(F) do not apply, and the
-          following Section VII(G) applies.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p3">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          The following provisions apply with respect to any disputes, claims,
-          or controversies related to or arising from the Services or these
-          Terms and Conditions, including the arbitration agreement included
-          therein: (i) legal notice sent by email shall be deemed received on
-          the earlier of (a) when accessed by the recipient or (b) forty-eight
-          (48) hours after sending, unless a delivery failure notice is
-          received. A notice sent by mail shall be deemed received three (3)
-          days after mailing, unless returned as undeliverable. If returned,
-          notice shall be deemed not delivered and must be resent via an
-          alternative method; (ii) you agree that any and all disputes shall be
-          resolved by individual, binding arbitration, and the arbitrator (and
-          not any federal, state, or local court or agency) shall have the
-          authority to resolve any disputes relating to the this arbitration;
-          the arbitration will be conducted under the ADRIC Arbitration Rules of
-          the ADR Institute of Canada, Inc. (“<strong>ADRIC</strong>”); (iii)
-          the arbitration shall be held in the City of Toronto, Ontario, or at
-          another mutually agreed location; and (iv) to the fullest extent
-          permitted by law, each party is waiving the right to participate as a
-          plaintiff, claimant, or className member in any className, collective,
-          private attorney general, representative, or consolidated proceeding,
-          except that the waiver of className, representative, or private
-          attorney general actions described herein does not apply to the extent
-          prohibited by the laws of the province in which you reside.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p3">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Subsections (ii)-(iii) above do not apply to residents of Quebec. If
-          you are a resident of Québec, you are not bound to binding arbitration
-          and nothing in these Terms limits your rights under the laws of
-          Québec.
-        </span>
-      </p>
-      <p className="p3">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          To the fullest extent permissible by applicable law, all disputes must
-          be filed within one year after such disputes or cause of action arose,
-          and the parties shall engage in a good faith effort to resolve the
-          dispute.
-        </span>
-      </p>
-      <p className="p3">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          If any provision or portion of this Section is found to be void,
-          invalid, or otherwise unenforceable, then it shall be deemed to be
-          severable and, if possible, superseded by a valid, enforceable
-          provision, or portion thereof, that matches the intent of the original
-          provision, or portion thereof, as closely as possible. The remainder
-          of this Section shall continue to be enforceable and valid according
-          to the terms contained herein.
-        </span>
-      </p>
-      <p className="p4">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          In the event of a dispute arising from these Terms and Conditions that
-          cannot be resolved, you and we may refer it to arbitration by mutual
-          consent.<span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="text-decoration: underline; font-family: arial, helvetica, sans-serif;">
-          <span className="s1" style="font-size: small;">
-            H. Provisions for Australian Residents
-          </span>
-        </span>
-      </p>
-      <p className="p3">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          If you reside in Australia, Sections VII(A) to (F) do not apply and
-          the following Section VII(H) applies: in the event of a dispute
-          arising from these Terms and Conditions that cannot be resolved, you
-          and we may refer it to arbitration by mutual consent.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p3">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          To the fullest extent permissible by applicable law: (i) all disputes
-          must be filed within one year after such disputes or cause of action
-          arose, and the parties shall engage in a good faith effort to resolve
-          the dispute; (ii) the courts of the State of New York shall have
-          exclusive jurisdiction to settle any dispute that arises out of or in
-          connection with these Terms and Conditions or their subject matter or
-          formation (including non-contractual disputes or claims); and (iii)
-          each party is waiving the right to participate as a plaintiff,
-          claimant, or className member in any className, collective, private
-          attorney general, representative, or consolidated proceeding. For our
-          exclusive benefit and to the extent possible in the applicable
-          jurisdiction, we retain the right to bring or enforce proceedings as
-          to the substance of the matter in the courts of the country of your
-          residence.<span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p id="sms_messaging_calls" style="margin-bottom: 8px;">
-        <span style="font-family: arial, helvetica, sans-serif; font-size: 15px; line-height: 24px;">
-          <strong>VIII. Other Provisions</strong>
-        </span>
-      </p>
-      <p style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="text-decoration: underline;">
-              <span style="font-size: 14px; line-height: 24px;">
-                A. SMS Messaging and Phone Calls
-              </span>
-            </span>
-          </strong>
-          <span style="font-size: 14px; line-height: 24px;">
-            <br />
-          </span>
-          <span style="font-size: 14px; line-height: 24px;"></span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Certain portions of the Services may allow us to contact you via
-          telephone or text messages. You agree that we may contact you via
-          telephone or text messages (including by an automatic telephone
-          dialing system and for marketing purposes) at any of the phone numbers
-          provided by you or on your behalf in connection with your use of the
-          Services. You understand that you are not required to provide this
-          consent as a condition for purchasing any Offerings. You also
-          understand that you may opt out of receiving text messages from us at
-          any time. If you do not choose to opt out, we may contact you as
-          outlined in our Privacy Policy.
-        </span>
-      </p>
-      <p style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; line-height: 24px;">
-          <span style="margin-bottom: 32px;">
-            <strong>
-              <span style="text-decoration: underline;">
-                <span style="font-size: 14px; line-height: 24px;">
-                  B. Consent to Receive Notices Electronically by Posting on the
-                  Services and Via Email
-                </span>
-              </span>
-            </strong>
-          </span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          You consent to receive any agreements, notices, disclosures and other
-          communications (collectively, "<strong>Notices</strong>") to which the
-          Terms and Conditions refer from us electronically including, without
-          limitation, by e-mail, push notification, mobile notifications, etc.
-          You agree that all Notices that we provide to you electronically
-          satisfy any legal requirement that such communications be in writing.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          To withdraw your consent to receive Notices electronically, you must
-          notify us of your withdrawal of such consent by emailing us at&nbsp;
-          <a href="mailto:customerservice@ilmakiage.com">
-            customerservice@ilmakiage.com
-          </a>
-          , and at AU
-          <a href="mailto:customerservice@ilmakiage.com">
-            customerservice@ilmakiage.com
-          </a>{" "}
-          for users located in Australia, and discontinue your use of the
-          Services. In such an event, all rights granted to you pursuant to the
-          Terms and Conditions, including but not limited to the limited
-          licenses set forth in these Terms and Conditions, shall automatically
-          terminate. Unfortunately, we cannot provide the benefits of the
-          Services to any user who cannot consent to the receipt of Notices
-          electronically.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          Please note that this consent to receive Notices is entirely separate
-          from any election you may make with respect to receipt of the
-          marketing communications. Your options with respect to receipt of
-          marketing communications are set forth in our&nbsp;
-          <a href="https://www.ilmakiage.com/privacy_policy">
-            <span className="s1">Privacy Policy</span>
-          </a>
-          .
-        </span>
-      </p>
-      <p id="consent_to_receive_notices" style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif; font-size: 14px; line-height: 24px;">
-          <span style="margin-bottom: 32px;">
-            <strong>
-              <span style="text-decoration: underline;">
-                <span style="font-size: 14px; line-height: 24px;"></span>
-              </span>
-            </strong>
-            <strong style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px;">
-              <span style="text-decoration: underline;">
-                <span style="line-height: 24px;">C. Special Features,</span>
-              </span>
-            </strong>
-            <strong style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px;">
-              <span style="text-decoration: underline;">
-                <span style="line-height: 24px;"> Functi</span>
-              </span>
-            </strong>
-            <strong style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px;">
-              <span style="text-decoration: underline;">
-                <span style="line-height: 24px;">onality</span>
-              </span>
-            </strong>
-            <strong style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px;">
-              <span style="text-decoration: underline;">
-                <span style="line-height: 24px;"> and Events</span>
-              </span>
-            </strong>
-          </span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          The Services may offer certain special offerings or events (such as
-          contests, sweepstakes or other promotions) which may: (i) be subject
-          to additional terms of use, rules and/or policies in addition to or in
-          lieu of the Terms and Conditions, and (ii) be offered by us or by
-          third parties. If so, we will notify you of this and if you choose to
-          take advantage of these promotions, you agree that your use of those
-          promotions will be subject to such additional or separate terms of
-          use, rules and/or policies.
-        </span>
-      </p>
-      <p style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="text-decoration: underline;">
-              <span style="font-size: 14px; line-height: 24px;">
-                D. Updating These Terms and Conditions
-              </span>
-            </span>
-          </strong>
-          <span style="font-size: 14px; line-height: 24px;">
-            <br />
-          </span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          We reserve the right, at any time in our sole discretion, to modify
-          these Terms and Conditions, from time to time, in which case we will
-          update the “Last Revised” date at the top of these Terms and
-          Conditions.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          If we make changes that are material, we will use reasonable efforts
-          to attempt to notify you, such as by e-mail and/or by placing a
-          prominent notice on the first page of the Sites. However, it is your
-          sole responsibility to review these Terms and Conditions from time to
-          time to view any such changes. The updated Terms and Conditions will
-          be effective as of the time of posting, or such later date as may be
-          specified in the updated Terms and Conditions. Your continued access
-          or use of the Services after the modifications have become effective
-          will be deemed your acceptance of the modified Terms and Conditions.
-          If you object to any such changes, your sole recourse is to cease
-          accessing the Services.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="text-decoration: underline;">
-              <span style="font-size: 14px; line-height: 24px;">
-                E. Termination of License and Your Account
-              </span>
-            </span>
-          </strong>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          If you breach any of the provisions of these Terms and Conditions, all
-          licenses granted by us will terminate automatically. Additionally, we
-          may suspend, disable, or delete your account (or any part of the
-          foregoing) with or without notice, for any or no reason. If we delete
-          your account for any suspected breach of these Terms and Conditions by
-          you, you are prohibited from re-registering under a different name. In
-          the event of account deletion for any reason, we may, but are not
-          obligated to, delete any of your User Content. We shall not be
-          responsible for the failure to delete or the deletion of your User
-          Content. All sections which by their nature should survive the
-          termination of these Terms and Conditions shall continue in full force
-          and effect subsequent to and notwithstanding any termination of these
-          Terms and Conditions by us or you. Termination will not limit any of
-          our other rights or remedies at law or in equity.
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <p id="injunctive_relief" style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="text-decoration: underline;">
-              <span style="font-size: 14px; line-height: 24px;"></span>
-            </span>
-          </strong>
-          <span style="font-size: 14px; line-height: 24px;">
-            <strong style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px;">
-              <span style="text-decoration: underline;">
-                <span style="font-size: 14px; line-height: 24px;">
-                  F. Injunctive Relief
-                </span>
-              </span>
-            </strong>
-          </span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          You agree that a breach of these Terms and Conditions will cause
-          irreparable injury to us for which monetary damages would not be an
-          adequate remedy and we shall be entitled to equitable relief in
-          addition to any remedies it may have hereunder or at law without a
-          bond, other security or proof of damages. To the extent permitted by
-          law, you agree that you will not be permitted to obtain an injunction
-          or other equitable relief of any kind, such as any court or other
-          action that may interfere with or prevent the development or use of
-          any Derived Data.
-        </span>
-      </p>
-      <p id="california_residents" style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="text-decoration: underline;">
-              <span style="font-size: 14px; line-height: 24px;">
-                G. California Residents
-              </span>
-            </span>
-          </strong>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          If you are a California resident, in accordance with Cal. Civ. Code §
-          1789.3, you may report complaints to the Complaint Assistance Unit of
-          the Division of Consumer Services of the California Department of
-          Consumer Affairs by contacting them in writing at 1625 North Market
-          Blvd., Suite N 112 Sacramento, CA 95834, or by telephone at (800)
-          952-5210.
-        </span>
-      </p>
-      <p style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="text-decoration: underline;">
-              <span style="font-size: 14px; line-height: 24px;">
-                H. Export Laws
-              </span>
-            </span>
-          </strong>
-          <span style="font-size: 14px; line-height: 24px;">
-            <br />
-          </span>
-          <span style="font-size: 14px; line-height: 24px;"></span>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          You agree that you will not export or re-export, directly or
-          indirectly, the Services and/or Offerings provided by us hereunder, to
-          any country for which the United States or any other relevant
-          jurisdiction requires any export license or other governmental
-          approval at the time of export without first obtaining such license or
-          approval. In particular, but without limitation, the Site Offerings
-          may not be exported or re-exported (a) into any U.S. embargoed
-          countries or any country that has been designated by the U.S.
-          Government as a “terrorist supporting” country, or (b) to anyone
-          listed on any U.S. Government list of prohibited or restricted
-          parties, including the U.S. Treasury Department's list of Specially
-          Designated Nationals or the U.S. Department of Commerce Denied
-          Person’s List or Entity List. By using the Services, you represent and
-          warrant that you are not located in any such country or on any such
-          list. You are responsible for and hereby agree to comply at your sole
-          expense with all applicable United States export laws and regulations.
-        </span>
-      </p>
-      <p className="p1"></p>
-      <p className="p1">
-        <span style="text-decoration: underline; font-size: small; font-family: arial, helvetica, sans-serif; background-color: #ffffff;">
-          <strong>I. Governing Law and Jurisdiction</strong>
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          These Terms and Conditions are governed by the laws of the State of
-          New York, United States, without regard to conflict of laws rules, and
-          the proper venue for any disputes arising out of or relating to any of
-          the same will be the arbitration venue set forth in{" "}
-          <span className="s1">Section VII</span>, or if arbitration does not
-          apply, then the state and federal courts located in New York, New
-          York, United States.
-        </span>
-      </p>
-      <p className="p1">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          For our exclusive benefit and to the extent possible in the applicable
-          jurisdiction, we retain the right to bring or enforce proceedings as
-          to the substance of the matter in the courts of the country of your
-          residence.
-        </span>
-      </p>
-      <p style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="text-decoration: underline;">
-              <span style="font-size: 14px; line-height: 24px;">
-                J. Miscellaneous
-              </span>
-            </span>
-          </strong>
-          <span style="font-size: 14px; line-height: 24px;">
-            <br />
-          </span>
-        </span>
-      </p>
-      <ol>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            Nothing contained in the Terms and Conditions shall be construed as
-            creating any agency, partnership, or other form of joint enterprise
-            between us.<span className="Apple-converted-space">&nbsp;</span>
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            Our failure to require your performance of any provision hereof
-            shall not affect our full right to require such performance at any
-            time thereafter, nor shall our waiver of a breach of any provision
-            hereof be taken or held to be a waiver of the provision itself.
-            <span className="Apple-converted-space">&nbsp;</span>
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            In the event that any provision of the Terms and Conditions shall be
-            unenforceable or invalid under any applicable law or be so held by
-            any applicable arbitral award or court decision, such
-            unenforceability or invalidity shall not render the Terms and
-            Conditions unenforceable or invalid as a whole but the Terms and
-            Conditions shall be modified, to the extent possible, by the
-            adjudicating entity to most fully reflect the original intent of the
-            parties as reflected in the original provision.
-            <span className="Apple-converted-space">&nbsp;</span>
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            The headings in the Terms and Conditions are for convenience only
-            and shall not be used in their interpretation.
-            <span className="Apple-converted-space">&nbsp;</span>
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            You may not transfer, assign, sublicense, or pledge in any manner
-            whatsoever your account or any of your rights or obligations under
-            these Terms. We may transfer, assign, sublicense, or pledge in any
-            manner whatsoever any of its rights and obligations under these
-            Terms and Conditions to any subsidiary, affiliate, or successor
-            thereof or to any third party whatsoever, without notifying you or
-            receiving your consent.
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            Any and all terms and conditions within these Terms and Conditions
-            that should, by their nature, survive termination of your account,
-            will survive such termination, including: General, Use Restrictions,
-            Limitation of Liability, Indemnification, Intellectual Property,
-            Arbitration and className Action/Jury Waiver, Termination of License
-            and Your Account and Governing Law.
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            We reserve the right, at any time and from time to time, temporarily
-            or permanently, with or without notice, in whole or in part, in
-            accordance with applicable laws, to: (i) stop offering or supporting
-            the Services or any particular Offering or part of the Services;
-            (ii) terminate or suspend your account or license to use the
-            Services or any part of it; (iii) modify or discontinue the
-            Services; (iv) modify or remove any of the information or Content
-            contained in the Services; (v) limit the Services’ availability to
-            any person, Territory, geographic area or jurisdiction we choose;
-            (vi) modify or waive any fees charged in connection with the
-            Services; and (vii) offer opportunities to some or all Customers of
-            the Services. If that happens, we are not required to provide
-            refunds, benefits or other compensation to individuals or Customers
-            in connection with discontinued elements of the Services previously
-            offered or purchased. You agree that we will not be liable to you or
-            to any third party for any modification, suspension or
-            discontinuance of the Services, in whole or in part.
-            <span className="Apple-converted-space">&nbsp;</span>
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            IL MAKIAGE's failure to exercise or enforce any right or provision
-            in these Terms and Conditions shall not be considered a waiver of
-            such right or provisions, unless agreed upon in writing. IL MAKIAGE
-            will not be responsible for any failures to fulfill any obligations
-            due to causes beyond its reasonable control.
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            You and IL MAKIAGE® agree that the United Nations Convention on
-            Contracts for the International Sale of Goods will not apply to the
-            interpretation or construction of these Terms and Conditions.
-            <span className="Apple-converted-space">&nbsp;</span>
-          </span>
-        </li>
-      </ol>
-      <p style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="text-decoration: underline;">
-              <span style="font-size: 14px; line-height: 24px;">
-                K. How to Contact Us
-              </span>
-            </span>
-          </strong>
-        </span>
-      </p>
-      <p style="margin-bottom: 32px;">
-        <span style="font-family: arial, helvetica, sans-serif;">
-          <strong>
-            <span style="text-decoration: underline;">
-              <span style="font-size: 14px; line-height: 24px;"></span>
-            </span>
-          </strong>
-          If you have any questions or comments regarding this Terms and
-          Conditions or regarding the Services, please contact us as follow:
-          <span className="Apple-converted-space">&nbsp;</span>
-        </span>
-      </p>
-      <ul className="ul1">
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            If you reside in the <strong>US</strong> or <strong>Canada</strong>{" "}
-            – please contact us by email at:
-            <span className="s1">
-               
-              <a href="mailto:customerservice@ilmakiage.com">
-                <span className="s2">customerservice@ilmakiage.com</span>
-              </a>
-            </span>
-            .
-          </span>
-        </li>
-        <li className="li1">
-          <span style="font-family: arial, helvetica, sans-serif;">
-            If you reside in <strong>Australia</strong> – please contact us by
-            email at:{" "}
-            <a href="mailto:AUproteam@ilmakiage.com">
-              <span className="s3">AUproteam@ilmakiage.com</span>
-            </a>
-            .
-          </span>
-        </li>
-      </ul>
-    </div>
-  `;
+      the Service will conform to the agreed description, functionality, and
+      performance at the time of purchase or download, including compatibility
+      with your device. We will provide necessary updates, including security
+      updates, as required by EU laws, and you are responsible for installing
+      these updates promptly. Failure to install updates may impair the
+      Service’s performance, and we are not liable for resulting issues. If the
+      Service does not conform to these Terms, you have the right to request
+      defect correction within a reasonable time or, if the issue persists, to
+      receive a price reduction or refund. You agree to cooperate by providing
+      necessary information about your digital environment to resolve issues.
+      Liability for defects is valid for the legally required duration under EU
+      consumer protection laws.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Limitations by Jurisdiction</strong>. Some jurisdictions do not
+      allow the exclusion or limitation of implied warranties or certain
+      damages. In such cases, the disclaimers and limitations in these Terms
+      will apply to the fullest extent permitted by law.
+    </p>
+  </section>
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">LIMITATION OF LIABILITY</h2>
+    <p class="sc-cOFTSb cRFSXz">
+      TO THE FULLEST EXTENT PERMITTED BY LAW, WE, INCLUDING OUR OFFICERS,
+      DIRECTORS, AGENTS, AFFILIATES, EMPLOYEES, REPRESENTATIVES, SUPPLIERS,
+      PARTNERS, ADVERTISERS, AND DATA PROVIDERS, SHALL NOT BE LIABLE FOR ANY
+      INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE
+      DAMAGES, OR FOR ANY LOSS OF PROFITS, REVENUE, BUSINESS, USE, DATA, OR
+      GOODWILL. SUCH EXCLUSIONS APPLY REGARDLESS OF WHETHER THE LIABILITY ARISES
+      FROM CONTRACT, TORT (INCLUDING NEGLIGENCE), EQUITY, STATUTE, OR ANY OTHER
+      LEGAL THEORY, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH
+      DAMAGES. THE TOTAL AGGREGATE LIABILITY OF US TO YOU FOR ALL CLAIMS ARISING
+      UNDER OR RELATED TO THESE TERMS OR YOUR USE OF THE SERVICE SHALL NOT
+      EXCEED THE TOTAL AMOUNT OF FEES YOU HAVE ACTUALLY PAID TO US FOR USE OF
+      THE SERVICE DURING THE TWELVE (12) MONTHS IMMEDIATELY PRECEDING THE EVENT
+      GIVING RISE TO THE CLAIM.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      NOTHING IN THESE TERMS SHALL EXCLUDE OR LIMIT OUR LIABILITY FOR DEATH OR
+      PERSONAL INJURY CAUSED BY NEGLIGENCE, FRAUD OR FRAUDULENT
+      MISREPRESENTATION, OR ANY OTHER LIABILITY THAT CANNOT BE EXCLUDED OR
+      LIMITED UNDER APPLICABLE LAW. THESE LIMITATIONS ARE SUBJECT TO
+      JURISDICTIONAL VARIATIONS, AND SOME JURISDICTIONS MAY NOT ALLOW CERTAIN
+      EXCLUSIONS OR LIMITATIONS OF LIABILITY. IN SUCH CASES, THE EXCLUSIONS AND
+      LIMITATIONS SET OUT IN THESE TERMS SHALL APPLY TO THE FULLEST EXTENT
+      PERMITTED BY LAW.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>CALIFORNIA RELEASE AND WAIVER</strong>
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      IF YOU ARE A RESIDENT OF CALIFORNIA, YOU EXPRESSLY WAIVE THE PROVISIONS OF
+      CALIFORNIA CIVIL CODE SECTION 1542, WHICH PROVIDES THAT:
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      “A GENERAL RELEASE DOES NOT EXTEND TO CLAIMS THAT THE CREDITOR OR
+      RELEASING PARTY DOES NOT KNOW OR SUSPECT TO EXIST IN HIS OR HER FAVOUR AT
+      THE TIME OF EXECUTING THE RELEASE, AND THAT, IF KNOWN BY HIM OR HER, WOULD
+      HAVE MATERIALLY AFFECTED HIS OR HER SETTLEMENT WITH THE DEBTOR OR RELEASED
+      PARTY.”
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      BY ACCEPTING THESE TERMS, YOU ACKNOWLEDGE AND AGREE THAT THIS WAIVER IS A
+      MATERIAL PART OF THE CONSIDERATION FOR YOUR USE OF THE SERVICE. YOU
+      UNDERSTAND AND EXPRESSLY AGREE THAT YOU MAY BE WAIVING RIGHTS WITH RESPECT
+      TO CLAIMS THAT ARE CURRENTLY UNKNOWN, UNANTICIPATED, OR UNSUSPECTED, AND
+      YOU VOLUNTARILY ASSUME THE RISK THAT SUCH CLAIMS MAY EXIST OR MAY ARISE IN
+      THE FUTURE.
+    </p>
+  </section>
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">INDEMNITY</h2>
+    <p class="sc-cOFTSb cRFSXz">
+      To the fullest extent permitted by applicable law, you agree to indemnify,
+      defend, and hold harmless us, including our subsidiaries, affiliates,
+      successors, officers, directors, employees, agents, contractors, partners,
+      licensors, and representatives (collectively, the “<strong
+        >Indemnified Parties</strong
+      >”), from and against any claims, liabilities, damages, losses, costs, and
+      expenses (including reasonable attorneys’ fees) arising out of or related
+      to:
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      a) Your use or misuse of the Service or User-Generated Content;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      b) Your violation of these Terms or any applicable policies;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      c) Your violation of the rights of any third party, including intellectual
+      property rights, privacy rights, or other proprietary rights;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      We reserve the right, at your expense, to assume the exclusive defense and
+      control of any matter subject to indemnification under these Terms. You
+      agree to cooperate fully with our defense of such claims. You may not
+      settle any claim without our prior written consent, and we will make
+      reasonable efforts to notify you of any claim, action, or proceeding as
+      soon as we become aware of it.
+    </p>
+  </section>
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">THIRD-PARTY SERVICES</h2>
+    <p class="sc-cOFTSb cRFSXz">
+      The Service may include links to third-party websites, applications,
+      advertisements, or other resources ("<strong>Third-Party Services</strong
+      >"). These Third-Party Services are provided for your convenience, but we
+      do not control, endorse, review, or assume any responsibility for their
+      content, accuracy, or suitability. Your access to and use of any
+      Third-Party Services is at your own risk and subject to the terms and
+      privacy policies of the respective third parties.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      We disclaim all liability for any damages, losses, or issues arising from
+      your use of or reliance on Third-Party Services, including but not limited
+      to:
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      a) Any transactions, payments, or delivery of goods or services made
+      between you and the third party;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      b) Any inaccuracies or inappropriate material in the content, products, or
+      advertisements offered by the third party;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      c) Any sharing of links by you or others that direct to Third-Party
+      Services.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      You further acknowledge that our Service may include advertisements,
+      promotions, or sponsored content, which may appear in various formats and
+      locations. We may not always explicitly identify such content as
+      advertising. The manner and extent of advertisements are subject to change
+      without notice.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      You are solely responsible for assessing whether accessing or engaging
+      with Third-Party Services is appropriate. This includes taking steps to
+      protect your personal data and complying with any applicable third-party
+      agreements.
+    </p>
+  </section>
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">YOUR PRIVACY</h2>
+    <p class="sc-cOFTSb cRFSXz">
+      Your personal data is processed by us in connection with your use of the
+      Service in compliance with our Privacy Policy. This policy provides
+      detailed information on how we collect, handle, store, and disclose your
+      data and your rights under data protection laws.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      Information collected through cookies and similar technologies is
+      addressed in our Cookie Policy, which explains their purpose, how third
+      parties may use them, and how you can manage your cookie preferences.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      The Privacy and Cookie Policies are incorporated by reference into these
+      Terms. Should any inconsistencies arise between these Terms and the
+      Privacy or Cookie Policy, the provisions of these Terms shall govern.
+    </p>
+  </section>
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">COMMUNICATION AND CUSTOMER SUPPORT</h2>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Support</strong>. If you have any questions, or concerns, or
+      require assistance regarding our Service, you may reach out to us using
+      the contact information provided in the “<strong>INTRODUCTION</strong>”
+      section of these Terms. While we are not legally obligated to provide
+      customer support, we may, at our sole discretion, choose to offer support
+      services to users when necessary. Such support, if provided, is offered as
+      a courtesy and does not create any ongoing obligation or entitlement to
+      future support. We will make reasonable efforts to respond promptly to
+      your inquiries; however, we do not guarantee a specific response time.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Feedback</strong>. We welcome your feedback. You will be prompted
+      to submit comments, suggestions, ideas, feedback, ratings, materials, or
+      other information ("<strong>Feedback</strong>") to us through the App. You
+      hereby agree that all Feedback that you disclose or submit to us through
+      the App is voluntary, non-confidential, and becomes and remains our
+      property. Your disclosure or submission of Feedback to us constitutes an
+      assignment to us of all rights, title, and interest in and to the
+      Feedback. We may disclose or use any Feedback as we see fit without any
+      compensation to you.
+    </p>
+  </section>
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">REPORTING COPYRIGHT INFRINGEMENT</h2>
+    <p class="sc-cOFTSb cRFSXz">
+      We are committed to responding to any alleged copyright violations, should
+      they occur.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      If you believe that your content has been copied in a way that constitutes
+      copyright infringement, you or your agent may submit a Digital Millennium
+      Copyright Act («<strong>DMCA</strong>») notification to us. If we find
+      that there has been an alleged or actual infringement, we will take
+      appropriate action under the DMCA and other intellectual property laws.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      Alternatively, you can send the notice to us via
+      <a
+        href="https://account.fitme.health/contact-form?source=terms_of_use&amp;uuid="
+        >https://account.fitme.health/contact-form</a
+      >
+      or contact us by mail or post.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      Such notice must be in writing and contain the following information:
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      a) your address, telephone number, and e-mail address;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      b) a description of the copyrighted work or other intellectual property
+      that you claim has been infringed (including infringing and source URL);
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      c) information sufficient to permit us to locate the alleged infringing
+      work. If possible, please provide links to the exact location so that we
+      may quickly and more easily locate the material or link;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      d) include the following statement: «I have a good faith belief that use
+      of the copyrighted materials described above as allegedly infringing is
+      not authorized by the copyright owner, its agent, or the law»;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      e) include the following statement: «I swear, under penalty of perjury,
+      that the information in the notification is accurate and that I am the
+      copyright owner or am authorized to act on behalf of the owner of an
+      exclusive right that is allegedly infringed»;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      f) an electronic or physical signature of the person authorized to act on
+      behalf of the owner of the copyright.
+    </p>
+  </section>
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">TERMINATION</h2>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Term</strong>. These Terms take effect from the date you first
+      access or use our Service and will remain in force until terminated in
+      accordance with this Section.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Termination by Us</strong>. We may terminate these Terms, suspend
+      or restrict your access to the Service, or delete your Account immediately
+      upon providing notice if:
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      a) You have used the Service in violation of these Terms;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      b) Unauthorized access or activity is detected on your Account or related
+      to your use of the Service;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      c) We decide, at our sole discretion, to withdraw the Service (in whole or
+      in part);
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      d) We are required to do so due to a legal or regulatory obligation;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      e) You request the deletion of your Account or personal data; or
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      f) For any other lawful reason, provided we have given you reasonable
+      advance notice via email, or any electronic communication within the
+      Service.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      We reserve the right to block your access to the Service to prevent
+      re-registration or unauthorized access if your account has been suspended,
+      terminated, or deleted
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Termination by You</strong>. You may terminate these Terms at any
+      time by deleting your Account using the functionality provided within the
+      App or, where such functionality is not available, by contacting us via
+      our contact form at
+      <a
+        href="https://account.fitme.health/contact-form?source=terms_of_use&amp;uuid="
+        >https://account.fitme.health/contact-form</a
+      >. If you have an active subscription, please refer to Section 6 of these
+      Terms for detailed instructions on how to cancel your subscription
+      properly to avoid future billing, as requesting Account deletion alone
+      will not cancel your subscription unless you specifically request
+      cancellation of your subscription at the same time. If you have an active
+      subscription at the time of Account deletion and have not cancelled it,
+      you will retain access to Content and User-Generated Content associated
+      with your subscription until the end of the current paid subscription
+      period, unless you expressly instruct us otherwise.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Effect of Termination</strong>. Upon termination of these Terms:
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      i. All licenses granted to you under these Terms will immediately
+      terminate;
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      ii. Any User-Generated Content you have submitted may no longer be
+      accessible, and we are not responsible for any deletion or loss of such
+      User-Generated Content.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      Upon termination of these Terms, all provisions that by their nature are
+      intended to survive termination shall remain in effect. This includes, but
+      is not limited to, provisions relating to Sections 8, 9, 10, 11, 12, 14,
+      18, 20 and any other provisions necessary to enforce rights or obligations
+      that accrued prior to termination.
+    </p>
+  </section>
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">DISPUTE RESOLUTION BY BINDING ARBITRATION</h2>
+    <p class="sc-cOFTSb cRFSXz">
+      THIS SECTION OUTLINES YOUR RIGHTS AND OBLIGATIONS REGARDING DISPUTE
+      RESOLUTION. PLEASE READ IT CAREFULLY, AS IT INCLUDES MANDATORY BINDING
+      ARBITRATION. THIS SECTION SHALL BE REFERRED TO AS THE "ARBITRATION
+      AGREEMENT"
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong
+        >For Users in the European Union, United Kingdom, Liechtenstein,
+        Switzerland, Norway, or Iceland</strong
+      >. If you reside in the European Union, United Kingdom, Liechtenstein,
+      Switzerland, Norway, or Iceland, any Disputes arising out of or relating
+      to these Terms, including their interpretation, enforcement, or validity,
+      shall be governed by and construed in accordance with the laws of your
+      country of residence. The courts of your usual place of residence shall
+      have exclusive jurisdiction over any Disputes (as defined herein) that are
+      not resolved through the arbitration agreement outlined in these Terms.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>For Users in the United States or Other Jurisdictions</strong>. If
+      you reside in the United States or any other jurisdiction not listed
+      above, any Disputes arising out of or relating to these Terms shall be
+      resolved exclusively through the arbitration agreement provided herein,
+      and the governing law shall be determined as specified in the arbitration
+      clause.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      By accessing or using our Service, you agree that any disputes, claims, or
+      controversies arising out of or relating to these Terms, the breach,
+      termination, enforcement, interpretation, or validity thereof, or your use
+      of the Service (collectively, "<strong>Disputes</strong>"), will be
+      resolved solely by binding, individual arbitration (i.e. not in a class,
+      representative or consolidated action or proceeding), unless expressly
+      provided otherwise in this Section or to the extent that the applicable
+      law prohibits the exclusive use of arbitration for dispute resolution.
+      This includes any claims against our affiliates, subsidiaries, employees,
+      officers, agents, or licensors.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      Notwithstanding the above, the following exceptions apply:
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Small Claims Court</strong>: Either party retains the right to
+      bring an individual claim in small claims court for disputes or claims
+      within the jurisdictional limits of such a court.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Injunctive or Equitable Relief</strong>: Either party may seek
+      injunctive or equitable relief in a court of competent jurisdiction to
+      protect or enforce intellectual property rights, including copyrights,
+      trademarks, trade secrets, patents, or similar proprietary rights.
+    </p>
+    <h3 class="sc-dPyBCJ kNoyfg">
+      AGREEMENT TO WAIVE JURY TRIAL AND CLASS ACTION
+    </h3>
+    <p class="sc-cOFTSb cRFSXz">
+      BY ACCEPTING THESE TERMS, YOU EXPRESSLY AGREE, AND WE AGREE, TO WAIVE THE
+      RIGHT TO A TRIAL BY JURY AND THE RIGHT TO PARTICIPATE IN ANY CLASS ACTION,
+      COLLECTIVE, OR REPRESENTATIVE PROCEEDING. THE WAIVER OF CLASS ACTIONS AND
+      COLLECTIVE RELIEF IS A FUNDAMENTAL COMPONENT OF THIS ARBITRATION
+      AGREEMENT. ALL CLAIMS MUST BE BROUGHT ON AN INDIVIDUAL BASIS. YOU
+      ACKNOWLEDGE AND AGREE THAT THIS ARBITRATION AGREEMENT LIMITS YOUR RIGHT TO
+      APPEAL AND OTHER RESOLUTION PROCESSES.
+    </p>
+    <h3 class="sc-dPyBCJ kNoyfg">Arbitration Procedure and Applicable Rules</h3>
+    <p class="sc-cOFTSb cRFSXz">
+      You further agree that all disputes between you and us will be resolved
+      exclusively through binding arbitration before a single, neutral
+      arbitrator, administered by the American Arbitration Association
+      (“<strong>AAA</strong>”) under its Commercial Arbitration Rules and the
+      Supplementary Procedures for Consumer-Related Disputes (the “<strong
+        >AAA Rules</strong
+      >”) then in effect, except as modified herein.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Place of Arbitration</strong>. The arbitration proceedings shall
+      be held in Delaware, United States unless the parties agree to an
+      alternative location.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Governing Law</strong>. The arbitration shall be conducted in
+      accordance with the laws of the State of Delaware, consistent with the
+      Federal Arbitration Act, including any applicable statutes of limitations
+      and recognized legal privileges.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Language of Arbitration</strong>. The arbitration will be
+      conducted in the English language.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Commencing Arbitration</strong>. To initiate arbitration, you must
+      adhere to the procedures outlined by the AAA Rules, which are accessible
+      on this <a href="https://www.adr.org/Support">page</a>.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Filing Deadline</strong>. By accessing or using our Service, you
+      agree that any Dispute (as defined herein) must be initiated by filing a
+      demand for arbitration or commencing an individual legal action within one
+      (1) year from the date the party asserting the Dispute first becomes
+      aware, or reasonably should have become aware, of the act, omission, or
+      event giving rise to the Dispute. Except where prohibited by applicable
+      law, any Dispute not initiated within this one-year period will be
+      permanently barred, and no remedy shall be available for such untimely
+      Disputes.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Selection of the Arbitrator</strong>. The arbitrator responsible
+      for adjudicating the dispute will be selected in accordance with the
+      procedures specified in the AAA Rules.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Hearing Requirements</strong>. For claims of $10,000 or less, the
+      arbitration will generally proceed on the basis of written submissions
+      from the parties, unless a hearing is requested by you or deemed necessary
+      by the arbitrator. For claims exceeding $10,000, the need for a hearing
+      will be determined by the AAA Rules. The arbitrator shall have the
+      discretion to oversee and regulate the exchange of information between the
+      parties. No party or representative shall engage in ex-parte
+      communications with the arbitrator. All communications must be made in the
+      presence of, or with notice to, all parties involved in the arbitration.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Judgment and Finality of Award</strong>. The arbitrator shall
+      deliver the award within the timeline prescribed by the AAA Rules. The
+      award may be enforced in any court with appropriate jurisdiction. The
+      arbitration award shall be final and binding, and there shall be no
+      appeal. Any damages awarded by the arbitrator must conform to the
+      limitations specified in the applicable “<strong
+        >Limitation of Liability</strong
+      >” section, including restrictions on the types and amounts of damages
+      recoverable.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Remedies</strong>. The arbitrator shall have no authority to award
+      punitive or other damages not measured by the prevailing party's actual
+      damages, except as may be required by statute.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Individual Relief Only</strong>. The arbitrator may award relief
+      solely in favor of the individual party seeking relief and only to the
+      extent necessary to resolve that party's individual claim. The arbitrator
+      shall have no authority to award relief to or against anyone who is not a
+      party to the arbitration. Furthermore, the arbitrator may not consolidate
+      multiple parties' claims or preside over any form of class, joint, or
+      representative proceeding.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Fees</strong>. Your obligation to cover any filing,
+      administrative, or arbitrator fees shall be governed exclusively by the
+      fee schedule outlined in the AAA Rules.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Assessment of Fees</strong>. The prevailing party shall be
+      entitled to an award of reasonable attorney fees. The allocation of forum
+      fees and expenses shall be determined by the arbitrator.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Confidentiality</strong>. Except as may be required by law,
+      neither a party nor an arbitrator may disclose the existence, content, or
+      results of any arbitration hereunder without the prior written consent of
+      both parties.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Opt-Out Option</strong>. You may opt out of this arbitration
+      agreement within 30 days of accepting these Terms by submitting your
+      notice via our online contact form at
+      <a
+        href="https://account.fitme.health/contact-form?source=terms_of_use&amp;uuid="
+        >https://account.fitme.health/contact-form</a
+      >, stating your intention to opt out. Opting out will not affect other
+      provisions of these Terms.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Severability</strong>. If any portion of this arbitration
+      agreement is deemed invalid or unenforceable, that portion shall be
+      severed, and the remaining provisions shall remain in full force and
+      effect. However, if the waiver of class actions and collective relief is
+      found unenforceable, the arbitration shall proceed on an individual basis
+      only to the fullest extent permitted by law.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Survival</strong>. Except stated otherwise, this arbitration
+      agreement shall survive termination of these Terms.
+    </p>
+  </section>
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">
+      WITHDRAWAL AND ALTERNATIVE DISPUTE RESOLUTION
+    </h2>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Your Right to Withdraw</strong>. If you are a consumer based in
+      the European Union, the United Kingdom, Liechtenstein, Switzerland,
+      Norway, or Iceland, you have a statutory right to withdraw from contracts
+      for online purchases of services within 14 days of entering into the
+      contract without providing a reason, unless specific conditions apply as
+      detailed below.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Exceptions to the Right of Withdrawal</strong>. When purchasing
+      digital content online, including single-use items, you agree that the
+      content will be available to you immediately. By consenting to immediate
+      access, you acknowledge that you waive your right of withdrawal and are
+      not eligible for a refund. When you purchase a subscription to access our
+      Service, which is provided on a continuous basis, your access to the
+      Service begins immediately upon completing the purchase. By consenting to
+      the immediate commencement of your Subscription, you acknowledge and agree
+      to waive your statutory right of withdrawal.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Exercising Your Right of Withdrawal</strong>. To exercise your
+      right of withdrawal (where applicable), you must send an unequivocal
+      statement of your intention to withdraw from the contract (i.e., these
+      Terms). This can be done by:
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      Sending a written notice by post to one of the following addresses:
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      Extramile Limited, Prodromou, 75, ONEWORLD PARKVIEW HOUSE, Floor 4, 2063,
+      Nicosia, Cyprus
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      Fulfilling Inc., 1007 N Orange St., 4th Floor, Ste 1382, Wilmington, New
+      Castle, DE 19801, USA
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      Submitting your notice via our online contact form at
+      <a
+        href="https://account.fitme.health/contact-form?source=terms_of_use&amp;uuid="
+        >https://account.fitme.health/contact-form</a
+      >.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      Your withdrawal notice must be sent no later than 24 hours before the
+      expiration of the withdrawal period. Unless otherwise waived, the
+      withdrawal period expires 14 days from the day you entered into the
+      contract. While not mandatory, you may use the following template to
+      exercise your right of withdrawal:
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      I/we* hereby withdraw from the contract concluded by me/us* for the
+      purchase of the following goods*/the provision of the following service*:
+    </p>
+    <p class="sc-cOFTSb cRFSXz">Ordered on*/received on*:</p>
+    <p class="sc-cOFTSb cRFSXz">Name of the consumer(s):</p>
+    <p class="sc-cOFTSb cRFSXz">Address of the consumer(s):</p>
+    <p class="sc-cOFTSb cRFSXz">Date:</p>
+    <p class="sc-cOFTSb cRFSXz">*Delete as applicable.</p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Refunds</strong>. If you exercise your right of withdrawal, we
+      will deduct a proportionate amount corresponding to the Service you have
+      used up to the time of notification. Refunds will be processed using the
+      same payment method used for the original transaction, unless agreed
+      otherwise.
+    </p>
+    <h3 class="sc-dPyBCJ kNoyfg">Alternative Dispute Resolution</h3>
+    <p class="sc-cOFTSb cRFSXz">
+      If you have a complaint, please contact us at
+      <a
+        href="https://account.fitme.health/contact-form?source=terms_of_use&amp;uuid="
+        >https://account.fitme.health/contact-form</a
+      >. If we do not resolve your complaint to your satisfaction, you may (but
+      are not obligated to) use the out-of-court settlement procedures for
+      consumer disputes. List of the dispute bodies is available
+      <a
+        href="https://consumer-redress.ec.europa.eu/dispute-resolution-bodies_en"
+        >here</a
+      >. The Company does not participate in any alternative dispute resolution
+      scheme, except as required by law.
+    </p>
+  </section>
+  <section>
+    <h2 class="sc-jOrMOR iLbBvW">MISCELLANEOUS</h2>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Governing Law</strong>. These Terms shall be governed by and
+      construed in accordance with the laws of the State of Delaware, U.S.
+      without regard to its conflict of laws principles, and excluding the 1980
+      UN Convention on Contracts for the International Sale of Goods.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Entire Agreement</strong>. These Terms constitute the entire
+      agreement between you and us regarding your access to and use of the
+      Service and supersede all prior agreements, understandings, or
+      representations, whether written or oral.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>No Waiver</strong>. Failure or delay by us to exercise any right
+      or enforce any provision under these Terms shall not operate as a waiver
+      of such right or provision. A waiver will only be effective if explicitly
+      stated in writing and signed by an authorized representative.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Severability</strong>. If any provision of these Terms is found to
+      be invalid or unenforceable by a court of competent jurisdiction, that
+      provision shall be modified or severed to the minimum extent necessary to
+      comply with the law, without affecting the enforceability of the remaining
+      provisions.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Assignment</strong>. You may not assign or transfer your rights or
+      obligations under these Terms without our prior written consent. We may
+      assign or transfer our rights and obligations under these Terms at any
+      time and without prior notice, including via novation. Posting an updated
+      version of these Terms identifying the new party shall serve as valid
+      notice of such transfer. These Terms are binding and will inure to the
+      benefit of both parties and their respective successors, assigns, and
+      legal representatives.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Electronic Communications</strong>. By interacting with the
+      Service or communicating with us electronically, you consent to receive
+      communications electronically and agree that such communications,
+      including notices, disclosures, and agreements, have the same legal effect
+      as those provided in writing. You acknowledge that your electronic
+      submissions constitute a legally binding agreement.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Force Majeure</strong>. We shall not be held liable for any delay
+      or failure to perform our obligations under these Terms due to causes
+      beyond our reasonable control, including but not limited to natural
+      disasters, governmental actions, labor disputes, or disruptions in
+      telecommunications.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Third-Party Rights</strong>. Except as expressly stated herein,
+      these Terms are intended solely for the benefit of the parties and do not
+      create any rights for third-party beneficiaries.
+    </p>
+    <p class="sc-cOFTSb cRFSXz">
+      <strong>Headings and Construction</strong>. Headings in these Terms are
+      provided for convenience only and shall not affect their interpretation.
+    </p>
+  </section>
+</article>
+
+   `;
 
   return <div dangerouslySetInnerHTML={{ __html: html }} />;
 };

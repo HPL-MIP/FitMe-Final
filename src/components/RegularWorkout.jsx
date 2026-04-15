@@ -38,22 +38,23 @@ const RegularWorkout = ({ setScreen, setStage, gender }) => {
         </motion.div>
 
         <motion.div
-          className="w-12/12 mx-auto mt-20"
+          className="w-12/12 mx-auto mt-8"
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ type: "spring", stiffness: 120, damping: 14 }}
         >
-          <div className="w-11/12 mx-auto my-25 landscape:my-10">
+          <div className="w-11/12 mx-auto my-0 landscape:my-10">
             <p className="fontBold text-[70px]">
               <b>This isn't a regular workout. It's meditation in motion</b>
             </p>
 
-            <p className="text-[#7E7F80] landscape:mt-3 mt-10 fontRegular text-[49px]">
+            <p className="text-[#7E7F80] landscape:mt-3 mt-5 fontRegular text-[49px]">
               Tai Chi is an ancient Chinese practice, proven by thousands of
-              years and perfectly suited for men after 60 to:
+              years and perfectly suited for{" "}
+              {gender === "male" ? "men" : "women"} after 40 to:
             </p>
             <br />
-            <ul className="text-[50px] mt-10 landscape:mt-0 list-disc list-inside text-[#7E7F80] fontSemiBold">
+            <ul className="text-[50px] mt-0 landscape:mt-0 list-disc list-inside text-[#7E7F80] fontSemiBold">
               {[
                 "Activate weight loss processes",
                 "Gently stretch and restore the body",

@@ -97,9 +97,35 @@ const Quiz = ({
 
   const handleSelect = (id) => {
     if (isMultiple) {
-      const updatedIds = selectedIds.includes(id)
-        ? selectedIds.filter((x) => x !== id)
-        : [...selectedIds, id];
+      const isNone = id === "None";
+
+      // stage 8 + stage 9 (both use "None of the above")
+      const isNoneExclusive =
+        currentQuiz.id === "problem_areas" ||
+        currentQuiz.id === "struggle_to_follow";
+
+      let updatedIds = [...selectedIds];
+
+      if (isNoneExclusive) {
+        if (isNone) {
+          // 👉 select only None
+          updatedIds = ["None"];
+        } else {
+          // 👉 remove None if selecting other options
+          updatedIds = updatedIds.filter((x) => x !== "None");
+
+          if (updatedIds.includes(id)) {
+            updatedIds = updatedIds.filter((x) => x !== id);
+          } else {
+            updatedIds.push(id);
+          }
+        }
+      } else {
+        // normal multi-select
+        updatedIds = updatedIds.includes(id)
+          ? updatedIds.filter((x) => x !== id)
+          : [...updatedIds, id];
+      }
 
       setSelectedIds(updatedIds);
       return;
@@ -164,7 +190,24 @@ const Quiz = ({
           animate={{ y: 0, opacity: 1 }}
           transition={{ type: "spring", stiffness: 120, damping: 14 }}
         >
-          <h6 className="text-[70px] mt-5 font-bold">{currentQuiz.question}</h6>
+          <h6 className="text-[70px] fontBold">{currentQuiz.question}</h6>
+          {stage === 8 && (
+            <motion.div
+              className="w-12/12 mx-auto my-5 text-center mb-12 fontRegular  text-[#7E7F80] text-[50px] leading-15"
+              initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{
+                type: "spring",
+                stiffness: 120,
+                damping: 14,
+              }}
+            >
+              <h6>
+                We’ll modify exercises to protect injured areas while restore
+                their strength
+              </h6>
+            </motion.div>
+          )}
         </motion.div>
 
         <div
@@ -191,7 +234,10 @@ const Quiz = ({
           return (
             <div
               className="absolute left-1/2 -translate-x-1/2 w-10/12 p-10 rounded-3xl flex gap-6 items-start z-10"
-              style={{ backgroundColor: "#E2F1D7", bottom: stage === 10 ? "600px" : "460px" }}
+              style={{
+                backgroundColor: "#E2F1D7",
+                bottom: stage === 10 ? "600px" : "460px",
+              }}
             >
               <div className="text-[60px]">♡</div>
               <div className="text-left" style={{ color: "#464646" }}>

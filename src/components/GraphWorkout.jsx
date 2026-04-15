@@ -33,10 +33,10 @@ const GraphWorkout = ({ setScreen, setStage, gender }) => {
           transition={{ type: "spring", stiffness: 120, damping: 14 }}
         >
           <h1
-            className="font-bold text-center text-[#1f2933] mt-0 mb-[80px]"
+            className="font-bold text-center text-[#1f2933] my-0"
             style={{ fontSize: "72px", lineHeight: "90px" }}
           >
-            Pushing yourself to the limites is not required!
+            Pushing yourself to the limits is not required!
           </h1>
         </motion.div>
 
@@ -49,11 +49,12 @@ const GraphWorkout = ({ setScreen, setStage, gender }) => {
         >
           <img src={chartWorkout} alt="workout info" className="w-full block" />
           <p className="chartTxt">Coristol</p>
+          <p className="chartTxtEnergy">Energy level</p>
         </motion.div>
 
         {/* NOW / 6 MONTHS Labels */}
         <motion.div
-          className="w-full flex justify-between px-11 mb-[40px] text-[#A4A3A6] text-[40px] fontSemiBold"
+          className="w-full flex justify-between px-11 mb-[10px] text-[#A4A3A6] text-[45px] fontSemiBold"
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{
@@ -69,7 +70,7 @@ const GraphWorkout = ({ setScreen, setStage, gender }) => {
 
         {/* Footnote */}
         <motion.p
-          className="mt-0 mb-[60px] text-center text-[40px] text-[#A4A3A6] fontSemiBold"
+          className="mt-0 mb-[40px] text-center text-[38px] text-[#A4A3A6] fontRegular"
           initial={{ x: -100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{
@@ -84,7 +85,7 @@ const GraphWorkout = ({ setScreen, setStage, gender }) => {
 
         {/* Body Text */}
         <motion.p
-          className="text-center mt-0 text-[55px] text-[#7E7F80] fontSemiBold"
+          className="text-center mt-0 text-[50px] text-[#7E7F80] fontRegular"
           initial={{ y: 100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{

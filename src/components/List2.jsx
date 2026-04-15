@@ -1,4 +1,4 @@
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 
 import checkIcon from "../assets/img/CHECK.webp";
 
@@ -13,12 +13,13 @@ const List2 = ({
   className = {},
 }) => {
   const textFirst = stage === 7;
+
   return (
     <div className={`flex w-full ${className.wrapper || ""}`}>
       <div
-        className={`btnContainer flex flex-col  items-center ${
-          modelImage ? "w-[50%]" : "w-full mt-20"
-        } ${className.btnContainer || "gap-20"}`}
+        className={`btnContainer flex flex-col items-center ${
+          modelImage ? "w-[50%]" : "w-full"
+        } ${className.btnContainer || "gap-20 mt-0"}`}
       >
         {choices.map((choice, index) => {
           const active = isMultiple
@@ -27,10 +28,10 @@ const List2 = ({
 
           return (
             <motion.button
-              key={`${choice.id}-${selectedId}`} // 👈 re-animate when selection changes
+              key={`${choice.id}-${selectedId}`}
               onClick={() => handleSelect(choice.id)}
               className={`btn w-11/12 flex justify-between items-center cursor-pointer overflow-hidden ${
-                active ? "border-10 border-[#4DB8C4] bg-[#DAE7EE]" : "bg-white"
+                active ? "border-7 border-[#4DB8C4] bg-[#DAE7EE]" : "bg-white"
               } ${className.btn || "h-[280px] pl-[50px]"}`}
               initial={{ y: 100, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
@@ -39,11 +40,11 @@ const List2 = ({
                 type: "spring",
                 stiffness: 120,
                 damping: 14,
-                delay: index * 0.08, // 👈 stagger per item
+                delay: index * 0.08, // stagger
               }}
             >
               <div
-                className={`flex items-center w-full gap-4 text-left ${
+                className={`fontSemiBold text-[#252525] flex items-center w-full gap-12 text-left ${
                   className.textContainer || ""
                 }`}
               >

@@ -78,7 +78,7 @@ const Taichi = ({ onSelectAge, setShowModal, setModalType }) => {
         <img src={selectAgeTxt} alt="selectAgeTxt" className="w-full" />
       </motion.div>
 
-      <ul className="grid grid-cols-2 gap-4 w-10/12 mx-auto my-0">
+      <ul className="grid grid-cols-2  w-11/12 mx-auto my-0">
         {taichiAge.map((item, index) => (
           <motion.li
             key={item.id}
@@ -179,7 +179,7 @@ const Taichi = ({ onSelectAge, setShowModal, setModalType }) => {
               Privacy Policy
             </button>
             <br />
-            2026 © All rights reserved
+            2026 © All rights reserved.
           </p>
         </motion.div>
       </div>

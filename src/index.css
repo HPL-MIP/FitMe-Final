@@ -87,7 +87,7 @@ body {
   width: 20vmin;
 }
 .btn {
-  border-radius: 50px;
+  border-radius: 45px;
   font-size: 50px;
   /* padding: 0px 0 0 50px; */
 }
@@ -104,11 +104,18 @@ body {
   position: absolute;
   top: 13%;
   left: 5%;
-  font-size: 55px;
-  color: #707070;
+  font-size: 45px;
+  color: #999999;
   font-family: OpenSans-SemiBold;
 }
-
+.chartTxtEnergy {
+  position: absolute;
+  bottom: 7%;
+  left: 5%;
+  font-size: 45px;
+  color: #4db8c4;
+  font-family: OpenSans-SemiBold;
+}
 @media screen and (orientation: landscape) {
   .gotitBtn {
     padding-bottom: 40vh;

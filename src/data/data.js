@@ -100,6 +100,7 @@ export const taichiAge = [
 // QUIZ
 
 export const quiz = [
+  // 1
   {
     id: "gender",
     question: "Choose your gender",
@@ -109,10 +110,11 @@ export const quiz = [
     ],
     layout: "list1",
     className: {
-      btn: "h-[275px] pl-[50px]",
+      btn: "h-[285px] pl-[50px]",
+      btnContainer: "gap-8",
     },
   },
-
+  // 2
   {
     id: "body_type",
     question: "Choose your body type",
@@ -129,8 +131,11 @@ export const quiz = [
       ],
     },
     layout: "list1",
+    className: {
+      btnContainer: "gap-8",
+    },
   },
-
+  // 3
   {
     id: "goal",
     question: "Choose your goal",
@@ -146,27 +151,33 @@ export const quiz = [
     },
     layout: "list1",
     className: {
-      btn: "h-[215px] pl-[50px]",
+      btn: "h-[220px] pl-[50px]",
+      btnContainer: "gap-8",
+      modelImage: "w-[90%]",
     },
   },
-
+  // 4
   {
     id: "body_result",
     question: "Choose the body you want",
     choicesByGender: {
       male: [
-        { id: "few", text: "A few sizes smaller", img: fewImgMale },
+        { id: "few", text: "A few sizes \n smaller", img: fewImgMale },
         { id: "fit", text: "Fit", img: fitImgMale },
         { id: "athletic", text: "Athletic", img: athleticImgMale },
       ],
       female: [
-        { id: "few", text: "A few sizes smaller", img: fewImgFemale },
+        { id: "few", text: "A few sizes \n smaller", img: fewImgFemale },
         { id: "fit", text: "Fit", img: fitImgFemale },
         { id: "athletic", text: "Athletic", img: athleticImgFemale },
       ],
     },
     layout: "list1",
+    className: {
+      btnContainer: "gap-8",
+    },
   },
+  // 5
   {
     id: "problem_areas",
     question: "Select problem areas",
@@ -188,8 +199,10 @@ export const quiz = [
     layout: "list2",
     className: {
       btn: "pr-[70px] pl-[50px]",
+      btnContainer: "gap-8",
     },
   },
+  // 6
   {
     id: "best_shape",
     question: "How long ago were you in the best shape of your life?",
@@ -286,8 +299,10 @@ export const quiz = [
     className: {
       wrapper: "flex-row-reverse",
       btn: "h-[170px] pl-[50px]",
+      btnContainer: "gap-8 mt-15",
     },
   },
+  // 7
   {
     id: "weight_change",
     question: "How does your weight typically change?",
@@ -298,9 +313,11 @@ export const quiz = [
     ],
     layout: "list1",
     className: {
-      btnContainer: "gap-10",
+      btnContainer: "gap-8 mt-0",
+      btn: "h-[235px] pl-[50px]",
     },
   },
+  // 8
   {
     id: "problem_areas",
     question: "Are any of these activities part of you life?",
@@ -343,13 +360,14 @@ export const quiz = [
     className: {
       layoutContainer: "overflow-y-auto scroll-smooth",
       wrapper: "flex-row-reverse",
-      btn: "h-[280px] pr-[70px] pl-[50px]",
+      btn: "h-[220px] pr-[10px] pl-[65px]",
       btnContainer: "gap-8",
     },
   },
+  // 9
   {
     id: "struggle_to_follow",
-    question: "Do you struggle with any of the following",
+    question: "Do you struggle with any of the following?",
     option: "multiple",
     choicesByGender: {
       male: [
@@ -366,7 +384,7 @@ export const quiz = [
           text: "Ankle",
           img: ankleMale,
         },
-        { id: "None", text: "None of the above", img: noneAboveFemale },
+        { id: "None", text: "None of the above", img: noneAboveMale },
       ],
       female: [
         { id: "Shoulders", text: "Shoulders", img: shoulderFemale },
@@ -389,11 +407,12 @@ export const quiz = [
     className: {
       layoutContainer: "overflow-y-auto scroll-smooth",
       wrapper: "flex-row-reverse",
-      btn: "h-[280px] pr-[70px] pl-[50px]",
+      btn: "h-[265px] pr-[10px] pl-[50px]",
       btnContainer: "gap-8",
       textContainer: "",
     },
   },
+  // 10
   {
     id: "preferred_level",
     question: "Choose your preferred level of exercises",
@@ -411,6 +430,7 @@ export const quiz = [
       btn: "h-[250px] pl-[50px]",
     },
   },
+  // 11
   {
     id: "How_often",
     question: "How often have you trained in the last 3 months?",
@@ -490,10 +510,11 @@ export const quiz = [
     },
     className: {
       wrapper: "flex-row-reverse",
-      btn: "h-[170px] pl-[25px]",
-      btnContainer: "gap-10",
+      btn: "h-[170px] pl-[50px] w-[110%]",
+      btnContainer: "gap-8 mx-8",
     },
   },
+  // 12
   {
     id: "How_long",
     question: "How long are you ready to spend on workouts?",
@@ -511,11 +532,12 @@ export const quiz = [
       btn: "h-[250px] pl-[50px]",
     },
   },
+  // 13
   {
-    id: "How_long",
+    id: "best_time ",
     question: "When is the best time for you to start a workout?",
     choices: [
-      { id: "specific preference ", text: "Not specific preference" },
+      { id: "specific preference ", text: "No specific preference" },
       { id: "morning", text: "In the morning" },
       { id: "afternoon", text: "In the afternoon" },
       { id: " evening", text: "In the evening" },
@@ -525,7 +547,7 @@ export const quiz = [
     className: {
       layoutContainer: "overflow-y-auto scroll-smooth",
       wrapper: "flex-row-reverse",
-      btn: "h-[280px] pr-[70px] pl-[50px]",
+      btn: "h-[250px] pr-[10px] pl-[50px]",
       btnContainer: "gap-8",
       textContainer: "",
     },
