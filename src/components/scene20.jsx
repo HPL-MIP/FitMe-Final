@@ -143,7 +143,7 @@ const Scene20 = ({ onNext, gender, onIndexChange }) => {
                     className="w-full py-[42px] rounded-full border-none text-[47px] font-bold transition-all duration-300 text-white bg-[#4DB8C4] cursor-pointer"
                     style={{ fontFamily: "'Open Sans', sans-serif" }}
                 >
-                    Download now
+                    Try Now
                 </button>
             </div>
         </motion.div>

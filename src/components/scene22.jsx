@@ -59,17 +59,17 @@ const Scene22 = ({ onNext }) => {
             transition={{ type: "spring", stiffness: 120, damping: 14 }}
         >
             {/* Content area */}
-            <div className="px-[50px] pt-[50px] pb-[30px]">
+            <div className="px-[50px] pt-[50px] pb-[30px] mt-8">
                 {/* Title */}
                 <h1
-                    className="font-bold mt-0 mb-[50px] text-[#1f2933]"
+                    className="font-bold mt-0 mb-[60px] text-[#1f2933] text-center"
                     style={{ fontSize: "72px", lineHeight: "90px" }}
                 >
                     How much water do you drink daily?
                 </h1>
 
                 {/* Choices */}
-                <div className="flex flex-col gap-[30px]">
+                <div className="flex flex-col gap-[35px]">
                     {choices.map((choice) => (
                         <button
                             key={choice.id}

@@ -1,4 +1,4 @@
-const DownloadButton = ({ label = "Download now" }) => {
+const DownloadButton = ({ label = "Try now" }) => {
     const handleClickAction = () => {
         const mraid = window.mraid || {};
         if (mraid.open && typeof mraid.open === "function") {

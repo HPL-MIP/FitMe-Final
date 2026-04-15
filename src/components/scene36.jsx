@@ -21,8 +21,8 @@ const Scene36 = ({ onNext, goal = "lose_weight", userName = "" }) => {
 
     const isMuscle = goal === "muscle_mass";
     const chartImg = isMuscle ? muscleMassImg : loseWeightImg;
-    const goalLabel = isMuscle ? "Gain muscle mass" : "Lose Weight";
-    const goalColor = isMuscle ? "#4DB8C4" : "#4CAF50";
+    const goalLabel = isMuscle ? "Increase Muscle Mass" : "Lose Weight";
+    const goalColor = isMuscle ? "#4CAF50" : "#4CAF50";
 
     const handleNext = () => {
         if (typeof window.ALPlayableAnalytics !== "undefined") {

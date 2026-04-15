@@ -8,7 +8,7 @@ const TOTAL_STAGES = 22;
 const choices = [
     { id: "definitely", label: "It's definitely about me!" },
     { id: "sometimes", label: "Sometimes it's true" },
-    { id: "not_sure", label: "hmm, I'm not sure" },
+    { id: "not_sure", label: "Hmm, I'm not sure" },
     { id: "not_me", label: "No, it isn't about me" },
 ];
 
@@ -57,7 +57,7 @@ const Scene29 = ({ onNext }) => {
             <div className="px-[50px] pt-[50px] pb-[30px]">
                 {/* Statement */}
                 <h1
-                    className="font-bold mt-0 mb-[20px] text-[#1f2933] text-center"
+                    className="font-bold mt-0 mb-[20px] text-[#1f2933] text-center mt-8"
                     style={{ fontSize: "72px", lineHeight: "90px" }}
                 >
                     "I'm not sure how to choose workouts that are suitable for me"

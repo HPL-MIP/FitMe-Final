@@ -8,7 +8,7 @@ const TOTAL_STAGES = 22;
 const choices = [
     { id: "definitely", label: "It's definitely about me!" },
     { id: "sometimes", label: "Sometimes it's true" },
-    { id: "not_sure", label: "hmm, I'm not sure" },
+    { id: "not_sure", label: "Hmm, I'm not sure" },
     { id: "not_me", label: "No, it isn't about me" },
 ];
 
@@ -54,7 +54,7 @@ const Scene28 = ({ onNext }) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ type: "spring", stiffness: 120, damping: 14 }}
         >
-            <div className="px-[50px] pt-[50px] pb-[30px]">
+            <div className="px-[50px] pt-[50px] pb-[30px] mt-8">
                 {/* Statement */}
                 <h1
                     className="font-bold mt-0 mb-[20px] text-[#1f2933] text-center"

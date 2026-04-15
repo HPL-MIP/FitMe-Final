@@ -57,7 +57,7 @@ const Scene27 = ({ onNext }) => {
             <div className="px-[50px] pt-[50px] pb-[30px]">
                 {/* Statement */}
                 <h1
-                    className="font-bold mt-0 mb-[20px] text-[#1f2933] text-center"
+                    className="font-bold mt-0 mb-[20px] text-[#1f2933] text-center mt-8"
                     style={{ fontSize: "72px", lineHeight: "90px" }}
                 >
                     "I'm out of breath after walking up one flight of stairs"

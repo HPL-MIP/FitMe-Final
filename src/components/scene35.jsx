@@ -64,7 +64,7 @@ const Scene35 = ({ onNext, onDecline }) => {
 
                 {/* Reassurance badge */}
                 <div
-                    className="flex items-center gap-[30px]"
+                    className="flex items-center gap-[30px] mt-4"
                     style={{
                         backgroundColor: "#D6E6EC",
                         borderRadius: "20px",
@@ -73,7 +73,7 @@ const Scene35 = ({ onNext, onDecline }) => {
                 >
                     <img src={easyIcon} alt="" style={{ width: "90px", height: "auto", objectFit: "contain", }} />
                     <span
-                        className="text-[#1f2933]"
+                        className="text-[#4c4c4c]"
                         style={{
                             fontFamily: "'Open Sans', sans-serif",
                             fontWeight: 400,

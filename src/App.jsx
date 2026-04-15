@@ -82,6 +82,7 @@ const App = () => {
   const [weightUnit, setWeightUnit] = useState("lbs");
   const [userName, setUserName] = useState("");
   const [scene20Index, setScene20Index] = useState(0);
+  const [goal, setGoal] = useState("lose_weight");
 
   const [showModal, setShowModal] = useState(false);
   const [modalType, setModalType] = useState("");
@@ -139,7 +140,7 @@ const App = () => {
     !noBackScenes.includes(screen);
   const useLogo2 = screen === "quiz" || isWorkoutScreen || isSceneScreen;
 
-  const SCENE_PROGRESS_MAX = 34;
+  const SCENE_PROGRESS_MAX = 31;
   const SCENE_PROGRESS_START = 16;
   const sceneProgressScreens = SCENE_SCREENS.filter(
     (s) =>
@@ -358,7 +359,12 @@ const App = () => {
               heightCm={heightCm}
               weightLbs={weightLbs}
               unit={weightUnit}
-              onNext={() => setScreen("scene19")}
+              onNext={(goalLbs) => {
+                if (goalLbs && weightLbs) {
+                  setGoal(goalLbs > weightLbs ? "muscle_mass" : "lose_weight");
+                }
+                setScreen("scene19");
+              }}
             />
           )}
           {screen === "scene19" && (
@@ -427,7 +433,7 @@ const App = () => {
             <Scene35 onNext={() => setScreen("scene36")} />
           )}
           {screen === "scene36" && (
-            <Scene36 userName={userName} onNext={() => setScreen("endcard")} />
+            <Scene36 userName={userName} goal={goal} onNext={() => setScreen("endcard")} />
           )}
         </div>
       </div>
