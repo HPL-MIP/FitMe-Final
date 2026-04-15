@@ -98,8 +98,6 @@ const Quiz = ({
   const handleSelect = (id) => {
     if (isMultiple) {
       const isNone = id === "None";
-
-      // stage 8 + stage 9 (both use "None of the above")
       const isNoneExclusive =
         currentQuiz.id === "problem_areas" ||
         currentQuiz.id === "struggle_to_follow";
@@ -108,10 +106,8 @@ const Quiz = ({
 
       if (isNoneExclusive) {
         if (isNone) {
-          // 👉 select only None
           updatedIds = ["None"];
         } else {
-          // 👉 remove None if selecting other options
           updatedIds = updatedIds.filter((x) => x !== "None");
 
           if (updatedIds.includes(id)) {

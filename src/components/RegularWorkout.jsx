@@ -4,7 +4,7 @@ import quizInfoMaleImg1 from "../assets/img/quiz/male/quizInfoMaleImg1.webp";
 import quizInfoFemaleImg1 from "../assets/img/quiz/female/quizInfoFemaleImg1.webp";
 import { quiz } from "../data/data";
 
-const RegularWorkout = ({ setScreen, setStage, gender }) => {
+const RegularWorkout = ({ setScreen, setStage, gender, taichiAgeLabel }) => {
   const handleGotIt = () => {
     setStage((prevStage) => {
       const nextStage = prevStage + 1;
@@ -51,7 +51,7 @@ const RegularWorkout = ({ setScreen, setStage, gender }) => {
             <p className="text-[#7E7F80] landscape:mt-3 mt-5 fontRegular text-[49px]">
               Tai Chi is an ancient Chinese practice, proven by thousands of
               years and perfectly suited for{" "}
-              {gender === "male" ? "men" : "women"} after 40 to:
+              {gender === "male" ? "men" : "women"} after {taichiAgeLabel} to:
             </p>
             <br />
             <ul className="text-[50px] mt-0 landscape:mt-0 list-disc list-inside text-[#7E7F80] fontSemiBold">

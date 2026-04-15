@@ -48,7 +48,7 @@ const GraphWorkout = ({ setScreen, setStage, gender }) => {
           transition={{ type: "spring", stiffness: 120, damping: 14 }}
         >
           <img src={chartWorkout} alt="workout info" className="w-full block" />
-          <p className="chartTxt">Coristol</p>
+          <p className="chartTxt">Cortisol</p>
           <p className="chartTxtEnergy">Energy level</p>
         </motion.div>
 

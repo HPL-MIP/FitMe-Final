@@ -40,12 +40,12 @@ const List2 = ({
                 type: "spring",
                 stiffness: 120,
                 damping: 14,
-                delay: index * 0.08, // stagger
+                delay: index * 0.08,
               }}
             >
               <div
-                className={`fontSemiBold text-[#252525] flex items-center w-full gap-12 text-left ${
-                  className.textContainer || ""
+                className={`fontSemiBold text-[#252525] flex items-center w-full  text-left ${
+                  className.textContainer || "gap-12"
                 }`}
               >
                 {textFirst ? (

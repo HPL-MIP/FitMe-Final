@@ -89,7 +89,7 @@ const Taichi = ({ onSelectAge, setShowModal, setModalType }) => {
               type: "spring",
               stiffness: 120,
               damping: 14,
-              delay: index * 0.1, // 👈 stagger delay
+              delay: index * 0.1,
             }}
           >
             <button onClick={() => handleClick(item.id)}>

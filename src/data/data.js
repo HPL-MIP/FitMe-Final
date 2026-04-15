@@ -320,7 +320,7 @@ export const quiz = [
   // 8
   {
     id: "problem_areas",
-    question: "Are any of these activities part of you life?",
+    question: "Are any of these activities part of your life?",
     option: "multiple",
     choicesByGender: {
       male: [
@@ -362,6 +362,7 @@ export const quiz = [
       wrapper: "flex-row-reverse",
       btn: "h-[220px] pr-[10px] pl-[65px]",
       btnContainer: "gap-8",
+      textContainer: "gap-5",
     },
   },
   // 9
@@ -522,7 +523,7 @@ export const quiz = [
       { id: "5-10_minutes ", text: "5-10 minutes a day" },
       { id: "10-20_minutes", text: "10-20 minutes a day" },
       { id: "20_minutes", text: "More than 20 minutes a day" },
-      { id: "FitMe_decide", text: "Let Fitme decide" },
+      { id: "FitMe_decide", text: "Let FitMe decide" },
     ],
 
     layout: "list1",

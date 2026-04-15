@@ -86,6 +86,9 @@ const App = () => {
   const [showModal, setShowModal] = useState(false);
   const [modalType, setModalType] = useState("");
 
+  const [taichiAgeGroup, setTaichiAgeGroup] = useState(null);
+  const [taichiAgeLabel, setTaichiAgeLabel] = useState("");
+
   const totalStages = quiz.length;
 
   useEffect(() => {
@@ -115,7 +118,12 @@ const App = () => {
     setScreen("taichi");
   };
 
-  const handleTaichiSelect = () => {
+  const handleTaichiSelect = (id) => {
+    const ageData = getAgeFromTaichi(id);
+
+    setTaichiAgeGroup(ageData.value);
+    setTaichiAgeLabel(ageData.label);
+
     setScreen("quiz");
     setStage(0);
   };
@@ -126,7 +134,9 @@ const App = () => {
     screen === "graphWorkout" ||
     screen === "meditationWorkout";
   const noBackScenes = ["scene33", "scene34", "scene35", "scene36"];
-  const showBack = (screen === "quiz" || isWorkoutScreen || isSceneScreen) && !noBackScenes.includes(screen);
+  const showBack =
+    (screen === "quiz" || isWorkoutScreen || isSceneScreen) &&
+    !noBackScenes.includes(screen);
   const useLogo2 = screen === "quiz" || isWorkoutScreen || isSceneScreen;
 
   const SCENE_PROGRESS_MAX = 34;
@@ -147,9 +157,8 @@ const App = () => {
 
   const scene20Idx = sceneProgressScreens.indexOf("scene20");
   const currentSceneIdx = sceneProgressScreens.indexOf(screen);
-  const scene20Bonus = screen === "scene20"
-    ? scene20Index
-    : (currentSceneIdx > scene20Idx ? 3 : 0);
+  const scene20Bonus =
+    screen === "scene20" ? scene20Index : currentSceneIdx > scene20Idx ? 3 : 0;
   const counterCurrent = isSceneProgressScreen
     ? SCENE_PROGRESS_START + currentSceneIdx + scene20Bonus
     : stage + 1;
@@ -195,6 +204,21 @@ const App = () => {
       </div>
     );
   }
+
+  const getAgeFromTaichi = (id) => {
+    switch (id) {
+      case 1:
+        return { value: 30, label: "30" };
+      case 2:
+        return { value: 40, label: "40" };
+      case 3:
+        return { value: 50, label: "50" };
+      case 4:
+        return { value: 60, label: "60+" };
+      default:
+        return { value: 40, label: "40" };
+    }
+  };
 
   return (
     <>
@@ -290,6 +314,7 @@ const App = () => {
               setScreen={setScreen}
               setStage={setStage}
               gender={gender}
+              taichiAgeLabel={taichiAgeLabel}
             />
           )}
 
@@ -340,7 +365,11 @@ const App = () => {
             <Scene19 onNext={() => setScreen("scene20")} />
           )}
           {screen === "scene20" && (
-            <Scene20 gender={gender} onIndexChange={setScene20Index} onNext={() => setScreen("scene21")} />
+            <Scene20
+              gender={gender}
+              onIndexChange={setScene20Index}
+              onNext={() => setScreen("scene21")}
+            />
           )}
           {screen === "scene21" && (
             <Scene21 onNext={() => setScreen("scene22")} />
@@ -384,7 +413,12 @@ const App = () => {
             />
           )}
           {screen === "scene33" && (
-            <Scene33 onNext={(name) => { setUserName(name); setScreen("scene34"); }} />
+            <Scene33
+              onNext={(name) => {
+                setUserName(name);
+                setScreen("scene34");
+              }}
+            />
           )}
           {screen === "scene34" && (
             <Scene34 onNext={() => setScreen("scene35")} />
