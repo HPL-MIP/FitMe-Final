@@ -141,7 +141,7 @@ export const quiz = [
     question: "Choose your goal",
     choices: [
       { id: "lose", text: "Lose weight" },
-      { id: "longevity", text: "Wellness and Longevity" },
+      { id: "longevity", text: "Wellness and longevity" },
       { id: "energy", text: "Energy and vitality" },
       { id: "mobility", text: "Balance and mobility" },
     ],

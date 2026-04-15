@@ -214,7 +214,7 @@ const App = () => {
       case 3:
         return { value: 50, label: "50" };
       case 4:
-        return { value: 60, label: "60+" };
+        return { value: 60, label: "60" };
       default:
         return { value: 40, label: "40" };
     }
