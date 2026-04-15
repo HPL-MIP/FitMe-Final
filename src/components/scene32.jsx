@@ -37,7 +37,7 @@ const getInfoCard = (category) => {
         default:
             return {
                 icon: riskIcon, bg: "#FFF3E0", title: "Risks for an unhealthy BMI",
-                text: "High blood pressure, heart disease, stroke, type 2 diabetes, and some types of cancer.",
+                text: "High blood pressure, heart disease, stroke, type 2 diabetes, some types of cancer, osteoarthritis, back pain, all case mortality",
             };
     }
 };

@@ -57,7 +57,7 @@ const Scene21 = ({ onNext }) => {
             <div className="px-[50px] pt-[50px] pb-[30px]">
                 {/* Title */}
                 <h1
-                    className="font-bold mt-0 mb-[50px] text-[#1f2933]"
+                    className="font-bold mt-0 mb-[50px] text-[#1f2933] mt-8"
                     style={{ fontSize: "72px", lineHeight: "90px" }}
                 >
                     How often do you consume sugary foods or beverages?
