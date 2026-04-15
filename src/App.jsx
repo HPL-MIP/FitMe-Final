@@ -141,7 +141,7 @@ const App = () => {
   const useLogo2 = screen === "quiz" || isWorkoutScreen || isSceneScreen;
 
   const SCENE_PROGRESS_MAX = 31;
-  const SCENE_PROGRESS_START = 16;
+  const SCENE_PROGRESS_START = 15;
   const sceneProgressScreens = SCENE_SCREENS.filter(
     (s) =>
       s !== "scene26" &&
