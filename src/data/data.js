@@ -32,9 +32,9 @@ import fewImgMale from "../assets/img/quiz/male/fewImgMale.webp";
 import fitImgMale from "../assets/img/quiz/male/fitImgMale.webp";
 import athleticImgMale from "../assets/img/quiz/male/athleticImgMale.webp";
 
-import chestMale from "../assets/img/quiz/male/chestMale.png";
+import chestMale from "../assets/img/quiz/male/chestMale.webp";
 import armsMale from "../assets/img/quiz/male/armsMale.png";
-import bellyMale from "../assets/img/quiz/male/bellyMale.png";
+import bellyMale from "../assets/img/quiz/male/bellyMale.webp";
 import legsMale from "../assets/img/quiz/male/legsMale.png";
 
 import quizModelImg1Male from "../assets/img/quiz/male/quizModelImg1Male.webp";
@@ -57,9 +57,9 @@ import fewImgFemale from "../assets/img/quiz/female/fewImgFemale.webp";
 import fitImgFemale from "../assets/img/quiz/female/fitImgFemale.webp";
 import athleticImgFemale from "../assets/img/quiz/female/athleticImgFemale.webp";
 
-import chestFemale from "../assets/img/quiz/female/chestFemale.png";
-import armsFemale from "../assets/img/quiz/female/armsFemale.png";
-import bellyFemale from "../assets/img/quiz/female/bellyFemale.png";
+import chestFemale from "../assets/img/quiz/female/chestFemale.webp";
+import armsFemale from "../assets/img/quiz/female/armsFemale.webp";
+import bellyFemale from "../assets/img/quiz/female/bellyFemale.webp";
 import legsFemale from "../assets/img/quiz/female/legsFemale.png";
 
 import quizModelImg1Female from "../assets/img/quiz/female/quizModelImg1Female.webp";
@@ -155,12 +155,12 @@ export const quiz = [
     question: "Choose the body you want",
     choicesByGender: {
       male: [
-        { id: "few", text: "A few sizes", img: fewImgMale },
+        { id: "few", text: "A few sizes smaller", img: fewImgMale },
         { id: "fit", text: "Fit", img: fitImgMale },
         { id: "athletic", text: "Athletic", img: athleticImgMale },
       ],
       female: [
-        { id: "few", text: "A few sizes", img: fewImgFemale },
+        { id: "few", text: "A few sizes smaller", img: fewImgFemale },
         { id: "fit", text: "Fit", img: fitImgFemale },
         { id: "athletic", text: "Athletic", img: athleticImgFemale },
       ],
@@ -297,6 +297,9 @@ export const quiz = [
       { id: "struggle_to_gain", text: "I struggle to gain weight or muscle" },
     ],
     layout: "list1",
+    className: {
+      btnContainer: "gap-10",
+    },
   },
   {
     id: "problem_areas",
@@ -487,7 +490,8 @@ export const quiz = [
     },
     className: {
       wrapper: "flex-row-reverse",
-      btn: "h-[170px] pl-[50px]",
+      btn: "h-[170px] pl-[25px]",
+      btnContainer: "gap-10",
     },
   },
   {

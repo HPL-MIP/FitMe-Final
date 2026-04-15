@@ -42,12 +42,13 @@ const GraphWorkout = ({ setScreen, setStage, gender }) => {
 
         {/* Chart Image */}
         <motion.div
-          className="w-full"
+          className="w-full relative"
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ type: "spring", stiffness: 120, damping: 14 }}
         >
           <img src={chartWorkout} alt="workout info" className="w-full block" />
+          <p className="chartTxt">Coristol</p>
         </motion.div>
 
         {/* NOW / 6 MONTHS Labels */}

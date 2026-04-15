@@ -100,6 +100,14 @@ body {
 .fontBold {
   font-family: OpenSans-Bold;
 }
+.chartTxt {
+  position: absolute;
+  top: 13%;
+  left: 5%;
+  font-size: 55px;
+  color: #707070;
+  font-family: OpenSans-SemiBold;
+}
 
 @media screen and (orientation: landscape) {
   .gotitBtn {
