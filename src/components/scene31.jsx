@@ -47,7 +47,10 @@ const Scene31 = ({ onNext }) => {
     }, []);
 
     useEffect(() => {
-        if (activeStep >= steps.length) return;
+        if (activeStep >= steps.length) {
+            const doneTimer = setTimeout(() => onNext && onNext(), 500);
+            return () => clearTimeout(doneTimer);
+        }
 
         let advanced = false;
         let advanceTimer;
@@ -75,7 +78,7 @@ const Scene31 = ({ onNext }) => {
             clearInterval(intervalRef.current);
             if (advanceTimer) clearTimeout(advanceTimer);
         };
-    }, [activeStep]);
+    }, [activeStep, onNext]);
 
     useEffect(() => {
         const timer = setInterval(() => {
@@ -169,18 +172,6 @@ const Scene31 = ({ onNext }) => {
                 </div>
             </div>
 
-            <div
-                className="shrink-0 px-[50px] pb-[30vh] landscape:pb-[6vh] landscape:mt-[4vh]"
-                style={{ backgroundColor: "#EAF4F6" }}
-            >
-                <button
-                    onClick={() => onNext && onNext()}
-                    className="w-full py-[42px] rounded-full border-none font-bold text-white cursor-pointer transition-all duration-300 landscape:mb-[60vh]"
-                    style={{ fontSize: "47px", backgroundColor: "#4DB8C4" }}
-                >
-                    Continue
-                </button>
-            </div>
         </motion.div>
     );
 };

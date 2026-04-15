@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import loseWeightImg from "../assets/img/LOSE_WEIGHT.webp";
-import muscleMassImg from "../assets/img/MUSCLE_MASS.webp";
 import { motion } from "framer-motion";
+import MuscleMassChart from "./MuscleMassChart";
+import LoseWeightChart from "./LoseWeightChart";
 
 const STAGE = 29;
 const TOTAL_STAGES = 29;
@@ -20,7 +20,6 @@ const Scene36 = ({ onNext, goal = "lose_weight", userName = "" }) => {
     }, [goal]);
 
     const isMuscle = goal === "muscle_mass";
-    const chartImg = isMuscle ? muscleMassImg : loseWeightImg;
     const goalLabel = isMuscle ? "Increase Muscle Mass" : "Lose Weight";
     const goalColor = isMuscle ? "#4CAF50" : "#4CAF50";
 
@@ -62,11 +61,11 @@ const Scene36 = ({ onNext, goal = "lose_weight", userName = "" }) => {
                 </h1>
 
                 {/* Chart */}
-                <img
-                    src={chartImg}
-                    alt={goalLabel}
-                    style={{ width: "100%", display: "block" }}
-                />
+                {isMuscle ? (
+                    <MuscleMassChart style={{ width: "100%", display: "block" }} />
+                ) : (
+                    <LoseWeightChart style={{ width: "100%", display: "block" }} />
+                )}
 
                 {/* Disclaimer */}
                 <p

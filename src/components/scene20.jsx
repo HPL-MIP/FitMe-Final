@@ -128,24 +128,7 @@ const Scene20 = ({ onNext, gender, onIndexChange }) => {
                 ))}
             </div>
 
-            {/* Download Button */}
-            <div className="w-full">
-                <button
-                    onClick={() => {
-                        const mraid = window.mraid || {};
-                        if (mraid.open && typeof mraid.open === "function") {
-                            mraid.open();
-                        } else {
-                            window.open();
-                        }
-                        if (onNext) onNext(answers);
-                    }}
-                    className="w-full py-[42px] rounded-full border-none text-[47px] font-bold transition-all duration-300 text-white bg-[#4DB8C4] cursor-pointer"
-                    style={{ fontFamily: "'Open Sans', sans-serif" }}
-                >
-                    Try Now
-                </button>
-            </div>
+           
         </motion.div>
     );
 };
