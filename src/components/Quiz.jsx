@@ -117,7 +117,6 @@ const Quiz = ({
           }
         }
       } else {
-        // normal multi-select
         updatedIds = updatedIds.includes(id)
           ? updatedIds.filter((x) => x !== id)
           : [...updatedIds, id];
@@ -141,6 +140,8 @@ const Quiz = ({
     if (currentQuiz.id === "gender") {
       setGender(id);
     }
+
+    if (stage === 5 || stage === 10) return;
 
     const selectedChoice = choices.find((c) => c.id === id);
     const hasResponse = !!selectedChoice?.response;
@@ -274,42 +275,67 @@ const Quiz = ({
         animate={{ y: 0, opacity: 1 }}
         transition={{ type: "spring", stiffness: 120, damping: 14 }}
       >
+        {/* MULTIPLE SELECT */}
         {isMultiple && selectedIds.length > 0 ? (
           <button onClick={handleContinue} className="cursor-pointer ">
             <img src={continueBtn} className="w-full animate-pulsing" />
           </button>
         ) : (
-          <button
-            type="button"
-            className="animate-pulsing cursor-pointer "
-            onClick={(e) => {
-              e.preventDefault();
-              e.stopPropagation();
-              console.log("[Quiz CTA] clicked");
-              const mraid = window.mraid || {};
-              if (mraid.open && typeof mraid.open === "function") {
-                mraid.open();
-              } else {
-                window.open("", "_blank", "noopener,noreferrer");
-              }
-            }}
-            style={{
-              background: "transparent",
-              border: 0,
-              padding: 0,
-              width: "100%",
-              cursor: "pointer",
-              pointerEvents: "auto",
-              position: "relative",
-              zIndex: 9999,
-            }}
-          >
-            <img
-              src={cta}
-              className="w-full"
-              style={{ pointerEvents: "none" }}
-            />
-          </button>
+          <>
+            {(stage === 5 || stage === 10) && selectedId ? (
+              <div className="w-full">
+                <button
+                  onClick={() => {
+                    const updated = {
+                      ...answers,
+                      [currentQuiz.id]: selectedId,
+                    };
+
+                    const blocked = handleRedirects(stage + 1);
+                    if (blocked) return;
+
+                    next(updated);
+                  }}
+                  className="animate-pulsing w-full py-[42px] rounded-full border-none text-[44px] font-bold transition-all duration-300 text-white bg-[#4DB8C4] cursor-pointer"
+                  style={{ fontFamily: "'Open Sans', sans-serif" }}
+                >
+                  Next
+                </button>
+              </div>
+            ) : (
+              <button
+                type="button"
+                className="animate-pulsing cursor-pointer "
+                onClick={(e) => {
+                  e.preventDefault();
+                  e.stopPropagation();
+
+                  const mraid = window.mraid || {};
+                  if (mraid.open && typeof mraid.open === "function") {
+                    mraid.open();
+                  } else {
+                    window.open("", "_blank", "noopener,noreferrer");
+                  }
+                }}
+                style={{
+                  background: "transparent",
+                  border: 0,
+                  padding: 0,
+                  width: "100%",
+                  cursor: "pointer",
+                  pointerEvents: "auto",
+                  position: "relative",
+                  zIndex: 9999,
+                }}
+              >
+                <img
+                  src={cta}
+                  className="w-full"
+                  style={{ pointerEvents: "none" }}
+                />
+              </button>
+            )}
+          </>
         )}
       </motion.div>
     </div>
