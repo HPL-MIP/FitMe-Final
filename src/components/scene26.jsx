@@ -28,12 +28,12 @@ const Scene26 = ({ onNext }) => {
         >
             <div className="px-[50px] pt-[50px] pb-[30px]">
                 {/* Chart Image */}
-                <div className="w-full mb-[40px] flex justify-center">
+                <div className="mb-[40px] flex justify-center" style={{ marginLeft: "-150px", marginRight: "-150px" }}>
                     <img
                         src={chartImg}
                         alt="Sleep, Energy, Metabolism chart"
-                        className="w-full block"
-                        style={{ borderRadius: "20px" }}
+                        className="block max-w-none"
+                        style={{ width: "calc(80% + 0px)" }}
                     />
                 </div>
 
@@ -49,8 +49,8 @@ const Scene26 = ({ onNext }) => {
                 <p
                     className="text-center text-[#4a5568] mt-0 mb-[40px]"
                     style={{
-                        fontSize: "42px",
-                        lineHeight: "56px",
+                        fontSize: "50px",
+                        lineHeight: "66px",
                         fontWeight: 400,
                     }}
                 >
@@ -62,17 +62,17 @@ const Scene26 = ({ onNext }) => {
                     className="w-full rounded-[40px] p-[40px] flex items-start gap-[25px] text-white"
                     style={{ backgroundColor: "#4DB8C4" }}
                 >
-                    <span style={{ fontSize: "60px", lineHeight: 1, flexShrink: 0 }}>♡</span>
+                    <span style={{ fontSize: "72px", lineHeight: 1, flexShrink: 0 }}>♡</span>
                     <div>
                         <p
                             className="font-bold text-white mt-0 mb-[10px]"
-                            style={{ fontSize: "42px", lineHeight: "52px" }}
+                            style={{ fontSize: "50px", lineHeight: "62px" }}
                         >
                             Improve sleep quality!
                         </p>
                         <p
                             className="text-white mt-0 mb-0"
-                            style={{ fontSize: "38px", lineHeight: "50px", fontWeight: 400 }}
+                            style={{ fontSize: "46px", lineHeight: "60px", fontWeight: 400 }}
                         >
                             Studies show that slow, mindful Tai Chi movements before bed can improve sleep quality, reduce nighttime awakenings, and calm the mind.
                         </p>

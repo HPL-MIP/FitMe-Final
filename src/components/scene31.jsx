@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import checkIcon from "../assets/img/CHECK.webp";
 import starIcon from "../assets/img/star.webp";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 const STAGE = 24;
 const TOTAL_STAGES = 24;
@@ -47,28 +47,23 @@ const Scene31 = ({ onNext }) => {
     }, []);
 
     useEffect(() => {
-        // Stop completely if we move past the second step
-        if (activeStep > 1) return;
+        if (activeStep >= steps.length) return;
+
+        let advanced = false;
+        let advanceTimer;
 
         intervalRef.current = setInterval(() => {
             setProgresses((prev) => {
                 const next = [...prev];
                 const currentProgress = next[activeStep];
 
-                if (activeStep === 0) {
-                    // Step 1: Compiling profile - Go to 100%
-                    if (currentProgress < 100) {
-                        next[activeStep] = Math.min(currentProgress + 2, 100);
-                    } else {
-                        clearInterval(intervalRef.current);
-                        setTimeout(() => setActiveStep(1), 300);
-                    }
-                } else if (activeStep === 1) {
-                    // Step 2: Metabolism - Go to exactly 97% and stop
-                    if (currentProgress < 97) {
-                        next[activeStep] = Math.min(currentProgress + 1, 97);
-                    } else {
-                        clearInterval(intervalRef.current);
+                if (currentProgress < 100) {
+                    next[activeStep] = Math.min(currentProgress + 2, 100);
+                } else {
+                    clearInterval(intervalRef.current);
+                    if (!advanced) {
+                        advanced = true;
+                        advanceTimer = setTimeout(() => setActiveStep((s) => s + 1), 300);
                     }
                 }
 
@@ -76,7 +71,10 @@ const Scene31 = ({ onNext }) => {
             });
         }, 30);
 
-        return () => clearInterval(intervalRef.current);
+        return () => {
+            clearInterval(intervalRef.current);
+            if (advanceTimer) clearTimeout(advanceTimer);
+        };
     }, [activeStep]);
 
     useEffect(() => {
@@ -116,7 +114,7 @@ const Scene31 = ({ onNext }) => {
                                         fontSize: "42.47px",
                                         lineHeight: "58.06px",
                                         letterSpacing: "0%",
-                                        color: progresses[i] >= 100 || (i === 1 && progresses[i] === 97) ? "#363636" : "#7b8998",
+                                        color: progresses[i] >= 100 ? "#363636" : "#7b8998",
                                         verticalAlign: "middle"
                                     }}
                                 >
@@ -143,20 +141,31 @@ const Scene31 = ({ onNext }) => {
                     Trusted by over 1,289,897 clients
                 </p>
 
-                <div className="w-full rounded-[47px] bg-white p-[45px_40px] flex flex-col items-center shadow-[0px_4px_16px_0px_rgba(0,0,0,0.04)] border-none">
-                    <div className="mb-[20px] flex gap-[8px]">
-                        {[...Array(5)].map((_, i) => (
-                            <img key={i} src={starIcon} alt="star" className="w-[46px] h-[46px]" />
-                        ))}
-                    </div>
+                <div className="relative w-full overflow-hidden">
+                    <AnimatePresence mode="wait">
+                        <motion.div
+                            key={reviewIndex}
+                            initial={{ x: 300, opacity: 0 }}
+                            animate={{ x: 0, opacity: 1 }}
+                            exit={{ x: -300, opacity: 0 }}
+                            transition={{ type: "tween", duration: 0.5, ease: "easeInOut" }}
+                            className="w-full rounded-[47px] bg-white p-[45px_40px] flex flex-col items-center shadow-[0px_4px_16px_0px_rgba(0,0,0,0.04)] border-none"
+                        >
+                            <div className="mb-[20px] flex gap-[8px]">
+                                {[...Array(5)].map((_, i) => (
+                                    <img key={i} src={starIcon} alt="star" className="w-[46px] h-[46px]" />
+                                ))}
+                            </div>
 
-                    <p className="mt-0 mb-[15px] font-normal text-[40px] leading-[59px] text-center text-[#7b8998]">
-                        {currentReview.text}
-                    </p>
+                            <p className="mt-0 mb-[15px] font-normal text-[40px] leading-[59px] text-center text-[#7b8998]">
+                                {currentReview.text}
+                            </p>
 
-                    <p className="mt-0 mb-0 font-bold text-[43px] leading-[55px] text-center text-[#1f2933]">
-                        {currentReview.author}
-                    </p>
+                            <p className="mt-0 mb-0 font-bold text-[43px] leading-[55px] text-center text-[#1f2933]">
+                                {currentReview.author}
+                            </p>
+                        </motion.div>
+                    </AnimatePresence>
                 </div>
             </div>
 

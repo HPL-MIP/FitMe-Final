@@ -42,25 +42,25 @@ const getInfoCard = (category) => {
     }
 };
 
-// Fixed: maps BMI to dot position using the actual flex segment proportions (14/26/20/40)
+// Maps BMI to dot position using evenly-spaced tick labels (15, 18.5, 25, 30, 40 at 0/25/50/75/100%)
 const getDotPosition = (bmi) => {
-    const segments = [
-        { start: 15, end: 18.5, flexStart: 0, flexEnd: 14 }, // UNDERWEIGHT (flex: 14)
-        { start: 18.5, end: 25, flexStart: 14, flexEnd: 40 }, // NORMAL      (flex: 26)
-        { start: 25, end: 30, flexStart: 40, flexEnd: 60 }, // OVERWEIGHT  (flex: 20)
-        { start: 30, end: 40, flexStart: 60, flexEnd: 100 }, // OBESE       (flex: 40)
-    ];
+    const ticks = [15, 18.5, 25, 30, 40];
     const clamped = Math.max(15, Math.min(40, bmi));
-    const seg = segments.find(s => clamped >= s.start && clamped <= s.end) || segments[segments.length - 1];
-    const ratio = (clamped - seg.start) / (seg.end - seg.start);
-    return seg.flexStart + ratio * (seg.flexEnd - seg.flexStart);
+    for (let i = 0; i < ticks.length - 1; i++) {
+        if (clamped >= ticks[i] && clamped <= ticks[i + 1]) {
+            const ratio = (clamped - ticks[i]) / (ticks[i + 1] - ticks[i]);
+            return (i + ratio) * 25;
+        }
+    }
+    return 100;
 };
 
-const Scene32 = ({ heightCm, weightKg, gender, onNext }) => {
+const Scene32 = ({ heightCm, weightLbs, gender, onNext }) => {
     const height = heightCm || 170;
-    const weight = weightKg || 70;
+    const lbs = weightLbs || 154;
+    const weightKg = lbs * 0.45359237;
     const hm = height / 100;
-    const bmi = useMemo(() => (weight / (hm * hm)).toFixed(1), [weight, hm]);
+    const bmi = useMemo(() => (weightKg / (hm * hm)).toFixed(1), [weightKg, hm]);
     const bmiNum = parseFloat(bmi);
     const category = getBmiCategory(bmiNum);
     const info = getInfoCard(category);
@@ -94,20 +94,25 @@ const Scene32 = ({ heightCm, weightKg, gender, onNext }) => {
                     {/* BMI SCALE COMPONENT */}
                     <div className="relative mb-[80px] w-full px-[10px]">
                         {/* 1. Tooltip & Connector Line */}
-                        <div className="absolute" style={{ left: `${dotPos}%`, transform: "translateX(-47%)", bottom: "160px", zIndex: 1 }}>
+                        <motion.div
+                            className="absolute"
+                            style={{ bottom: "160px", zIndex: 1 }}
+                            initial={{ left: "0%", opacity: 0, x: "-47%" }}
+                            animate={{ left: `${dotPos}%`, opacity: 1, x: "-47%" }}
+                            transition={{ type: "spring", stiffness: 80, damping: 16, delay: 0.4 }}
+                        >
                             <div className="relative flex items-center justify-center rounded-[64px]" style={{ backgroundColor: "#131D30", color: "#FFFFFF", fontSize: "36px", fontWeight: 700, padding: "15px 40px", marginBottom: "55px", whiteSpace: "nowrap" }}>
                                 You-{bmi}
                                 <div className="absolute" style={{ bottom: "-12px", left: "50%", transform: "translateX(-50%)", width: "0", height: "0", borderLeft: "12px solid transparent", borderRight: "12px solid transparent", borderTop: "15px solid #131D30" }} />
                             </div>
                             <div className="absolute" style={{ left: "50%", transform: "translateX(-55%)", bottom: "-15px", width: "4px", height: "80px", backgroundColor: "#A0AAB5", zIndex: -10 }} />
-                        </div>
+                        </motion.div>
 
                         {/* 2. Numeric Labels & Vertical Lines */}
                         <div className="flex justify-between mb-[25px] relative">
-                            {["15", "18.5", "25", "30", "40"].map((v, i) => (
+                            {["15", "18.5", "25", "30", "40"].map((v) => (
                                 <div key={v} className="flex flex-col items-center">
                                     <span style={{ fontSize: "32px", color: "#A0AAB5", fontWeight: 700 }}>{v}</span>
-                                    {/* Vertical Divider Line */}
                                     <div style={{ width: "2px", height: "100px", backgroundColor: "#E9E9E9", position: "absolute", top: "45px", zIndex: 1 }} />
                                 </div>
                             ))}
@@ -115,23 +120,37 @@ const Scene32 = ({ heightCm, weightKg, gender, onNext }) => {
 
                         {/* 3. The Bar & Circle Selector */}
                         <div className="relative w-full h-[26px] rounded-full flex z-2">
-                            <div style={{ flex: "14", background: "linear-gradient(90deg, #60B5E8, #7BC8A4)", borderTopLeftRadius: "9999px", borderBottomLeftRadius: "9999px" }} />
-                            <div style={{ flex: "26", background: "linear-gradient(90deg, #7BC8A4, #B8D86B)" }} />
-                            <div style={{ flex: "20", background: "linear-gradient(90deg, #E8D44D, #F5A623)" }} />
-                            <div style={{ flex: "40", background: "linear-gradient(90deg, #F5A623, #E84D4D)", borderTopRightRadius: "9999px", borderBottomRightRadius: "9999px" }} />
+                            <div style={{ flex: "1", background: "linear-gradient(90deg, #60B5E8, #7BC8A4)", borderTopLeftRadius: "9999px", borderBottomLeftRadius: "9999px" }} />
+                            <div style={{ flex: "1", background: "linear-gradient(90deg, #7BC8A4, #B8D86B)" }} />
+                            <div style={{ flex: "1", background: "linear-gradient(90deg, #E8D44D, #F5A623)" }} />
+                            <div style={{ flex: "1", background: "linear-gradient(90deg, #F5A623, #E84D4D)", borderTopRightRadius: "9999px", borderBottomRightRadius: "9999px" }} />
 
-                            <div className="absolute flex items-center justify-center rounded-full" style={{ left: `${dotPos}%`, top: "50%", transform: "translate(-50%, -50%)", width: "78.28px", height: "78.28px", backgroundColor: "#FFFFFF", boxShadow: "0px 4px 34px 0px #0000002B", zIndex: 5 }}>
+                            <motion.div
+                                className="absolute flex items-center justify-center rounded-full"
+                                style={{ top: "50%", width: "78.28px", height: "78.28px", backgroundColor: "#FFFFFF", boxShadow: "0px 4px 34px 0px #0000002B", zIndex: 5 }}
+                                initial={{ left: "0%", x: "-50%", y: "-50%" }}
+                                animate={{ left: `${dotPos}%`, x: "-50%", y: "-50%" }}
+                                transition={{ type: "spring", stiffness: 80, damping: 16, delay: 0.4 }}
+                            >
                                 <div style={{ width: "29.46px", height: "29.46px", backgroundColor: "#131D30", borderRadius: "50%" }} />
-                            </div>
+                            </motion.div>
                         </div>
 
                         {/* 4. Category Labels */}
-                        <div className="flex justify-between mt-[55px]">
-                            {["UNDERWEIGHT", "NORMAL", "OVERWEIGHT", "OBESE"].map((label) => (
-                                <span key={label} style={{ fontSize: "32px", color: label === category ? "#131D30" : "#A0AAB5", fontWeight: label === category ? 800 : 700 }}>
-                                    {label}
-                                </span>
-                            ))}
+                        <div className="relative mt-[55px]" style={{ height: "40px" }}>
+                            {[
+                                { label: "UNDERWEIGHT", pos: 0, anchor: "left" },
+                                { label: "NORMAL", pos: 37.5, anchor: "center" },
+                                { label: "OVERWEIGHT", pos: 62.5, anchor: "center" },
+                                { label: "OBESE", pos: 100, anchor: "right" },
+                            ].map(({ label, pos, anchor }) => {
+                                const tx = anchor === "left" ? "0" : anchor === "right" ? "-100%" : "-50%";
+                                return (
+                                    <span key={label} className="absolute" style={{ left: `${pos}%`, transform: `translateX(${tx})`, fontSize: "29px", color: label === category ? "#131D30" : "#A0AAB5", fontWeight: label === category ? 800 : 700, whiteSpace: "nowrap" }}>
+                                        {label}
+                                    </span>
+                                );
+                            })}
                         </div>
                     </div>
 

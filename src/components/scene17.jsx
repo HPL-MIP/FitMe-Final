@@ -53,55 +53,51 @@ const Scene17 = ({ heightCm, onNext }) => {
         }
     }, []);
 
-    const kgValue = parseFloat(weight);
+    const lbsValue = parseFloat(weight);
     const hasInput = !!weight;
-    const inRange = kgValue >= 20 && kgValue <= 200;
+    const inRange = lbsValue >= 44 && lbsValue <= 329;
     const showError = hasInput && !inRange;
     const isValid = hasInput && inRange;
 
-    const handleNext = () => {
-        const kg = kgValue;
-        if (!isValid) return;
-
-        // If BMI not yet shown, calculate and display it
-        if (!bmiResult) {
-            const heightM = (heightCm || 170) / 100;
-            const bmi = kg / (heightM * heightM);
-            const data = getBMIData(bmi);
-
-            setBmiResult({ bmi: bmi.toFixed(1), ...data });
-
-            console.log("=== BMI RESULT ===");
-            console.log(`Height: ${heightCm} cm | Weight: ${kg} kg`);
-            console.log(`BMI: ${bmi.toFixed(1)} | Category: ${data.category}`);
-
-            // Fire "selected" event
-            if (typeof window.ALPlayableAnalytics !== "undefined") {
-                window.ALPlayableAnalytics.trackEvent("CUSTOM", {
-                    event: "selected",
-                    stage: STAGE,
-                    totalStages: TOTAL_STAGES,
-                    totalSelects: 1,
-                    question: "What's your current weight?",
-                    selected: [`${kg} kg`],
-                });
-            }
-
-            // Set params for mraid redirect
-            window.ALPlayableParams = {
-                stage: STAGE,
-                totalStages: TOTAL_STAGES,
-                question: "What's your current weight?",
-                selected: [`${kg}`],
-                bmi: bmi.toFixed(1),
-                bmiCategory: data.category,
-            };
-
+    // Auto-compute BMI whenever a valid weight is entered
+    useEffect(() => {
+        if (!isValid) {
+            setBmiResult(null);
             return;
         }
 
-        // Second click: proceed to next screen
-        if (onNext) onNext(kg);
+        const lbs = lbsValue;
+        const kg = lbs * 0.45359237;
+        const heightM = (heightCm || 170) / 100;
+        const bmi = kg / (heightM * heightM);
+        const data = getBMIData(bmi);
+
+        setBmiResult({ bmi: bmi.toFixed(1), ...data });
+
+        if (typeof window.ALPlayableAnalytics !== "undefined") {
+            window.ALPlayableAnalytics.trackEvent("CUSTOM", {
+                event: "selected",
+                stage: STAGE,
+                totalStages: TOTAL_STAGES,
+                totalSelects: 1,
+                question: "What's your current weight?",
+                selected: [`${lbs} lbs`],
+            });
+        }
+
+        window.ALPlayableParams = {
+            stage: STAGE,
+            totalStages: TOTAL_STAGES,
+            question: "What's your current weight?",
+            selected: [`${lbs}`],
+            bmi: bmi.toFixed(1),
+            bmiCategory: data.category,
+        };
+    }, [weight, isValid, lbsValue, heightCm]);
+
+    const handleNext = () => {
+        if (!isValid) return;
+        if (onNext) onNext(lbsValue);
     };
 
     return (
@@ -117,12 +113,12 @@ const Scene17 = ({ heightCm, onNext }) => {
                 What's your current weight?
             </h1>
 
-            {/* KG Badge */}
+            {/* LBS Badge */}
             <div className="flex items-center justify-center mb-[50px]">
                 <div className="bg-[#4DB8C4] rounded-[34px] px-[70px] py-[22px]">
                     <span className="text-[36px] font-bold text-white"
                         style={{ fontFamily: "'Open Sans', sans-serif" }}>
-                        KG
+                        LBS
                     </span>
                 </div>
             </div>
@@ -132,10 +128,7 @@ const Scene17 = ({ heightCm, onNext }) => {
                 <input
                     type="number"
                     value={weight}
-                    onChange={(e) => {
-                        setWeight(e.target.value);
-                        setBmiResult(null); // Reset BMI if user changes weight
-                    }}
+                    onChange={(e) => setWeight(e.target.value)}
                     placeholder="-"
                     className="w-full h-[160px] bg-white rounded-[40px] border-[2px] border-[#d1d9e0] outline-none text-[72px] font-bold text-center text-[#1f2933] px-[120px]"
                     style={{ fontFamily: "'Open Sans', sans-serif" }}
@@ -143,7 +136,7 @@ const Scene17 = ({ heightCm, onNext }) => {
                 {/* Unit Text Overlay */}
                 <span className="absolute right-[60px] text-[88px] font-bold text-[#a0aab5] pointer-events-none"
                     style={{ fontFamily: "'Open Sans', sans-serif" }}>
-                    kg
+                    lbs
                 </span>
             </div>
 

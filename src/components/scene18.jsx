@@ -9,9 +9,9 @@ import { motion } from "framer-motion";
 const STAGE = 8;
 const TOTAL_STAGES = 9;
 
-const getWeightMessage = (currentKg, goalKg, minHealthy, maxHealthy) => {
-    const diff = currentKg - goalKg;
-    const pct = Math.round(Math.abs(diff) / currentKg * 100);
+const getWeightMessage = (currentLbs, goalLbs, minHealthy, maxHealthy) => {
+    const diff = currentLbs - goalLbs;
+    const pct = Math.round(Math.abs(diff) / currentLbs * 100);
 
     // Goal is higher than current — need to gain weight
     if (diff < 0) {
@@ -24,12 +24,12 @@ const getWeightMessage = (currentKg, goalKg, minHealthy, maxHealthy) => {
     }
 
     // Goal weight is below healthy range
-    if (goalKg < minHealthy) {
+    if (goalLbs < minHealthy) {
         return {
             icon: overweightBmiIcon,
             color: "#F6DEEE",
             title: "LOW WEIGHT ALERT!",
-            message: `Rapidly losing a large percentage of one's weight can have adverse health effects. Your normal body weight is between ${minHealthy} kg and ${maxHealthy} kg`,
+            message: `Rapidly losing a large percentage of one's weight can have adverse health effects. Your normal body weight is between ${minHealthy} lbs and ${maxHealthy} lbs`,
         };
     }
 
@@ -62,7 +62,7 @@ const getWeightMessage = (currentKg, goalKg, minHealthy, maxHealthy) => {
     };
 };
 
-const Scene18 = ({ heightCm, weightKg, onNext }) => {
+const Scene18 = ({ heightCm, weightLbs, onNext }) => {
     const [goalWeight, setGoalWeight] = useState("");
     const [messageData, setMessageData] = useState(null);
 
@@ -79,43 +79,44 @@ const Scene18 = ({ heightCm, weightKg, onNext }) => {
         }
     }, []);
 
-    // Calculate healthy weight range from height
+    // Calculate healthy weight range (in lbs) from height
     const hm = (heightCm || 170) / 100;
-    const minHealthy = Math.round(18.5 * hm * hm);
-    const maxHealthy = Math.round(24.9 * hm * hm);
+    const KG_TO_LBS = 2.20462262;
+    const minHealthy = Math.round(18.5 * hm * hm * KG_TO_LBS);
+    const maxHealthy = Math.round(24.7 * hm * hm * KG_TO_LBS);
 
-    const kgValue = parseFloat(goalWeight);
+    const lbsValue = parseFloat(goalWeight);
     const hasInput = !!goalWeight;
-    const inRange = kgValue >= 20 && kgValue <= 200;
+    const inRange = lbsValue >= 44 && lbsValue <= 329;
     const showError = hasInput && !inRange;
     const isValid = hasInput && inRange;
 
-    const handleNext = () => {
-        const kg = kgValue;
-        if (!isValid) return;
-
-        // If message not yet shown, calculate and display it
-        if (!messageData) {
-            const currentW = weightKg || 70;
-            const data = getWeightMessage(currentW, kg, minHealthy, maxHealthy);
-            setMessageData(data);
-
-            // Fire "selected" event
-            if (typeof window.ALPlayableAnalytics !== "undefined") {
-                window.ALPlayableAnalytics.trackEvent("CUSTOM", {
-                    event: "selected",
-                    stage: STAGE,
-                    totalStages: TOTAL_STAGES,
-                    totalSelects: 1,
-                    question: "What's your goal weight?",
-                    selected: [`${kg} kg`],
-                });
-            }
+    useEffect(() => {
+        if (!isValid) {
+            setMessageData(null);
             return;
         }
 
-        // Second click: proceed
-        if (onNext) onNext(kg);
+        const lbs = lbsValue;
+        const currentW = weightLbs || 154;
+        const data = getWeightMessage(currentW, lbs, minHealthy, maxHealthy);
+        setMessageData(data);
+
+        if (typeof window.ALPlayableAnalytics !== "undefined") {
+            window.ALPlayableAnalytics.trackEvent("CUSTOM", {
+                event: "selected",
+                stage: STAGE,
+                totalStages: TOTAL_STAGES,
+                totalSelects: 1,
+                question: "What's your goal weight?",
+                selected: [`${lbs} lbs`],
+            });
+        }
+    }, [goalWeight, isValid, lbsValue, weightLbs, minHealthy, maxHealthy]);
+
+    const handleNext = () => {
+        if (!isValid) return;
+        if (onNext) onNext(lbsValue);
     };
 
     return (
@@ -131,12 +132,12 @@ const Scene18 = ({ heightCm, weightKg, onNext }) => {
                 What's your goal weight?
             </h1>
 
-            {/* KG Badge */}
+            {/* LBS Badge */}
             <div className="flex items-center justify-center mb-[50px]">
                 <div className="bg-[#4DB8C4] rounded-[34px] px-[70px] py-[22px]">
                     <span className="text-[36px] font-bold text-white"
                         style={{ fontFamily: "'Open Sans', sans-serif" }}>
-                        KG
+                        LBS
                     </span>
                 </div>
             </div>
@@ -146,10 +147,7 @@ const Scene18 = ({ heightCm, weightKg, onNext }) => {
                 <input
                     type="number"
                     value={goalWeight}
-                    onChange={(e) => {
-                        setGoalWeight(e.target.value);
-                        setMessageData(null);
-                    }}
+                    onChange={(e) => setGoalWeight(e.target.value)}
                     placeholder="-"
                     className="w-full h-[160px] bg-white rounded-[40px] border-[2px] border-[#d1d9e0] outline-none text-[72px] font-bold text-center text-[#1f2933] px-[120px]"
                     style={{ fontFamily: "'Open Sans', sans-serif" }}
@@ -157,7 +155,7 @@ const Scene18 = ({ heightCm, weightKg, onNext }) => {
                 {/* Unit Text Overlay */}
                 <span className="absolute right-[60px] text-[88px] font-bold text-[#a0aab5] pointer-events-none"
                     style={{ fontFamily: "'Open Sans', sans-serif" }}>
-                    kg
+                    lbs
                 </span>
             </div>
 
@@ -200,7 +198,7 @@ const Scene18 = ({ heightCm, weightKg, onNext }) => {
                             lineHeight: "54.51px",
                             letterSpacing: "-0.02em",
                         }}>
-                        {minHealthy} kg - {maxHealthy} kg
+                        {minHealthy} lbs - {maxHealthy} lbs
                     </span>
                 </p>
             </div>

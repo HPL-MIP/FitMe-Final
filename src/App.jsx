@@ -78,7 +78,8 @@ const App = () => {
   const [answers, setAnswers] = useState({});
 
   const [heightCm, setHeightCm] = useState(null);
-  const [weightKg, setWeightKg] = useState(null);
+  const [weightLbs, setWeightLbs] = useState(null);
+  const [userName, setUserName] = useState("");
 
   const [showModal, setShowModal] = useState(false);
   const [modalType, setModalType] = useState("");
@@ -311,8 +312,8 @@ const App = () => {
           {screen === "scene17" && (
             <Scene17
               heightCm={heightCm}
-              onNext={(kg) => {
-                setWeightKg(kg);
+              onNext={(lbs) => {
+                setWeightLbs(lbs);
                 setScreen("scene18");
               }}
             />
@@ -320,7 +321,7 @@ const App = () => {
           {screen === "scene18" && (
             <Scene18
               heightCm={heightCm}
-              weightKg={weightKg}
+              weightLbs={weightLbs}
               onNext={() => setScreen("scene19")}
             />
           )}
@@ -366,13 +367,13 @@ const App = () => {
           {screen === "scene32" && (
             <Scene32
               heightCm={heightCm}
-              weightKg={weightKg}
+              weightLbs={weightLbs}
               gender={gender}
               onNext={() => setScreen("scene33")}
             />
           )}
           {screen === "scene33" && (
-            <Scene33 onNext={() => setScreen("scene34")} />
+            <Scene33 onNext={(name) => { setUserName(name); setScreen("scene34"); }} />
           )}
           {screen === "scene34" && (
             <Scene34 onNext={() => setScreen("scene35")} />
@@ -381,7 +382,7 @@ const App = () => {
             <Scene35 onNext={() => setScreen("scene36")} />
           )}
           {screen === "scene36" && (
-            <Scene36 onNext={() => setScreen("endcard")} />
+            <Scene36 userName={userName} onNext={() => setScreen("endcard")} />
           )}
         </div>
       </div>

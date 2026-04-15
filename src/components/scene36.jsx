@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const STAGE = 29;
 const TOTAL_STAGES = 29;
 
-const Scene36 = ({ onNext, goal = "lose_weight" }) => {
+const Scene36 = ({ onNext, goal = "lose_weight", userName = "" }) => {
     useEffect(() => {
         if (typeof window.ALPlayableAnalytics !== "undefined") {
             window.ALPlayableAnalytics.trackEvent("CUSTOM", {
@@ -52,11 +52,13 @@ const Scene36 = ({ onNext, goal = "lose_weight" }) => {
                 {/* Title */}
                 <h1
                     className="font-bold mt-0 mb-[50px] text-[#1f2933] text-center"
-                    style={{ fontSize: "64px", lineHeight: "80px" }}
+                    style={{ fontSize: "84px", lineHeight: "100px" }}
                 >
-                    Your 4-week plan to
+                    {userName ? `${userName},` : ""}
                     <br />
-                     <span style={{ color: goalColor }}>{goalLabel}</span> is ready!
+                    your 4-week plan to
+                    <br />
+                    <span style={{ color: goalColor }}>{goalLabel}</span> is ready!
                 </h1>
 
                 {/* Chart */}

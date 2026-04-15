@@ -55,7 +55,7 @@ const Scene35 = ({ onNext, onDecline }) => {
                 {/* Title */}
                 <h1
                     className="font-bold mt-0 mb-[40px] text-[#1f2933] text-center"
-                    style={{ fontSize: "64px", lineHeight: "80px" }}
+                    style={{ fontSize: "84px", lineHeight: "90px" }}
                 >
                     Do you want to receive <br /> emails  with{" "}
                     <span style={{ color: "#4DB8C4" }}>Fitness and Wellness</span>{" "}
@@ -71,14 +71,14 @@ const Scene35 = ({ onNext, onDecline }) => {
                         padding: "28px 32px",
                     }}
                 >
-                    <img src={easyIcon} alt="" style={{ width: "73px", height: "auto", objectFit: "contain", }} />
+                    <img src={easyIcon} alt="" style={{ width: "90px", height: "auto", objectFit: "contain", }} />
                     <span
                         className="text-[#1f2933]"
                         style={{
                             fontFamily: "'Open Sans', sans-serif",
-                            fontWeight: 600,
-                            fontSize: "38.05px",
-                            lineHeight: "48.39px",
+                            fontWeight: 400,
+                            fontSize: "46px",
+                            lineHeight: "58px",
                             letterSpacing: "0",
                             verticalAlign: "middle",
                         }}
@@ -94,8 +94,8 @@ const Scene35 = ({ onNext, onDecline }) => {
                     onClick={handleAccept}
                     className="w-full rounded-full border-none font-bold text-white cursor-pointer active:scale-95 transition-all duration-200"
                     style={{
-                        height: "160px",
-                        fontSize: "48px",
+                        height: "180px",
+                        fontSize: "56px",
                         backgroundColor: "#4DB8C4",
                     }}
                 >
@@ -108,8 +108,8 @@ const Scene35 = ({ onNext, onDecline }) => {
                     style={{
                         fontFamily: "'Open Sans', sans-serif",
                         fontWeight: 600,
-                        fontSize: "38.54px",
-                        lineHeight: "47.1px",
+                        fontSize: "46px",
+                        lineHeight: "56px",
                         letterSpacing: "0",
                         textAlign: "center",
                         verticalAlign: "middle",
