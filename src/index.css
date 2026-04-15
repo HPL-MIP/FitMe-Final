@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-pulsing: pulsing 1s infinite;
+  @keyframes pulsing {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.04);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../src/assets/fonts/OpenSans-Regular.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("../src/assets/fonts/OpenSans-SemiBold.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../src/assets/fonts/OpenSans-Bold.ttf") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.no-interaction {
+  pointer-events: none !important;
+  touch-action: none !important;
+  user-select: none !important;
+  -webkit-user-drag: none !important;
+}
+html,
+body {
+  overflow: hidden;
+  touch-action: none;
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+* {
+  scrollbar-width: none;
+}
+
+body {
+  background-color: #f6f4f1;
+  color: #151515;
+}
+
+.appWrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  --ui-scale: 1;
+}
+
+.app {
+  position: absolute;
+  width: 1080px;
+  height: 2340px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(var(--ui-scale, 1));
+  transform-origin: center;
+  will-change: transform;
+  /* border: 3px solid red; */
+}
+.logoContainer {
+  padding: 2.5vmin 0;
+}
+.logoImg {
+  width: 20vmin;
+}
+.btn {
+  border-radius: 50px;
+  font-size: 50px;
+  /* padding: 0px 0 0 50px; */
+}
+.fontRegular {
+  font-family: OpenSans-Regular;
+}
+.fontSemiBold {
+  font-family: OpenSans-SemiBold;
+}
+.fontBold {
+  font-family: OpenSans-Bold;
+}
+
+@media screen and (orientation: landscape) {
+  .gotitBtn {
+    padding-bottom: 40vh;
+  }
+  .gotitBtnContainer {
+    padding-bottom: 50vh;
+  }
+  .graphContinueBtn {
+    margin-bottom: 80vh;
+  }
+}
