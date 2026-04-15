@@ -63,23 +63,43 @@ const Scene34 = ({ onNext }) => {
                 </h1>
 
                 {/* Email Input */}
-                <input
-                    type="email"
-                    placeholder="Email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                    onKeyDown={(e) => { if (e.key === "Enter") handleNext(); }}
-                    className="shadow-[0px_4px_13px_0px_#0000000D] px-[50px] font-semibold outline-none"
-                    style={{
-                        width: "100%",
-                        height: "160px",
-                        borderRadius: "44px",
-                        border: "3px solid #CACACA",
-                        fontSize: "43px",
-                        backgroundColor: "#FFFFFF",
-                        color: "#1f2933",
-                    }}
-                />
+                <div className="relative w-full">
+                    <input
+                        type="email"
+                        placeholder="Email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        onKeyDown={(e) => { if (e.key === "Enter") handleNext(); }}
+                        className="shadow-[0px_4px_13px_0px_#0000000D] pl-[50px] pr-[160px] font-semibold outline-none"
+                        style={{
+                            width: "100%",
+                            height: "160px",
+                            borderRadius: "44px",
+                            border: "3px solid #CACACA",
+                            fontSize: "43px",
+                            backgroundColor: "#FFFFFF",
+                            color: "#1f2933",
+                        }}
+                    />
+                    {canSubmit && (
+                        <div
+                            className="absolute flex items-center justify-center"
+                            style={{
+                                right: "40px",
+                                top: "50%",
+                                transform: "translateY(-50%)",
+                                width: "52px",
+                                height: "52px",
+                                borderRadius: "50%",
+                                backgroundColor: "#34C759",
+                            }}
+                        >
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 12.5L10 17.5L19 7.5" stroke="white" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
+                            </svg>
+                        </div>
+                    )}
+                </div>
 
                 {/* Social proof badge */}
                 <div
@@ -118,7 +138,7 @@ const Scene34 = ({ onNext }) => {
                             Your data is 100% protected.
                         </div>
                         <div className="text-[#5a6672]">
-                            FitMe does not share your personal information with third parties
+                            FitMe does not share your personal information with third parties.
                         </div>
                     </div>
                 </div>

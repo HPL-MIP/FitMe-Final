@@ -36,9 +36,14 @@ const getBMIData = (bmi) => {
     };
 };
 
-const Scene17 = ({ heightCm, onNext }) => {
+const Scene17 = ({ heightCm, onNext, unit = "lbs" }) => {
+    const isKg = unit === "kg";
     const [weight, setWeight] = useState("");
     const [bmiResult, setBmiResult] = useState(null);
+    const [isTyping, setIsTyping] = useState(false);
+
+    const handleFocus = () => setIsTyping(true);
+    const handleBlur = () => setTimeout(() => setIsTyping(false), 400);
 
     // Fire "shown" event on mount
     useEffect(() => {
@@ -53,11 +58,14 @@ const Scene17 = ({ heightCm, onNext }) => {
         }
     }, []);
 
-    const lbsValue = parseFloat(weight);
+    const inputValue = parseFloat(weight);
     const hasInput = !!weight;
-    const inRange = lbsValue >= 44 && lbsValue <= 329;
+    const inRange = isKg
+        ? (inputValue >= 20 && inputValue <= 150)
+        : (inputValue >= 44 && inputValue <= 329);
     const showError = hasInput && !inRange;
     const isValid = hasInput && inRange;
+    const lbsValue = isKg ? inputValue * 2.20462262 : inputValue;
 
     // Auto-compute BMI whenever a valid weight is entered
     useEffect(() => {
@@ -67,7 +75,7 @@ const Scene17 = ({ heightCm, onNext }) => {
         }
 
         const lbs = lbsValue;
-        const kg = lbs * 0.45359237;
+        const kg = isKg ? inputValue : lbs * 0.45359237;
         const heightM = (heightCm || 170) / 100;
         const bmi = kg / (heightM * heightM);
         const data = getBMIData(bmi);
@@ -81,7 +89,7 @@ const Scene17 = ({ heightCm, onNext }) => {
                 totalStages: TOTAL_STAGES,
                 totalSelects: 1,
                 question: "What's your current weight?",
-                selected: [`${lbs} lbs`],
+                selected: [isKg ? `${inputValue} kg` : `${lbs} lbs`],
             });
         }
 
@@ -89,15 +97,17 @@ const Scene17 = ({ heightCm, onNext }) => {
             stage: STAGE,
             totalStages: TOTAL_STAGES,
             question: "What's your current weight?",
-            selected: [`${lbs}`],
+            selected: [isKg ? `${inputValue}` : `${lbs}`],
             bmi: bmi.toFixed(1),
             bmiCategory: data.category,
         };
-    }, [weight, isValid, lbsValue, heightCm]);
+    }, [weight, isValid, lbsValue, inputValue, isKg, heightCm]);
 
     const handleNext = () => {
         if (!isValid) return;
-        if (onNext) onNext(lbsValue);
+        setIsTyping(false);
+        if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
+        setTimeout(() => { if (onNext) onNext(lbsValue); }, 800);
     };
 
     return (
@@ -113,12 +123,12 @@ const Scene17 = ({ heightCm, onNext }) => {
                 What's your current weight?
             </h1>
 
-            {/* LBS Badge */}
+            {/* Unit Badge */}
             <div className="flex items-center justify-center mb-[50px]">
                 <div className="bg-[#4DB8C4] rounded-[34px] px-[70px] py-[22px]">
                     <span className="text-[36px] font-bold text-white"
                         style={{ fontFamily: "'Open Sans', sans-serif" }}>
-                        LBS
+                        {isKg ? "KG" : "LBS"}
                     </span>
                 </div>
             </div>
@@ -129,14 +139,16 @@ const Scene17 = ({ heightCm, onNext }) => {
                     type="number"
                     value={weight}
                     onChange={(e) => setWeight(e.target.value)}
-                    placeholder="-"
+                    onFocus={handleFocus}
+                    onBlur={handleBlur}
+                    placeholder={isTyping ? "" : "-"}
                     className="w-full h-[160px] bg-white rounded-[40px] border-[2px] border-[#d1d9e0] outline-none text-[72px] font-bold text-center text-[#1f2933] px-[120px]"
                     style={{ fontFamily: "'Open Sans', sans-serif" }}
                 />
                 {/* Unit Text Overlay */}
                 <span className="absolute right-[60px] text-[88px] font-bold text-[#a0aab5] pointer-events-none"
                     style={{ fontFamily: "'Open Sans', sans-serif" }}>
-                    lbs
+                    {isKg ? "kg" : "lbs"}
                 </span>
             </div>
 

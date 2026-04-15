@@ -8,7 +8,7 @@ const TOTAL_STAGES = 22;
 const choices = [
     { id: "definitely", label: "It's definitely about me!" },
     { id: "sometimes", label: "Sometimes it's true" },
-    { id: "not_sure", label: "hmm, I'm not sure" },
+    { id: "not_sure", label: "Hmm, I'm not sure" },
     { id: "not_me", label: "No, it isn't about me" },
 ];
 

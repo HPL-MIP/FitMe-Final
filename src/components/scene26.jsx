@@ -81,12 +81,12 @@ const Scene26 = ({ onNext }) => {
             </div>
 
             <div
-                className="shrink-0 px-[50px] pb-[30vh]"
+                className="shrink-0 px-[50px] pb-[30vh] landscape:pb-[6vh] landscape:mt-[4vh]"
                 style={{ backgroundColor: "#EAF4F6" }}
             >
                 <button
                     onClick={() => onNext && onNext()}
-                    className="w-full py-[42px] rounded-full border-none font-bold text-white cursor-pointer transition-all duration-300"
+                    className="w-full py-[42px] rounded-full border-none font-bold text-white cursor-pointer transition-all duration-300 landscape:mb-[60vh]"
                     style={{ fontSize: "47px", backgroundColor: "#4DB8C4" }}
                 >
                     Continue

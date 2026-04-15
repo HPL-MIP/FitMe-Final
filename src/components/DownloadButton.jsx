@@ -10,7 +10,7 @@ const DownloadButton = ({ label = "Download now" }) => {
 
     return (
         <div
-            className="shrink-0 px-[50px] pb-[30vh]"
+            className="shrink-0 px-[50px] pb-[30vh] landscape:pb-[80px] landscape:pt-0 landscape:mb-[50vh]"
             style={{ backgroundColor: "#EAF4F6" }}
         >
             <button

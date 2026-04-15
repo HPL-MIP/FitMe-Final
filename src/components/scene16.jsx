@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 import infoEmoji from "../assets/img/info_emoji.png";
 import errorIcon from "../assets/img/overweight_bmi.png";
@@ -12,6 +12,20 @@ const Scene16 = ({ onNext }) => {
     const [height, setHeight] = useState("");
     const [feet, setFeet] = useState("");
     const [inches, setInches] = useState("");
+    const [isTyping, setIsTyping] = useState(false);
+    const blurTimerRef = useRef(null);
+
+    const handleFocus = () => {
+        if (blurTimerRef.current) {
+            clearTimeout(blurTimerRef.current);
+            blurTimerRef.current = null;
+        }
+        setIsTyping(true);
+    };
+    const handleBlur = () => {
+        if (blurTimerRef.current) clearTimeout(blurTimerRef.current);
+        blurTimerRef.current = setTimeout(() => setIsTyping(false), 400);
+    };
 
     // Fire "shown" event on mount
     useEffect(() => {
@@ -57,7 +71,6 @@ const Scene16 = ({ onNext }) => {
             ? [`${height} cm`]
             : [`${feet}ft ${inches}in`];
 
-        // Fire "selected" event
         if (typeof window.ALPlayableAnalytics !== "undefined") {
             window.ALPlayableAnalytics.trackEvent("CUSTOM", {
                 event: "selected",
@@ -69,7 +82,9 @@ const Scene16 = ({ onNext }) => {
             });
         }
 
-        onNext(heightCm);
+        setIsTyping(false);
+        if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
+        setTimeout(() => onNext(heightCm, unit), 800);
     };
 
     return (
@@ -119,7 +134,9 @@ const Scene16 = ({ onNext }) => {
                         type="number"
                         value={height}
                         onChange={(e) => setHeight(e.target.value)}
-                        placeholder="-"
+                        onFocus={handleFocus}
+                        onBlur={handleBlur}
+                        placeholder={isTyping ? "" : "-"}
                         className="w-full h-[160px] bg-white rounded-[40px] border-[2px] border-[#d1d9e0] outline-none text-[72px] font-bold text-center text-[#1f2933] px-[120px]"
                         style={{ fontFamily: "'Open Sans', sans-serif" }}
                     />
@@ -139,7 +156,9 @@ const Scene16 = ({ onNext }) => {
                             type="number"
                             value={feet}
                             onChange={(e) => setFeet(e.target.value)}
-                            placeholder="-"
+                            onFocus={handleFocus}
+                            onBlur={handleBlur}
+                            placeholder={isTyping ? "" : "-"}
                             className="w-full h-[160px] bg-white rounded-[40px] border-[2px] border-[#d1d9e0] outline-none text-[72px] font-bold text-center text-[#1f2933] px-[24px]"
                             style={{ fontFamily: "'Open Sans', sans-serif" }}
                         />
@@ -155,7 +174,9 @@ const Scene16 = ({ onNext }) => {
                             type="number"
                             value={inches}
                             onChange={(e) => setInches(e.target.value)}
-                            placeholder="-"
+                            onFocus={handleFocus}
+                            onBlur={handleBlur}
+                            placeholder={isTyping ? "" : "-"}
                             className="w-full h-[160px] bg-white rounded-[40px] border-[2px] border-[#d1d9e0] outline-none text-[72px] font-bold text-center text-[#1f2933] px-[24px]"
                             style={{ fontFamily: "'Open Sans', sans-serif" }}
                         />
@@ -188,6 +209,7 @@ const Scene16 = ({ onNext }) => {
             )}
 
             {/* Info Card */}
+            {!isTyping && (
             <div className="bg-[#DBE4E9] rounded-[40px] p-[45px] w-full mb-[50px] mt-8">
                 <div className="flex items-start gap-[25px]">
                     <img src={infoEmoji} alt="info" className="w-[64px] h-auto shrink-0 mt-[5px]" />
@@ -206,6 +228,7 @@ const Scene16 = ({ onNext }) => {
                     </div>
                 </div>
             </div>
+            )}
 
             {/* Next Button */}
             <div className="w-full">

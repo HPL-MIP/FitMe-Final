@@ -24,8 +24,8 @@ const getInfoCard = (category) => {
     switch (category) {
         case "UNDERWEIGHT":
             return {
-                icon: goodIcon, bg: "#E8F5E9", title: "Good starting BMI to get a fit body",
-                text: "Focus on gradual and healthy weight gain through a balanced diet and strength-building activities.",
+                icon: goodIcon, bg: "#E8F5E9", title: "Risks for an unhealthy BMI",
+                text: "High blood pressure, heart disease,stroke, type 2 diabetes, some types of cancer, osteoarthritis, back pain, all case mortality",
             };
         case "NORMAL":
             return {
@@ -178,7 +178,7 @@ const Scene32 = ({ heightCm, weightLbs, gender, onNext }) => {
                                 position: "absolute",
                                 width: "388.22px",
                                 height: "448.61px",
-                                top: "786.29px",
+                                top: "756.29px",
                                 left: "623.93px",
                                 opacity: 1,
                                 objectFit: "contain",
@@ -197,8 +197,8 @@ const Scene32 = ({ heightCm, weightLbs, gender, onNext }) => {
                 </div>
             </div>
 
-            <div className="shrink-0 px-[50px] pb-[30vh]">
-                <button onClick={() => onNext?.()} className="w-full py-[50px] rounded-full border-none font-bold text-white cursor-pointer active:scale-95 transition-transform" style={{ fontSize: "52px", backgroundColor: "#4DB8C4" }}>
+            <div className="shrink-0 px-[50px] pb-[30vh] landscape:pb-[6vh] landscape:mt-[4vh]">
+                <button onClick={() => onNext?.()} className="w-full py-[50px] rounded-full border-none font-bold text-white cursor-pointer active:scale-95 transition-transform landscape:mb-[60vh]" style={{ fontSize: "52px", backgroundColor: "#4DB8C4" }}>
                     Continue
                 </button>
             </div>

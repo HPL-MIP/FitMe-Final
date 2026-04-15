@@ -79,7 +79,9 @@ const App = () => {
 
   const [heightCm, setHeightCm] = useState(null);
   const [weightLbs, setWeightLbs] = useState(null);
+  const [weightUnit, setWeightUnit] = useState("lbs");
   const [userName, setUserName] = useState("");
+  const [scene20Index, setScene20Index] = useState(0);
 
   const [showModal, setShowModal] = useState(false);
   const [modalType, setModalType] = useState("");
@@ -123,10 +125,11 @@ const App = () => {
     screen === "workout" ||
     screen === "graphWorkout" ||
     screen === "meditationWorkout";
-  const showBack = screen === "quiz" || isWorkoutScreen || isSceneScreen;
-  const useLogo2 = showBack;
+  const noBackScenes = ["scene33", "scene34", "scene35", "scene36"];
+  const showBack = (screen === "quiz" || isWorkoutScreen || isSceneScreen) && !noBackScenes.includes(screen);
+  const useLogo2 = screen === "quiz" || isWorkoutScreen || isSceneScreen;
 
-  const SCENE_PROGRESS_MAX = 31;
+  const SCENE_PROGRESS_MAX = 34;
   const SCENE_PROGRESS_START = 16;
   const sceneProgressScreens = SCENE_SCREENS.filter(
     (s) =>
@@ -142,8 +145,13 @@ const App = () => {
   const showProgressBar = screen === "quiz" || isSceneProgressScreen;
   const showStageCounter = showProgressBar;
 
+  const scene20Idx = sceneProgressScreens.indexOf("scene20");
+  const currentSceneIdx = sceneProgressScreens.indexOf(screen);
+  const scene20Bonus = screen === "scene20"
+    ? scene20Index
+    : (currentSceneIdx > scene20Idx ? 3 : 0);
   const counterCurrent = isSceneProgressScreen
-    ? SCENE_PROGRESS_START + sceneProgressScreens.indexOf(screen)
+    ? SCENE_PROGRESS_START + currentSceneIdx + scene20Bonus
     : stage + 1;
   const counterTotal = SCENE_PROGRESS_MAX;
 
@@ -303,8 +311,9 @@ const App = () => {
 
           {screen === "scene16" && (
             <Scene16
-              onNext={(cm) => {
+              onNext={(cm, heightUnit) => {
                 setHeightCm(cm);
+                setWeightUnit(heightUnit === "cm" ? "kg" : "lbs");
                 setScreen("scene17");
               }}
             />
@@ -312,6 +321,7 @@ const App = () => {
           {screen === "scene17" && (
             <Scene17
               heightCm={heightCm}
+              unit={weightUnit}
               onNext={(lbs) => {
                 setWeightLbs(lbs);
                 setScreen("scene18");
@@ -322,6 +332,7 @@ const App = () => {
             <Scene18
               heightCm={heightCm}
               weightLbs={weightLbs}
+              unit={weightUnit}
               onNext={() => setScreen("scene19")}
             />
           )}
@@ -329,7 +340,7 @@ const App = () => {
             <Scene19 onNext={() => setScreen("scene20")} />
           )}
           {screen === "scene20" && (
-            <Scene20 gender={gender} onNext={() => setScreen("scene21")} />
+            <Scene20 gender={gender} onIndexChange={setScene20Index} onNext={() => setScreen("scene21")} />
           )}
           {screen === "scene21" && (
             <Scene21 onNext={() => setScreen("scene22")} />

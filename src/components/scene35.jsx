@@ -89,7 +89,7 @@ const Scene35 = ({ onNext, onDecline }) => {
             </div>
 
             {/* Bottom actions */}
-            <div className="px-[50px] pb-[300px] flex flex-col items-center gap-[30px]">
+            <div className="px-[50px] pb-[300px] landscape:pb-[6vh] landscape:mb-[60vh] flex flex-col items-center gap-[30px]">
                 <button
                     onClick={handleAccept}
                     className="w-full rounded-full border-none font-bold text-white cursor-pointer active:scale-95 transition-all duration-200"
@@ -107,7 +107,7 @@ const Scene35 = ({ onNext, onDecline }) => {
                     className="bg-transparent border-none cursor-pointer text-[#575757] mt-[12vh]"
                     style={{
                         fontFamily: "'Open Sans', sans-serif",
-                        fontWeight: 600,
+                        fontWeight: 400,
                         fontSize: "46px",
                         lineHeight: "56px",
                         letterSpacing: "0",

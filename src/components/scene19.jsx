@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 import infoEmoji from "../assets/img/info_emoji.png";
 import errorIcon from "../assets/img/overweight_bmi.png";
@@ -9,6 +9,20 @@ const TOTAL_STAGES = 10;
 
 const Scene19 = ({ onNext }) => {
     const [age, setAge] = useState("");
+    const [isTyping, setIsTyping] = useState(false);
+    const blurTimerRef = useRef(null);
+
+    const handleFocus = () => {
+        if (blurTimerRef.current) {
+            clearTimeout(blurTimerRef.current);
+            blurTimerRef.current = null;
+        }
+        setIsTyping(true);
+    };
+    const handleBlur = () => {
+        if (blurTimerRef.current) clearTimeout(blurTimerRef.current);
+        blurTimerRef.current = setTimeout(() => setIsTyping(false), 400);
+    };
 
     // Fire "shown" event on mount
     useEffect(() => {
@@ -33,7 +47,6 @@ const Scene19 = ({ onNext }) => {
         const val = ageValue;
         if (!isValid || !onNext) return;
 
-        // Fire "selected" event
         if (typeof window.ALPlayableAnalytics !== "undefined") {
             window.ALPlayableAnalytics.trackEvent("CUSTOM", {
                 event: "selected",
@@ -45,7 +58,9 @@ const Scene19 = ({ onNext }) => {
             });
         }
 
-        onNext(val);
+        setIsTyping(false);
+        if (document.activeElement && document.activeElement.blur) document.activeElement.blur();
+        setTimeout(() => onNext(val), 800);
     };
 
     return (
@@ -67,7 +82,9 @@ const Scene19 = ({ onNext }) => {
                     type="number"
                     value={age}
                     onChange={(e) => setAge(e.target.value)}
-                    placeholder="-"
+                    onFocus={handleFocus}
+                    onBlur={handleBlur}
+                    placeholder={isTyping ? "" : "-"}
                     className="w-full h-[160px] bg-white rounded-[40px] border-[2px] border-[#d1d9e0] outline-none text-[72px] font-bold text-center text-[#1f2933] px-[50px]"
                     style={{ fontFamily: "'Open Sans', sans-serif" }}
                 />
@@ -94,6 +111,7 @@ const Scene19 = ({ onNext }) => {
             )}
 
             {/* Info Card */}
+            {!isTyping && (
             <div className="bg-[#DBE4E9] rounded-[40px] p-[45px] w-full mb-[50px]">
                 <div className="flex items-start gap-[25px]">
                     <img src={infoEmoji} alt="info" className="w-[52px] h-[52px] shrink-0 mt-[5px]" />
@@ -109,6 +127,7 @@ const Scene19 = ({ onNext }) => {
                     </div>
                 </div>
             </div>
+            )}
 
             {/* Next Button */}
             <div className="w-full">

@@ -23,8 +23,8 @@ const reviews = [
         author: "Robert Young",
     },
     {
-        text: "These short asian workouts are like my daily energy boost. And guess what? They're working some magic on the scale too! I've dropped 10 pounds!",
-        author: "Daniel Walker",
+        text: "FitMe has been a pleasant surprise for my health. Despite my doubts at first, the short workouts have significantly improved my well-being",
+        author: "Andrew Thompson",
     },
 ];
 
@@ -170,12 +170,12 @@ const Scene31 = ({ onNext }) => {
             </div>
 
             <div
-                className="shrink-0 px-[50px] pb-[30vh]"
+                className="shrink-0 px-[50px] pb-[30vh] landscape:pb-[6vh] landscape:mt-[4vh]"
                 style={{ backgroundColor: "#EAF4F6" }}
             >
                 <button
                     onClick={() => onNext && onNext()}
-                    className="w-full py-[42px] rounded-full border-none font-bold text-white cursor-pointer transition-all duration-300"
+                    className="w-full py-[42px] rounded-full border-none font-bold text-white cursor-pointer transition-all duration-300 landscape:mb-[60vh]"
                     style={{ fontSize: "47px", backgroundColor: "#4DB8C4" }}
                 >
                     Continue

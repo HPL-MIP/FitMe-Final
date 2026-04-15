@@ -35,13 +35,17 @@ const reactions = [
     { id: "like", icon: likeIcon, label: "Like" },
 ];
 
-const Scene20 = ({ onNext, gender }) => {
+const Scene20 = ({ onNext, gender, onIndexChange }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [selected, setSelected] = useState(null);
     const [answers, setAnswers] = useState([]);
 
     const items = gender === "female" ? itemsFemale : itemsMale;
     const currentItem = items[currentIndex];
+
+    useEffect(() => {
+        if (onIndexChange) onIndexChange(currentIndex);
+    }, [currentIndex, onIndexChange]);
 
     // Fire "shown" event
     useEffect(() => {

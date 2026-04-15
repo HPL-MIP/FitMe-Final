@@ -21,7 +21,7 @@ const Scene36 = ({ onNext, goal = "lose_weight", userName = "" }) => {
 
     const isMuscle = goal === "muscle_mass";
     const chartImg = isMuscle ? muscleMassImg : loseWeightImg;
-    const goalLabel = isMuscle ? "Gain muscle mass" : "Lose weight";
+    const goalLabel = isMuscle ? "Gain muscle mass" : "Lose Weight";
     const goalColor = isMuscle ? "#4DB8C4" : "#4CAF50";
 
     const handleNext = () => {
@@ -78,10 +78,10 @@ const Scene36 = ({ onNext, goal = "lose_weight", userName = "" }) => {
             </div>
 
             {/* CTA */}
-            <div className="px-[50px] pb-[400px]">
+            <div className="px-[50px] pb-[400px] landscape:pb-[6vh] landscape:mt-[4vh]">
                 <button
                     onClick={handleNext}
-                    className="w-full rounded-full border-none font-bold text-white cursor-pointer active:scale-95 transition-all duration-200"
+                    className="w-full rounded-full border-none font-bold text-white cursor-pointer active:scale-95 transition-all duration-200 landscape:mb-[60vh]"
                     style={{
                         height: "160px",
                         fontSize: "48px",
