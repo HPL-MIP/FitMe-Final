@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import checkIcon from "../assets/img/CHECK.webp";
 import starIcon from "../assets/img/star.webp";
+import DownloadButton from "./DownloadButton";
 import { motion, AnimatePresence } from "framer-motion";
 
 const STAGE = 24;
@@ -171,7 +172,9 @@ const Scene31 = ({ onNext }) => {
                     </AnimatePresence>
                 </div>
             </div>
-
+                  
+            {/* Download Button */}
+            <DownloadButton />              
         </motion.div>
     );
 };
