@@ -80,7 +80,7 @@ const Scene36 = ({ onNext, goal = "lose_weight", userName = "" }) => {
             <div className="px-[50px] pb-[400px] landscape:pb-[6vh] landscape:mt-[4vh]">
                 <button
                     onClick={handleNext}
-                    className="w-full rounded-full border-none font-bold text-white cursor-pointer active:scale-95 transition-all duration-200 landscape:mb-[60vh]"
+                    className="animate-pulsing w-full rounded-full border-none font-bold text-white cursor-pointer active:scale-95 transition-all duration-200 landscape:mb-[60vh]"
                     style={{
                         height: "160px",
                         fontSize: "48px",

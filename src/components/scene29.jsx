@@ -66,7 +66,7 @@ const Scene29 = ({ onNext }) => {
                 {/* Subtitle */}
                 <p
                     className="mt-0 mb-[50px] text-[#6b7a8d] text-center"
-                    style={{ fontSize: "44px", lineHeight: "54px", fontWeight: 400 }}
+                    style={{ fontSize: "44px", lineHeight: "54px", fontWeight: 600 }}
                 >
                     Do you relate to the statement?
                 </p>

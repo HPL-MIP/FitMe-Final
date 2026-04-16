@@ -84,7 +84,7 @@ const Scene33 = ({ onNext }) => {
                 <button
                     onClick={handleNext}
                     disabled={!name.trim()}
-                    className="w-full rounded-full border-none font-bold text-white cursor-pointer active:scale-95 transition-all duration-200"
+                    className="animate-pulsing w-full rounded-full border-none font-bold text-white cursor-pointer active:scale-95 transition-all duration-200"
                     style={{
                         height: "160px",
                         fontSize: "52px",

@@ -19,7 +19,7 @@ const getWeightMessage = (currentW, goalW, minHealthy, maxHealthy, unitLabel = "
             icon: boostEmoji,
             color: "#D5EFFA",
             title: `GET MOVING: gain ${pct}% of your weight`,
-            message: "Even 5-minute workouts every day can help you keep fit and improve your sleep and energy levels.",
+            message: "Even 5-minute daily workouts can help you gain muscle, improve sleep, and boost energy levels.",
         };
     }
 
@@ -67,6 +67,7 @@ const Scene18 = ({ heightCm, weightLbs, onNext, unit = "lbs" }) => {
     const KG_TO_LBS = 2.20462262;
     const [goalWeight, setGoalWeight] = useState("");
     const [messageData, setMessageData] = useState(null);
+    const [isFocused, setIsFocused] = useState(false);
 
     // Fire "shown" event on mount
     useEffect(() => {
@@ -158,7 +159,9 @@ const Scene18 = ({ heightCm, weightLbs, onNext, unit = "lbs" }) => {
                     type="number"
                     value={goalWeight}
                     onChange={(e) => setGoalWeight(e.target.value)}
-                    placeholder="-"
+                    onFocus={() => setIsFocused(true)}
+                    onBlur={() => setIsFocused(false)}
+                    placeholder={isFocused ? "" : "-"}
                     className="w-full h-[160px] bg-white rounded-[40px] border-[2px] border-[#d1d9e0] outline-none text-[72px] font-bold text-center text-[#1f2933] px-[120px]"
                     style={{ fontFamily: "'Open Sans', sans-serif" }}
                 />
@@ -241,7 +244,7 @@ const Scene18 = ({ heightCm, weightLbs, onNext, unit = "lbs" }) => {
             <div className="w-full">
                 <button
                     onClick={handleNext}
-                    className={`w-full py-[42px] rounded-full border-none text-[44px] font-bold transition-all duration-300 text-white ${isValid ? "bg-[#4DB8C4] cursor-pointer" : "bg-[#cccccc] cursor-default"}`}
+                    className={`animate-pulsing w-full py-[42px] rounded-full border-none text-[44px] font-bold transition-all duration-300 text-white ${isValid ? "bg-[#4DB8C4] cursor-pointer" : "bg-[#cccccc] cursor-default"}`}
                     style={{ fontFamily: "'Open Sans', sans-serif" }}
                 >
                     Next

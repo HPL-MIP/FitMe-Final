@@ -234,7 +234,7 @@ const Scene16 = ({ onNext }) => {
             <div className="w-full">
                 <button
                     onClick={handleNext}
-                    className={`w-full mt-8 py-[42px] rounded-full border-none text-[44px] font-bold transition-all duration-300 text-white ${isValid ? "bg-[#4DB8C4] cursor-pointer" : "bg-[#cccccc] cursor-default"}`}
+                    className={`animate-pulsing w-full mt-8 py-[42px] rounded-full border-none text-[44px] font-bold transition-all duration-300 text-white ${isValid ? "bg-[#4DB8C4] cursor-pointer" : "bg-[#cccccc] cursor-default"}`}
                     style={{ fontFamily: "'Open Sans', sans-serif" }}
                 >
                     Next

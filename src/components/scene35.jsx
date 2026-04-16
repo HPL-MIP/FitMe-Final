@@ -92,7 +92,7 @@ const Scene35 = ({ onNext, onDecline }) => {
             <div className="px-[50px] pb-[300px] landscape:pb-[6vh] landscape:mb-[60vh] flex flex-col items-center gap-[30px]">
                 <button
                     onClick={handleAccept}
-                    className="w-full rounded-full border-none font-bold text-white cursor-pointer active:scale-95 transition-all duration-200"
+                    className="animate-pulsing w-full rounded-full border-none font-bold text-white cursor-pointer active:scale-95 transition-all duration-200"
                     style={{
                         height: "180px",
                         fontSize: "56px",

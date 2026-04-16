@@ -15,7 +15,7 @@ const DownloadButton = ({ label = "Try now" }) => {
         >
             <button
                 onClick={handleClickAction}
-                className="w-full py-[42px] rounded-full border-none font-bold text-white cursor-pointer transition-all duration-300"
+                className="animate-pulsing w-full py-[42px] rounded-full border-none font-bold text-white cursor-pointer transition-all duration-300"
                 style={{
                     fontSize: "47px",
                     backgroundColor: "#4DB8C4",

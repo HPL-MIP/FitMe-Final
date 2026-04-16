@@ -59,9 +59,11 @@ const Scene24 = ({ onNext }) => {
             <div className="px-[50px] pt-[50px] pb-[30px]">
                 <h1
                     className="font-bold mt-0 mb-[60px] text-[#1f2933] text-center mt-8"
-                    style={{ fontSize: "72px", lineHeight: "90px" }}
+                    style={{ fontSize: "70px", lineHeight: "90px" }}
                 >
-                    What is your average energy level throughout the day?
+                    What is your average energy
+                    <br />
+                    level throughout the day?
                 </h1>
 
                 <div className="flex flex-col gap-[35px]">

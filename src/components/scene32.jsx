@@ -20,7 +20,10 @@ const getBmiCategory = (bmi) => {
   return "OBESE";
 };
 
-const getInfoCard = (category) => {
+const getInfoCard = (category, gender) => {
+  const isFemale = gender === "female";
+  const genderLabel = isFemale ? "women" : "men";
+  const bodyFatRange = isFemale ? "25-31%" : "18-24%";
   switch (category) {
     case "UNDERWEIGHT":
       return {
@@ -34,7 +37,7 @@ const getInfoCard = (category) => {
         icon: goodIcon,
         bg: "#E2F1D7",
         title: "Good starting BMI to get a fit body",
-        text: "Based on research, 18-24% is an ideal body fat percentage for men to start building muscle and get fit faster.",
+        text: `Based on research, ${bodyFatRange} is an ideal body fat percentage for ${genderLabel} to start building muscle and get fit faster.`,
       };
     case "OVERWEIGHT":
     case "OBESE":
@@ -69,7 +72,7 @@ const Scene32 = ({ heightCm, weightLbs, gender, onNext }) => {
   const bmi = useMemo(() => (weightKg / (hm * hm)).toFixed(1), [weightKg, hm]);
   const bmiNum = parseFloat(bmi);
   const category = getBmiCategory(bmiNum);
-  const info = getInfoCard(category);
+  const info = getInfoCard(category, gender);
   const dotPos = getDotPosition(bmiNum);
   const isOverweight = category === "OVERWEIGHT" || category === "OBESE";
   const isFemale = gender === "female";
@@ -356,7 +359,7 @@ const Scene32 = ({ heightCm, weightLbs, gender, onNext }) => {
       <div className="shrink-0 px-[50px] pb-[30vh] landscape:pb-[6vh] landscape:mt-[4vh]">
         <button
           onClick={() => onNext?.()}
-          className="w-full py-[50px] rounded-full border-none font-bold text-white cursor-pointer active:scale-95 transition-transform landscape:mb-[60vh]"
+          className="animate-pulsing w-full py-[50px] rounded-full border-none font-bold text-white cursor-pointer active:scale-95 transition-transform landscape:mb-[60vh]"
           style={{ fontSize: "52px", backgroundColor: "#4DB8C4" }}
         >
           Continue

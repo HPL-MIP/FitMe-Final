@@ -58,15 +58,15 @@ const Scene27 = ({ onNext }) => {
                 {/* Statement */}
                 <h1
                     className="font-bold mt-0 mb-[20px] text-[#1f2933] text-center mt-8"
-                    style={{ fontSize: "72px", lineHeight: "90px" }}
+                    style={{ fontSize: "66px", lineHeight: "90px" }}
                 >
-                    "I'm out of breath after walking up one flight of stairs"
+                    "I'm out of breath after walking <br/> up  one flight of stairs"
                 </h1>
 
                 {/* Subtitle */}
                 <p
                     className="mt-0 mb-[50px] text-[#6b7a8d] text-center"
-                    style={{ fontSize: "44px", lineHeight: "54px", fontWeight: 400 }}
+                    style={{ fontSize: "44px", lineHeight: "54px", fontWeight: 600 }}
                 >
                     Do you relate to the statement?
                 </p>

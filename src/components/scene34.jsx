@@ -180,7 +180,7 @@ const Scene34 = ({ onNext }) => {
         <button
           onClick={handleNext}
           disabled={!canSubmit}
-          className="w-full rounded-full border-none font-bold text-white cursor-pointer active:scale-95 transition-all duration-200 mt-[60px]"
+          className="animate-pulsing w-full rounded-full border-none font-bold text-white cursor-pointer active:scale-95 transition-all duration-200 mt-[60px]"
           style={{
             height: "160px",
             fontSize: "48px",

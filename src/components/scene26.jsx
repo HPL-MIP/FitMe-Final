@@ -86,7 +86,7 @@ const Scene26 = ({ onNext }) => {
             >
                 <button
                     onClick={() => onNext && onNext()}
-                    className="w-full py-[42px] rounded-full border-none font-bold text-white cursor-pointer transition-all duration-300 landscape:mb-[60vh]"
+                    className="animate-pulsing w-full py-[42px] rounded-full border-none font-bold text-white cursor-pointer transition-all duration-300 landscape:mb-[60vh]"
                     style={{ fontSize: "47px", backgroundColor: "#4DB8C4" }}
                 >
                     Continue
