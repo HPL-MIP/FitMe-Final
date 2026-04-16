@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import cta from "../assets/img/cta.png";
 import continueBtn from "../assets/img/continueBtn.png";
 import quizSubTxt from "../assets/img/quiz/quizSubTxt.png";
+import vector from "../assets/img/Vector.png";
 import List1 from "./List1";
 import List2 from "./List2";
 
@@ -126,7 +127,7 @@ const Quiz = ({
       return;
     }
 
-    if (selectedId) return;
+    if (selectedId && stage !== 5 && stage !== 10) return;
 
     setSelectedId(id);
 
@@ -210,7 +211,7 @@ const Quiz = ({
         <div
           className={`${className.layoutContainer || ""} h-[1400px] ${
             modelImage ? "flex" : ""
-          } w-full`}
+          } w-full flex-col`}
         >
           <LayoutComponent
             stage={stage}
@@ -222,53 +223,61 @@ const Quiz = ({
             isMultiple={isMultiple}
             className={className}
           />
+          {selectedId &&
+            (() => {
+              const selectedChoice = choices.find((c) => c.id === selectedId);
+              if (!selectedChoice?.response) return null;
+              return (
+                <motion.div
+                  initial={{ y: 100, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{ type: "spring", stiffness: 120, damping: 14 }}
+                  className="mt-7 mx-auto my-0 w-11/12 p-12 rounded-3xl flex gap-6 items-start z-10"
+                  style={{
+                    backgroundColor: "#E2F1D7",
+                    bottom: stage === 10 ? "600px" : "460px",
+                  }}
+                >
+                  <div className=" w-1/12">
+                    <img src={vector} alt="vector image" className="w-full" />
+                  </div>
+                  <div
+                    className="w-12/12 text-left"
+                    style={{ color: "#464646" }}
+                  >
+                    <p
+                      style={{
+                        fontFamily: "OpenSans-Bold",
+                        fontWeight: 600,
+                        fontSize: "42px",
+                        lineHeight: "51.24px",
+                        letterSpacing: "0%",
+                        verticalAlign: "middle",
+                      }}
+                    >
+                      {selectedChoice.response.title}
+                    </p>
+                    <p
+                      style={{
+                        fontFamily: "OpenSans-Regular",
+                        fontWeight: 400,
+                        fontSize: "42px",
+                        lineHeight: "51.24px",
+                        letterSpacing: "0%",
+                        verticalAlign: "middle",
+                      }}
+                    >
+                      {selectedChoice.response.body}
+                    </p>
+                  </div>
+                </motion.div>
+              );
+            })()}
         </div>
       </div>
-      {selectedId &&
-        (() => {
-          const selectedChoice = choices.find((c) => c.id === selectedId);
-          if (!selectedChoice?.response) return null;
-          return (
-            <div
-              className="absolute left-1/2 -translate-x-1/2 w-10/12 p-10 rounded-3xl flex gap-6 items-start z-10"
-              style={{
-                backgroundColor: "#E2F1D7",
-                bottom: stage === 10 ? "600px" : "460px",
-              }}
-            >
-              <div className="text-[60px]">♡</div>
-              <div className="text-left" style={{ color: "#464646" }}>
-                <p
-                  style={{
-                    fontFamily: "'Open Sans', sans-serif",
-                    fontWeight: 600,
-                    fontSize: "40px",
-                    lineHeight: "51.24px",
-                    letterSpacing: "0%",
-                    verticalAlign: "middle",
-                  }}
-                >
-                  {selectedChoice.response.title}
-                </p>
-                <p
-                  style={{
-                    fontFamily: "'Open Sans', sans-serif",
-                    fontWeight: 400,
-                    fontSize: "38px",
-                    lineHeight: "51.24px",
-                    letterSpacing: "0%",
-                    verticalAlign: "middle",
-                  }}
-                >
-                  {selectedChoice.response.body}
-                </p>
-              </div>
-            </div>
-          );
-        })()}
 
       <motion.div
-        className={`w-10/12 mx-auto mb-70 landscape:mb-90 ${
+        className={`w-10/12 mx-auto mb-70 landscape:mb-75 ${
           (className.layoutContainer || "").includes("overflow") ? "mt-20" : ""
         }`}
         initial={{ y: 100, opacity: 0 }}

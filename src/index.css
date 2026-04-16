@@ -116,6 +116,7 @@ body {
   color: #4db8c4;
   font-family: OpenSans-SemiBold;
 }
+
 @media screen and (orientation: landscape) {
   .gotitBtn {
     padding-bottom: 40vh;
@@ -127,4 +128,3 @@ body {
     margin-bottom: 80vh;
   }
 }
-
