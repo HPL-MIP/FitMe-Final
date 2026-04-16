@@ -57,7 +57,7 @@ const LoseWeightChart = ({ style, className }) => (
           transition={{ duration: 0.5, delay: 0.1 }}
         />
 
-        {/* Small callout near title — bounce in */}
+        {/* Small callout near title — appears when the line draw reaches it */}
         <motion.rect
           x="182.547"
           y="114.398"
@@ -71,7 +71,7 @@ const LoseWeightChart = ({ style, className }) => (
             transformBox: "fill-box",
           }}
           transition={{
-            delay: 0.3,
+            delay: 1.3,
             type: "spring",
             stiffness: 260,
             damping: 10,
@@ -141,20 +141,16 @@ const LoseWeightChart = ({ style, className }) => (
           transition={{ duration: 1.8, delay: 1.0, ease: "easeInOut" }}
         />
 
-        {/* End icon — pops in when the line reaches it (matches left icon) */}
+        {/* End icon — appears instantly when the line draw reaches it */}
         <motion.rect
           x="561.457"
           y="380.683"
           width="100.364"
           height="100.403"
           fill="url(#pattern5_1056_109)"
-          initial={{ opacity: 0, scale: 0 }}
-          animate={{ opacity: 1, scale: 1 }}
-          style={{
-            transformOrigin: "611.64px 430.88px",
-            transformBox: "fill-box",
-          }}
-          transition={{ duration: 0.4, delay: 2.3, type: "spring" }}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0, delay: 2.0 }}
         />
 
         {/* Tick mark near end of graph */}
@@ -187,7 +183,7 @@ const LoseWeightChart = ({ style, className }) => (
             transformBox: "fill-box",
           }}
           transition={{
-            delay: 2.9,
+            delay: 2.0,
             type: "spring",
             stiffness: 260,
             damping: 10,

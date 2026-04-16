@@ -66,7 +66,7 @@ const MuscleMassChart = ({ style, className }) => (
         }}
       />
 
-      {/* Y-axis start label (left side) — bounce in */}
+      {/* Y-axis start label — appears when the line draw reaches it */}
       <motion.rect
         x="72.0029"
         y="353.08"
@@ -77,7 +77,7 @@ const MuscleMassChart = ({ style, className }) => (
         animate={{ opacity: 1, scale: 1 }}
         style={{ transformOrigin: "150.55px 395.94px", transformBox: "fill-box" }}
         transition={{
-          delay: 0.5,
+          delay: 1.1,
           type: "spring",
           stiffness: 260,
           damping: 10,

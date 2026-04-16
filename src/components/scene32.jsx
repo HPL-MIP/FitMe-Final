@@ -81,60 +81,32 @@ const Scene32 = ({ heightCm, weightLbs, gender, onNext }) => {
       ? normalFemaleImg
       : normalImg;
 
-  return (
-    <motion.div
-      className="h-full flex flex-col justify-between"
-      style={{
-        fontFamily: "'Open Sans', sans-serif",
-        backgroundColor: "#EAF4F6",
-      }}
-      initial={{ opacity: 0, y: 60 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ type: "spring", stiffness: 120, damping: 14 }}
-    >
-      <div className="px-[50px] pt-[60px] pb-[40px]">
-        <h1
-          className="font-bold text-center text-[#1f2933] mt-0 mb-[60px]"
-          style={{ fontSize: "76px", lineHeight: "92px" }}
+    return (
+        <motion.div className="h-full flex flex-col justify-between" style={{ fontFamily: "'Open Sans', sans-serif", backgroundColor: "#EAF4F6" }}
+            initial={{ opacity: 0, y: 60 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ type: "spring", stiffness: 120, damping: 14 }}
         >
-          Your Fitness profile
-        </h1>
+            <div className="px-[20px] pt-[60px] pb-[40px]">
+                <h1 className="font-bold text-center text-[#1f2933] mt-0 mb-[60px]" style={{ fontSize: "76px", lineHeight: "92px" }}>
+                    Your Fitness profile
+                </h1>
 
-        <div
-          className="w-full rounded-[50px] p-[60px]"
-          style={{
-            backgroundColor: "#FFFFFF",
-            boxShadow: "0px 6px 20px 0px #0000000D",
-          }}
-        >
-          {/* BMI Header Badge */}
-          <div className="flex justify-between items-center mb-[100px]">
-            <p
-              className="mt-0 mb-0 font-bold text-[#1f2933]"
-              style={{ fontSize: "48px" }}
-            >
-              Body mass index (BMI)
-            </p>
-            <div
-              className="px-[25px] rounded-[23px]"
-              style={{
-                backgroundColor: "#F0F2F5",
-                fontWeight: 400,
-                fontSize: "32.26px",
-                lineHeight: "62.05px",
-                color: "#131D30",
-              }}
-            >
-              {category} - {bmi}
-            </div>
-          </div>
+                <div className="w-full rounded-[50px] p-[60px]" style={{ backgroundColor: "#FFFFFF", boxShadow: "0px 6px 20px 0px #0000000D" }}>
+                    {/* BMI Header Badge */}
+                    <div className="flex justify-between items-center mb-[100px]">
+                        <p className="mt-0 mb-0 font-bold text-[#1f2933]" style={{ fontSize: "48px" }}>Body mass index (BMI)</p>
+                        <div className="px-[25px] rounded-[23px]" style={{ backgroundColor: "#F0F2F5", fontWeight: 400, fontSize: "32.26px", lineHeight: "62.05px", color: "#131D30" }}>
+                            {category} - {bmi}
+                        </div>
+                    </div>
 
           {/* BMI SCALE COMPONENT */}
           <div className="relative mb-[80px] w-full px-[10px]">
             {/* 1. Tooltip & Connector Line */}
             <motion.div
               className="absolute"
-              style={{ bottom: "160px", zIndex: 1 }}
+              style={{ bottom: "150px", zIndex: 1 }}
               initial={{ left: "0%", opacity: 0, x: "-47%" }}
               animate={{ left: `${dotPos}%`, opacity: 1, x: "-47%" }}
               transition={{
@@ -200,7 +172,7 @@ const Scene32 = ({ heightCm, weightLbs, gender, onNext }) => {
                   </span>
                   <div
                     style={{
-                      width: "2px",
+                      width: "3px",
                       height: "100px",
                       backgroundColor: "#E9E9E9",
                       position: "absolute",
@@ -273,43 +245,27 @@ const Scene32 = ({ heightCm, weightLbs, gender, onNext }) => {
               </motion.div>
             </div>
 
-            {/* 4. Category Labels */}
-            <div className="relative mt-[55px]" style={{ height: "40px" }}>
-              {[
-                { label: "UNDERWEIGHT", pos: 0, anchor: "left" },
-                { label: "NORMAL", pos: 37.5, anchor: "center" },
-                { label: "OVERWEIGHT", pos: 62.5, anchor: "center" },
-                { label: "OBESE", pos: 100, anchor: "right" },
-              ].map(({ label, pos, anchor }) => {
-                const tx =
-                  anchor === "left"
-                    ? "0"
-                    : anchor === "right"
-                      ? "-100%"
-                      : "-50%";
-                return (
-                  <span
-                    key={label}
-                    className="absolute"
-                    style={{
-                      left: `${pos}%`,
-                      transform: `translateX(${tx})`,
-                      fontSize: "29px",
-                      color: label === category ? "#131D30" : "#A0AAB5",
-                      fontWeight: label === category ? 800 : 700,
-                      whiteSpace: "nowrap",
-                    }}
-                  >
-                    {label}
-                  </span>
-                );
-              })}
-            </div>
-          </div>
+                        {/* 4. Category Labels */}
+                        <div className="relative mt-[55px]" style={{ height: "40px" }}>
+                            {[
+                                { label: "UNDERWEIGHT", pos: 0, anchor: "left" },
+                                { label: "NORMAL", pos: 40.5, anchor: "center" },
+                                { label: "OVERWEIGHT", pos: 69.5, anchor: "center" },
+                                { label: "OBESE", pos: 100, anchor: "right" },
+                            ].map(({ label, pos, anchor }) => {
+                                const tx = anchor === "left" ? "0" : anchor === "right" ? "-100%" : "-50%";
+                                return (
+                                    <span key={label} className="absolute" style={{ left: `${pos}%`, transform: `translateX(${tx})`, fontSize: "29px", color: label === category ? "#131D30" : "#A0AAB5", fontWeight: label === category ? 500 : 700, whiteSpace: "nowrap" }}>
+                                        {label}
+                                    </span>
+                                );
+                            })}
+                        </div>
+                    </div>
 
           {/* Stats & Image Row */}
           <div className="flex items-start gap-[30px] mb-[60px]">
-            <div className="flex flex-col gap-[40px] shrink-0 z-2">
+            <div className="flex flex-col gap-[40px] shrink-0 z-19">
               {[
                 {
                   icon: cardioIcon,
