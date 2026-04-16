@@ -268,7 +268,7 @@ const App = () => {
           {/* PROGRESS */}
           {showProgressBar && (
             <div
-              className="progressBar w-full h-[30px] bg-gray-200 overflow-hidden rounded-full"
+              className="progressBar w-full h-[15px] bg-gray-200 overflow-hidden rounded-full"
               style={
                 isSceneProgressScreen
                   ? { position: "absolute", top: 0, left: 0, zIndex: 10 }
@@ -444,6 +444,7 @@ const App = () => {
           )}
         </div>
       </div>
+
       {showModal && (
         <div
           className="fixed top-0 left-0 w-screen h-screen bg-black/60 flex items-center justify-center z-[999999]"

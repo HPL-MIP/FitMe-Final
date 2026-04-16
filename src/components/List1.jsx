@@ -13,9 +13,10 @@ const List1 = ({
     <div
       className={`flex mx-auto h-full my-0 ${className.wrapper || "w-full"}`}
     >
+      {/* LEFT SIDE (BUTTONS) */}
       <div
         className={`btnContainer flex flex-col items-center ${
-          modelImage ? "w-[50%]" : "w-full"
+          modelImage ? "w-1/2" : "w-full"
         } ${className.btnContainer || "gap-20 mt-0"}`}
       >
         <AnimatePresence mode="wait">
@@ -29,7 +30,9 @@ const List1 = ({
                 key={choice.id}
                 onClick={() => handleSelect(choice.id)}
                 className={`btn w-11/12 flex justify-between items-center cursor-pointer overflow-hidden ${
-                  active ? "border-7 border-[#4DB8C4] bg-[#DAE7EE]" : "bg-white"
+                  active
+                    ? "outline outline-[7px] outline-[#4DB8C4] bg-[#DAE7EE]"
+                    : "bg-white"
                 } ${className.btn || "h-[280px] pl-[50px]"}`}
                 initial={{ y: 100, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
@@ -46,6 +49,7 @@ const List1 = ({
                   }`}
                 >
                   <p className="whitespace-pre-line">{choice.text}</p>
+
                   <div>
                     {choice.img && (
                       <img
@@ -74,17 +78,18 @@ const List1 = ({
         </AnimatePresence>
       </div>
 
+      {/* RIGHT SIDE (MODEL IMAGE) */}
       {modelImage && (
         <motion.div
-          className="quizModelContainer w-[50%]"
+          className="quizModelContainer w-1/2"
           initial={{ x: 100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ type: "spring", stiffness: 120, damping: 14 }}
         >
           <img
             src={modelImage}
-            alt=""
-            className={`${className.modelImage || "w-full "} mx-auto my-0`}
+            alt="modelImage"
+            className={`${className.modelImage || "w-full"} mx-auto my-0`}
           />
         </motion.div>
       )}
