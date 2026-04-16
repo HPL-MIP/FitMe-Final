@@ -62,7 +62,7 @@ const Scene26 = ({ onNext }) => {
                     className="w-full rounded-[40px] p-[40px] flex items-start gap-[25px] text-white"
                     style={{ backgroundColor: "#4DB8C4" }}
                 >
-                    <span style={{ fontSize: "72px", lineHeight: 1, flexShrink: 0 }}>♡</span>
+                    <span style={{ fontSize: "102px", lineHeight: .8, flexShrink: 0 }}>♡</span>
                     <div>
                         <p
                             className="font-bold text-white mt-0 mb-[10px]"

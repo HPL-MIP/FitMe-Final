@@ -55,7 +55,7 @@ const Scene35 = ({ onNext, onDecline }) => {
                 {/* Title */}
                 <h1
                     className="font-bold mt-0 mb-[40px] text-[#1f2933] text-center"
-                    style={{ fontSize: "84px", lineHeight: "90px" }}
+                    style={{ fontSize: "84px", lineHeight: "100px" }}
                 >
                     Do you want to receive <br /> emails  with{" "}
                     <span style={{ color: "#4DB8C4" }}>Fitness and Wellness</span>{" "}

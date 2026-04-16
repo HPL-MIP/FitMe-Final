@@ -13,6 +13,9 @@ const getWeightMessage = (currentW, goalW, minHealthy, maxHealthy, unitLabel = "
     const diff = currentW - goalW;
     const pct = Math.round(Math.abs(diff) / currentW * 100);
 
+    // Goal equals current weight — no message needed
+    if (pct === 0) return null;
+
     // Goal is higher than current — need to gain weight
     if (diff < 0) {
         return {
