@@ -47,12 +47,12 @@ const getWeightMessage = (currentW, goalW, minHealthy, maxHealthy, unitLabel = "
     }
 
     // Moderate loss (6–15%)
-    if (pct <= 15) {
+    if (pct <= 20) {
         return {
             icon: easyEmoji,
             color: "#FFE9C7",
             title: `REALISTIC GOAL: lose ${pct}% of your weight`,
-            message: "Lower your risk of chronic health problems, such as heart disease and type 2 diabetes",
+            message: "Lower your risk of chronic health problems, such as heart disease and type 2 diabetes.",
         };
     }
 

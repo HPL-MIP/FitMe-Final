@@ -58,7 +58,7 @@ const Scene16 = ({ onNext }) => {
             : (() => {
                 const ft = parseFloat(feet) || 0;
                 const inc = parseFloat(inches) || 0;
-                return ft >= 1 && ft <= 7 && inc >= 0 && inc <= 9;
+                return ft >= 1 && ft <= 7 && inc >= 0 && inc <= 11;
             })();
     const showError = hasInput && !inRange;
     const isValid = hasInput && inRange;
@@ -173,7 +173,12 @@ const Scene16 = ({ onNext }) => {
                         <input
                             type="number"
                             value={inches}
-                            onChange={(e) => setInches(e.target.value)}
+                            onChange={(e) => {
+                                const val = e.target.value;
+                                if (val.length <= 2) {
+                                    setInches(val);
+                                }
+                            }}
                             onFocus={handleFocus}
                             onBlur={handleBlur}
                             placeholder={isTyping ? "" : "-"}

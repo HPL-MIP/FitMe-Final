@@ -23,28 +23,33 @@ const getBmiCategory = (bmi) => {
 const getInfoCard = (category, gender) => {
   const isFemale = gender === "female";
   const genderLabel = isFemale ? "women" : "men";
-  const bodyFatRange = isFemale ? "25-31%" : "18-24%";
   switch (category) {
     case "UNDERWEIGHT":
       return {
         icon: goodIcon,
-        bg: "#E8F5E9",
-        title: "Risks for an unhealthy BMI",
-        text: "High blood pressure, heart disease,stroke, type 2 diabetes, some types of cancer, osteoarthritis, back pain, all case mortality",
+        bg: "#D8E7FD",
+        title: "Good starting BMI to get a fit body",
+        text: "Focus on gradual and healthy weight gain through a balanced diet and strength-building activities for optimal well-being.",
       };
     case "NORMAL":
       return {
         icon: goodIcon,
         bg: "#E2F1D7",
         title: "Good starting BMI to get a fit body",
-        text: `Based on research, ${bodyFatRange} is an ideal body fat percentage for ${genderLabel} to start building muscle and get fit faster.`,
+        text: `Based on research, 18-24% is an ideal body fat percentage for ${genderLabel} to start building muscle and get a fit body faster.`,
       };
     case "OVERWEIGHT":
+     return {
+        icon: riskIcon,
+        bg: "#FFE9C7",
+        title: "Risk for an unhealthy BMI",
+        text: `High blood pressure, heart disease, stroke, type 2 diabetes, some types of cancer, osteoarthritis, back pain, all case mortality`,
+      };
     case "OBESE":
     default:
       return {
         icon: riskIcon,
-        bg: "#FFF3E0",
+        bg: "#F6DEEE",
         title: "Risks for an unhealthy BMI",
         text: "High blood pressure, heart disease, stroke, type 2 diabetes, some types of cancer, osteoarthritis, back pain, all case mortality",
       };
@@ -100,7 +105,7 @@ const Scene32 = ({ heightCm, weightLbs, gender, onNext }) => {
                     <div className="flex justify-between items-center mb-[100px]">
                         <p className="mt-0 mb-0 font-bold text-[#1f2933]" style={{ fontSize: "48px" }}>Body mass index (BMI)</p>
                         <div className="px-[25px] rounded-[23px]" style={{ backgroundColor: "#F0F2F5", fontWeight: 400, fontSize: "32.26px", lineHeight: "62.05px", color: "#131D30" }}>
-                            {category} - {bmi}
+                            Normal - 21.5
                         </div>
                     </div>
 
