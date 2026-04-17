@@ -46,7 +46,7 @@ const getWeightMessage = (currentW, goalW, minHealthy, maxHealthy, unitLabel = "
         };
     }
 
-    // Moderate loss (6–15%)
+    // Moderate loss (6–20%)
     if (pct <= 20) {
         return {
             icon: easyEmoji,
@@ -56,7 +56,7 @@ const getWeightMessage = (currentW, goalW, minHealthy, maxHealthy, unitLabel = "
         };
     }
 
-    // Significant loss (>15%)
+    // Significant loss (>20%)
     return {
         icon: boostEmoji,
         color: "#EAE0FF",
